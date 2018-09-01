@@ -9,7 +9,7 @@ module.exports = {
       },
       {
         name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
+        content: 'width=device-width, initial-scale=1, maximum-scale=1.0,minimum-scale=1.0, user0scalable=no'
       },
       {
         hid: 'description',
@@ -20,7 +20,7 @@ module.exports = {
     link: [{
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico'
+      href: '/CO.png'
     }]
   },
   css: [

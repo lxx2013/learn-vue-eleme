@@ -54,3 +54,8 @@
 .icon-keyboard_arrow_right:before {
   content: "\e909";
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}

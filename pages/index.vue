@@ -1,65 +1,43 @@
 <template>
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        learn-vue-eleme 
-      </h1>
-      <h2 class="subtitle">
-        使用 Vue 构建饿了么点餐页面 <span class="icon-arrow_lift"></span>
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
-      </div>
+  <section>
+    <Header></Header>
+    <div class="tab">
+      <div class="tab-item"><router-link to="/goods">商品</router-link></div>
+      <div class="tab-item"><router-link to="/ratings">评价</router-link></div>
+      <div class="tab-item"><router-link to="/seller">商家</router-link></div>
     </div>
+    <div class="content"><nuxt-child/></div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+  import Header from "~/components/header/header.vue";
+  export default {
+    components: {
+      Header
+    }
+  };
 
-export default {
-  components: {
-    AppLogo
-  }
-}
 </script>
 
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
+<style lang='less' scoped>
+  .tab{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    .tab-item{
+      flex:1;
+      text-align: center;
+      a{
+        display: block;
+        text-decoration: none;
+        color:rgb(77,85,93);
+        font-size: 14px;
+        &.nuxt-link-active{
+          color:rgb(240,20,20)
+        }
+      }
+    }
+  }
 </style>
-
