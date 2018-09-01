@@ -3,10 +3,10 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        learn-vue-eleme
+        learn-vue-eleme 
       </h1>
       <h2 class="subtitle">
-        使用 Vue 构建饿了么点餐页面
+        使用 Vue 构建饿了么点餐页面 <span class="icon-arrow_lift"></span>
       </h2>
       <div class="links">
         <a
