@@ -21,16 +21,20 @@
 </script>
 
 <style lang='less' scoped>
+@import url('~assets/mixin.less');
   .tab{
     display: flex;
     align-items: center;
     width: 100%;
     height: 40px;
+    .border-1px(rgba(7,17,27,0.1));
     .tab-item{
       flex:1;
       text-align: center;
       a{
         display: block;
+        height: 40px;
+        line-height: 40px;
         text-decoration: none;
         color:rgb(77,85,93);
         font-size: 14px;
