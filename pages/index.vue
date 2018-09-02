@@ -25,7 +25,7 @@
       }
     },
     async asyncData ({ params }) {
-      let { data } = await axios.get(`http://localhost:8000/api/seller`)
+      let { data } = await axios.get(`http://localhost:8101/api/seller`)
       return { seller: data }
     }
   };
