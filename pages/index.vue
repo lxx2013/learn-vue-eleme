@@ -1,6 +1,6 @@
 <template>
   <section>
-    <Header></Header>
+    <Header :seller= "seller"></Header>
     <div class="tab">
       <div class="tab-item"><router-link to="/goods">商品</router-link></div>
       <div class="tab-item"><router-link to="/ratings">评价</router-link></div>
@@ -12,9 +12,21 @@
 
 <script>
   import Header from "~/components/header/header.vue";
+  import axios from 'axios'
   export default {
     components: {
       Header
+    },
+    data(){
+      return {
+        seller:{
+            
+        }
+      }
+    },
+    async asyncData ({ params }) {
+      let { data } = await axios.get(`http://localhost:8000/api/seller`)
+      return { seller: data }
     }
   };
 

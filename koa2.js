@@ -23,7 +23,7 @@ router.get('/api/ratings',(ctx)=>{
   ctx.body = appData.ratings
 })
 app.use(async function (ctx,next) {
-  ctx.res.setHeader("Access-Control-Allow-Origin", "http://localhost:8080")
+  ctx.res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000")
   await next()
 })
 
