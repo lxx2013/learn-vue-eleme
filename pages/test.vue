@@ -1,11 +1,16 @@
 <template>
-    <star :size= "24"  :score="1.25"></star>
+    <test :seller="seller"></test>
 </template>
 <script>
-import star from '~/components/star.vue'
+import test from '~/components/detail.vue'
+import axios from 'axios'
 export default {
     components:{
-        star
+        test
+    },
+    async asyncData ({ params }) {
+      let { data } = await axios.get(`http://localhost:8101/api/seller`)
+      return { seller: data }
     }
 }
 </script>

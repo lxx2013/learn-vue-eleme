@@ -1,6 +1,6 @@
 <template>
   <div class="header" >
-    <div class="blur-image"><img :src="seller.avatar" alt="blur-image"></div>
+    <div class="blur-image"><img :src="seller.avatar" alt="blur-image" width="100vw" height="auto"></div>
     <div class="container-wrapper">
       <div class="avatar">
         <img :src="seller.avatar" width="64px" height="64px" alt="avatar">
@@ -18,7 +18,7 @@
           <span class="text">{{seller.supports[0].description}}</span>
         </div>
       </div>
-      <div v-if= "seller.supports" class="support-count" @click= "detailShow = !detailShow">
+      <div v-if= "seller.supports" class="support-count" @click= "$store.commit('toggle_globalBlur');$store.commit('toggle_detailShow'); ">
         <span class="count">{{seller.supports.length}}个</span>
         <i class="icon-keyboard_arrow_right"></i>
       </div>
@@ -27,35 +27,6 @@
       <span class="bulletin-img"></span>
       <span class="bulletin-text">{{seller.bulletin}}</span>
       <i class="icon-keyboard_arrow_right"></i>
-    </div>
-    <div v-show= "detailShow" class="detail">
-      <div class="blur"></div>
-      <div class="detail-wrapper clearfix">
-        <div class="detail-main">
-          <h1 class="name">{{seller.name}}</h1>
-          <div class="star-wrapper"><star :size="48" :score="4.5"></star></div>
-          <div class="title">
-            <div class="line"></div>
-            <div class="text">优惠信息</div>
-            <div class="line"></div>
-          </div>
-          <ul v-if="seller.supports" class="supports">
-            <li class="support-item" v-for= "(item,index) in seller.supports" :key= "index" :class="classMap[seller.supports[index].type]">
-              <span class="icon" :class="classMap[seller.supports[index].type]"></span>
-              <span class="text">{{seller.supports[index].description}}</span>
-            </li>
-          </ul>
-          <div class="title">
-            <div class="line"></div>
-            <div class="text">商家公告</div>
-            <div class="line"></div>
-          </div>
-          <div class="detail-bulletin-wrapper">
-            <div class="text">{{seller.bulletin}}</div>
-          </div>
-        </div>
-      </div>
-      <i class="icon-close" @click= "detailShow = !detailShow"></i>
     </div>
   </div>
 </template>
@@ -72,7 +43,7 @@ export default {
   },
   data() {
     return {
-      detailShow: false
+
     };
   },
   computed: {
@@ -93,7 +64,6 @@ export default {
   background-color: rgba(7, 17, 27, 0.5);
   position: relative;
   overflow: hidden;
-
   .blur-image {
     position: absolute;
     z-index: -1;
@@ -104,6 +74,7 @@ export default {
       height: 50%;
     }
   }
+  
 }
 
 .container-wrapper {
@@ -236,122 +207,6 @@ export default {
     top: 8px;
   }
 }
-.detail {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  z-index: 100;
-  color: white;
-  background-color: rgba(7, 17, 27, 0.8);
-  .blur {
-    position: fixed;
-    // top:-50%;
-    // left:-50%;
-    // width: 200%;
-    // height: 200%;
-    // background-color: rgba(7, 17, 27 , 0.8);
-    // background-size: 150% 150%;
-    // background-position: -50% -50%;
-    // filter:blur(10px);
-    // z-index:99;
-  }
-  .detail-wrapper {
-    min-height: 100%;
-    width: 100%;
 
-    .detail-main {
-      margin-top: 64px;
-      padding-bottom: 64px;
-      z-index: 101;
-      .name {
-        line-height: 32px;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-      }
-      .star-wrapper {
-        text-align: center;
-        height: 24px;
-        margin: 16px auto 28px auto;
-      }
-      .title {
-        width: 80%;
-        display: flex;
-        margin: 28px auto 24px auto;
-        line-height: 12px;
-        .line {
-          flex: 1;
-          top: -5px;
-          .border-1px(rgba(255,255,255,0.2));
-        }
-        .text {
-          padding: 0 12px;
-          font-size: 12px;
-          font-weight: 700;
-        }
-      }
-      .supports {
-        width: 80%;
-        list-style-type: none;
-        margin: 24px auto 28px auto;
-        .support-item {
-          margin: 0 12px 12px 12px;
-          .text {
-            margin-left: 6px;
-            font-size: 12px;
-            font-weight: 400;
-            color: white;
-            line-height: 12px;
-          }
-          .icon {
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            background-repeat: no-repeat;
-            background-size: 16px 16px;
-            background-position: center center;
-            vertical-align: middle;
-            &.decrease {
-              .bg-image("decrease_1");
-            }
-            &.discount {
-              .bg-image("discount_1");
-            }
-            &.special {
-              .bg-image("special_1");
-            }
-            &.invoice {
-              .bg-image("invoice_1");
-            }
-            &.guarantee {
-              .bg-image("guarantee_1");
-            }
-          }
-        }
-      }
-      .detail-bulletin-wrapper{
-        width: 80%;
-        margin: 24px auto auto auto;
-        line-height: 24px;
-        .text{
-          font-size: 12px;
-          font-weight: 400;
-          color:white;
-        }
-      }
-    }
-  }
-  .icon-close {
-    font-size: 32px;
-    display: block;
-    position: relative;
-    width: 32px;
-    height: 32px;
-    margin: -64px auto 0 auto;
-    color: rgba(255, 255, 255, 0.5);
-  }
-}
+
 </style>
