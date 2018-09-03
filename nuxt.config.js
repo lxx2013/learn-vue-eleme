@@ -50,5 +50,6 @@ module.exports = {
     //   }
     // }
     vendor: ['axios']
-  }
+  },
+  
 }

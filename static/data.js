@@ -1,6 +1,6 @@
 module.exports = {
   "seller": {
-    "name": "粥品香坊（回龙观）",
+    "name": "粥品香坊 ( 回龙观 ) ",
     "description": "蜂鸟专送",
     "deliveryTime": 38,
     "score": 4.2,
