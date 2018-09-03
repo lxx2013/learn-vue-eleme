@@ -2,7 +2,7 @@ const Koa = require('koa')
 const app = new Koa()
 const Router = require('koa-router')
 const serve = require('koa-static')
-const appData = require('./static/data.js')
+const appData = require('./static/dami.js')
 
 var router = new Router()
 router.get('/', ctx => {

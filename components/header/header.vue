@@ -1,6 +1,6 @@
 <template>
   <div class="header" >
-    <div class="blur-image"><img :src="seller.avatar" alt="blur-image" width="100vw" height="auto"></div>
+    <div class="blur-image"><img :src="seller['big-avatar']" alt="blur-image" width="100vw" height="auto"></div>
     <div class="container-wrapper">
       <div class="avatar">
         <img :src="seller.avatar" width="64px" height="64px" alt="avatar">
