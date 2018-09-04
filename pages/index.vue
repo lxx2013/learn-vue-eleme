@@ -1,8 +1,8 @@
 <template>
   <section >
       <div class="tab">
-        <div class="tab-item"><router-link to="/restaurant/dami">大米先生</router-link></div>
-        <div class="tab-item"><router-link to="/restaurant/data">粥品香坊</router-link></div>
+        <div class="tab-item"><a href="/restaurant/dami">大米先生</a></div>
+        <div class="tab-item"><a href="/restaurant/data">粥品香坊</a></div>
       </div>
   </section>
 </template>
