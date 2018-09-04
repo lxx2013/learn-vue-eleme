@@ -13,17 +13,17 @@ router.get('/', ctx => {
         ctx.response.body = "<img src = '/static/touma2.jpg'>"
     }
 })
-router.get('/api/seller',(ctx)=>{
-  ctx.body = appData.seller
+router.get('/api/seller/:restaurant',(ctx)=>{
+  ctx.body = require(`./static/${ctx.params.restaurant}`).seller
 })
-router.get('/api/goods',(ctx)=>{
-  ctx.body = appData.goods
+router.get('/api/goods/:restaurant',(ctx)=>{
+  ctx.body = require(`./static/${ctx.params.restaurant}`).goods
 })
-router.get('/api/ratings',(ctx)=>{
-  ctx.body = appData.ratings
+router.get('/api/ratings/:restaurant',(ctx)=>{
+  ctx.body = require(`./static/${ctx.params.restaurant}`).ratings
 })
 app.use(async function (ctx,next) {
-  ctx.res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000")
+  ctx.res.setHeader("Access-Control-Allow-Origin", "*")
   await next()
 })
 

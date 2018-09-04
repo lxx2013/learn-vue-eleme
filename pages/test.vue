@@ -9,7 +9,7 @@ export default {
         test
     },
     async asyncData ({ params }) {
-      let { data } = await axios.get(`http://localhost:8101/api/seller`)
+      let { data } = await axios.get(`http://localhost:8101/api/seller/data`)
       return { seller: data }
     }
 }

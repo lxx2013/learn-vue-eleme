@@ -1,6 +1,7 @@
 <template>
   <div class="header" >
-    <div class="blur-image"><img :src="seller['big-avatar']" alt="blur-image" width="100vw" height="auto"></div>
+    <div class="back-to-index"><router-link to="/"><i class="icon-arrow_lift"></i></router-link></div>
+    <div class="blur-image"><img :src="seller['big-avatar']?seller['big-avatar']:seller['avatar']" alt="blur-image" width="100vw" height="33vw"></div>
     <div class="container-wrapper">
       <div class="avatar">
         <img :src="seller.avatar" width="64px" height="64px" alt="avatar">
@@ -71,7 +72,7 @@ export default {
     filter: blur(10px);
     img {
       width: 100vw;
-      height: 50%;
+      height: 33vw;
     }
   }
   
@@ -208,5 +209,17 @@ export default {
   }
 }
 
-
+.back-to-index{
+  position: absolute;
+  top:10px;
+  left:5px;
+  width: 30px;
+  height: 30px;
+  z-index: 300;
+  a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  }
+}
 </style>

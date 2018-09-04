@@ -34,7 +34,8 @@ module.exports = {
         "description": "已加入“外卖保”计划,食品安全保障"
       }
     ],
-    "big-avatar":"https://fuss10.elemecdn.com/0/4a/9b9159f9c03647ec8c2fd8f615ce2png.png?imageMogr/format/webp/thumbnail/750x/",
+    "big-avatar":"/retaurant-image/dami-big-avatar.png",
+    //"big-avatar":"./retaurant-image/4k.jpg",
     "avatar": "https://fuss10.elemecdn.com/c/ab/1bcde440a5cda55fea2c71dae0b8fpng.png?imageMogr/format/webp/thumbnail/150x/",
     "pics": [
       "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
