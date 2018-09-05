@@ -9,7 +9,7 @@
         <div class="tab-item"><router-link :to="'/restaurant/'+restaurant+'/ratings'">评价</router-link></div>
         <div class="tab-item"><router-link :to="'/restaurant/'+restaurant+'/seller'">商家</router-link></div>
       </div>
-      <div class="content"><nuxt-child :seller= "seller" /></div>
+      <div class="content"><nuxt-child keep-alive :seller= "seller" /></div>
     </div>
   </section>
 </template>

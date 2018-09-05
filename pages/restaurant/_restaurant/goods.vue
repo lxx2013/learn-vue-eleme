@@ -2,7 +2,7 @@
   <div class="goods">
     <div class="menu-wrapper" ref="menuWrapper">
       <ul>
-        <li v-for="(item,_index) in goods" :key="_index" class="menu-item" :class="{'current':currentIndex==_index}" @click="selectMenu(_index,$event)">
+        <li v-for="(item,_index) in goods" :key="_index" class="menu-item menu-item-hook" :class="{'current':currentIndex==_index}" @click="selectMenu(_index,$event)">
           <span class="text">
             <span v-show="item.type>0" class="icon" :class="classMap[item.type]"></span>
             {{item.name}}
@@ -65,6 +65,13 @@
           }
         }
         return 0;
+      },
+    },
+    watch:{
+      currentIndex:function(val){
+          let menuList = this.$refs.menuWrapper.getElementsByClassName('menu-item-hook');
+          let el = menuList[val];
+          this.menuScroll.scrollToElement(el,200);
       }
     },
     methods: {
@@ -88,6 +95,7 @@
           height += item.clientHeight;
           this.listHeight.push(height);
         }
+
       },
       selectMenu(index,event){
         if(!event._constructed){
@@ -96,7 +104,7 @@
         else{
           let foodList = this.$refs.foodsWrapper.getElementsByClassName('food-list-hook');
           let el = foodList[index];
-          this.foodsScroll.scrollToElement(el,300);
+          this.foodsScroll.scrollToElement(el,200);
         }
       }
     },
