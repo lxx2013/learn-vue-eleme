@@ -29,10 +29,35 @@ export default {
       detailShow: false
     };
   },
-  async asyncData({ params }) {
-    let { data } = await axios.get(`http://localhost:8101/api/seller/${params.restaurant}`);
-    return { seller: data ,restaurant:params.restaurant};
-  }
+  async asyncData({ params,store}) {
+    //1.首先检测是否有数据缓存
+      try {
+        let data = store.state.restaurants[params.restaurant];
+        if (data && data["seller"]) {
+          console.log("[header.vue 1.] seller exists. No need to reload.");
+          return { seller: data["seller"], restaurant: params.restaurant };
+        }
+      } catch (err) {
+        console.log("[header.vue 1.]", err);
+      }
+      //2.如果无数据那么请求服务端去加载数据
+      try {
+        console.log(
+          `[goods.vue] asyncData: isClient : ${process.client}, isServer: ${
+            process.server
+          }`
+        );
+        let url = process.client
+          ? `http://eleme.setsuna.wang:8101/api/seller/${params.restaurant}`
+          : `http://localhost:8101/api/seller/${params.restaurant}`;
+        console.log(`[header.vue 2.] axios.get(url): ${url}`)
+        let { data } = await axios.get(url);
+        store.commit('update',{name1:params.restaurant,name2:'seller',o:data});
+        return { seller: data, restaurant: params.restaurant };
+      } catch (err) {
+        console.log("[header.vue 2.]", err);
+      }
+    }
 };
 </script>
 

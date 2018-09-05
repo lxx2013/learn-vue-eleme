@@ -2,16 +2,18 @@
     <test :seller="seller"></test>
 </template>
 <script>
-import test from '~/components/detail.vue'
-import axios from 'axios'
+import test from "~/components/detail.vue";
+import axios from "axios";
 export default {
-    components:{
-        test
-    },
-    async asyncData ({ params }) {
-      let { data } = await axios.get(`http://localhost:8101/api/seller/data`)
-      return { seller: data }
-    }
-}
+  components: {
+    test
+  },
+  async asyncData({ params }) {
+    console.log(
+      `[test.vue] asyncData: isClient : ${process.client}, isServer: ${process.server}`
+    );
+    return { seller: data };
+  }
+};
 </script>
 
