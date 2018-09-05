@@ -37,13 +37,18 @@
         </li>
       </ul>
     </div>
+    <ShopCart :seller="seller"></ShopCart>
   </div>
 
 </template>
 <script>
   import axios from "axios";
   import BScroll from 'better-scroll'
+  import ShopCart from '~/components/shopcart.vue'
   export default {
+    components:{
+      ShopCart
+    },
     props: {
       seller: {
         type: Object
