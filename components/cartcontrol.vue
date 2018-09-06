@@ -27,6 +27,8 @@ export default {
       } else {
         this.food.count++;
       }
+      console.log(this.$store.state.selectedFoods)
+      this.$store.commit('food',{name:this.food.name,price:this.food.price,count:this.food.count})
     },
     decreaseCart(event) {
       if (!event._constructed) {
@@ -38,6 +40,8 @@ export default {
       } else {
         this.food.count--;
       }
+      console.log(this.$store.state.selectedFoods)
+      this.$store.commit('food',{name:this.food.name,price:this.food.price,count:this.food.count})
     }
   }
 };

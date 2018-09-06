@@ -5,7 +5,8 @@ var store = () => new Vuex.Store({
   state: {
     globalBlur: false,
     detailShow:false,
-    restaurants:{}
+    restaurants:{},
+    selectedFoods:{}
   },
   getters:{},
   mutations: {
@@ -22,6 +23,9 @@ var store = () => new Vuex.Store({
         state.restaurants[name1] = {};
       }
       state.restaurants[name1][name2] = o;
+    },
+    food(state,food){
+      state.selectedFoods[food.name] = food
     }
   },
   actions: {},
