@@ -25,7 +25,7 @@ var store = () => new Vuex.Store({
       state.restaurants[name1][name2] = o;
     },
     food(state,food){
-      state.selectedFoods[food.name] = food
+      Vue.set(state.selectedFoods,food.name,food)
     }
   },
   actions: {},

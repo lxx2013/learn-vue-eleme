@@ -23,7 +23,7 @@
 export default {
   data(){
     return {
-        selectedFoods: {}
+        
       }
   },
   props: {
@@ -34,24 +34,19 @@ export default {
   computed: {
     totalPrice() {
       let total = 0;
-      console.log(this.selectedFoods)
-      for (let i in this.selectedFoods) {
-        let food = this.selectedFoods[i]
+      for (let i in this.$store.state.selectedFoods) {
+        let food = this.$store.state.selectedFoods[i]
         total += food.price * food.count;
       }
       return total;
     },
     totalCount() {
       let count = 0;
-      for (let i in this.selectedFoods) {
-        let food = this.selectedFoods[i]
-        total +=  food.count;
+      for (let i in this.$store.state.selectedFoods) {
+        let food = this.$store.state.selectedFoods[i]
+        count +=  food.count;
       }
       return count;
-    },
-    getSelected(){
-      console.log('[shopcart.vue] getSelected!',this.$store.state.selectedFoods)
-      return this.$store.state.selectedFoods
     }
   },
   watch:{
@@ -59,7 +54,6 @@ export default {
       deep: true,
       handler(val){
         console.log('[shopcart.vue watch]', val)
-        this.selectedFoods = val;
       }
     }
   }

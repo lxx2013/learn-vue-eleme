@@ -32,11 +32,11 @@ export default {
     },
     decreaseCart(event) {
       if (!event._constructed) {
-        console.log("[carcontrol.vue] event._contructed : false");
+        console.log("[cartcontrol.vue] event._contructed : false");
         return;
       }
       if (this.food.count <= 0) {
-        console.log("[carcontrol.vue] 它已经是0了为什么你还要减少它>?");
+        console.log("[cartcontrol.vue] 它已经是0了为什么你还要减少它>?");
       } else {
         this.food.count--;
       }
