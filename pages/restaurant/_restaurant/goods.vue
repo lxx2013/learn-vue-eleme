@@ -31,6 +31,9 @@
                   <span>{{food.price}}</span>
                   <span class="old-price" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
                 </div>
+                <div class="cartcontrol-wrapper">
+                  <CartControl :food="food"></CartControl>
+                </div>
               </div>
             </li>
           </ul>
@@ -45,9 +48,11 @@
   import axios from "axios";
   import BScroll from 'better-scroll'
   import ShopCart from '~/components/shopcart.vue'
+  import CartControl from '~/components/cartcontrol.vue'
   export default {
     components:{
-      ShopCart
+      ShopCart,
+      CartControl
     },
     props: {
       seller: {
@@ -171,8 +176,8 @@
   };
 
 </script>
-<style lang="less" scoped>
-  @import url("~assets/mixin.less");
+<style lang="stylus" scoped>
+  @import "~assets/mixin";
 
   ul {
     list-style: none;
@@ -221,23 +226,23 @@
           vertical-align: middle;
 
           &.decrease {
-            .bg-image("decrease_3");
+            bg-image("decrease_3")
           }
 
           &.discount {
-            .bg-image("discount_3");
+            bg-image("discount_3")
           }
 
           &.special {
-            .bg-image("special_3");
+            bg-image("special_3")
           }
 
           &.invoice {
-            .bg-image("invoice_3");
+            bg-image("invoice_3")
           }
 
           &.guarantee {
-            .bg-image("guarantee_3");
+            bg-image("guarantee_3")
           }
         }
 
@@ -248,7 +253,7 @@
           vertical-align: middle;
           text-align: center;
           width: 56px;
-          .border-1px(rgba(7, 17, 27, 0.1));
+          border-1px(rgba(7, 17, 27, 0.1))
         }
       }
     }
@@ -277,7 +282,7 @@
         position: relative;
         padding: 10px 0;
         margin-bottom: 1px;
-        .border-1px(rgba(7, 17, 27, 0.1));
+        border-1px(rgba(7, 17, 27, 0.1))
 
         &:last-child:after {
           border: none;
@@ -309,8 +314,9 @@
             font-size: 12px;
             line-height: 12px;
             margin: 6px 0;
+            overflow:hidden;
+            max-height 36px
           }
-
           .extra {
             span:first-child {
               margin-right: 12px;
@@ -335,6 +341,9 @@
 
             .old-price {
               font-size: 10px;
+              color:#93999f;
+              text-decoration :line-through
+              font-weight 200
             }
           }
         }

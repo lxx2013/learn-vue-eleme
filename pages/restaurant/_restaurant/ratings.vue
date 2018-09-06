@@ -7,7 +7,7 @@ export default {
     
 }
 </script>
-<style lang="less" scoped>
+<style lang="stylus" scoped>
 .ratings{
     min-width: 50vw;
     min-height: 50vh;

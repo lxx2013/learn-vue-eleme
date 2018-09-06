@@ -45,8 +45,8 @@ export default {
     }
 }
 </script>
-<style lang="less" scoped>
-@import url("~assets/mixin.less");
+<style lang="stylus" scoped>
+@import "~assets/mixin"
 
     .detail {
       position: fixed;
@@ -85,7 +85,7 @@ export default {
             .line {
               flex: 1;
               top: -5px;
-              .border-1px(rgba(255,255,255,0.2));
+              border-1px(rgba(255,255,255,0.2))
             }
             .text {
               padding: 0 12px;
@@ -115,19 +115,19 @@ export default {
                 background-position: center center;
                 vertical-align: middle;
                 &.decrease {
-                  .bg-image("decrease_1");
+                  bg-image("decrease_1")
                 }
                 &.discount {
-                  .bg-image("discount_1");
+                  bg-image("discount_1")
                 }
                 &.special {
-                  .bg-image("special_1");
+                  bg-image("special_1")
                 }
                 &.invoice {
-                  .bg-image("invoice_1");
+                  bg-image("invoice_1")
                 }
                 &.guarantee {
-                  .bg-image("guarantee_1");
+                  bg-image("guarantee_1")
                 }
               }
             }

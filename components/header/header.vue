@@ -58,8 +58,8 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
-@import url("~assets/mixin.less");
+<style lang="stylus" scoped>
+@import "~assets/mixin"
 
 .header {
   background-color: rgba(7, 17, 27, 0.5);
@@ -107,7 +107,7 @@ export default {
         display: inline-block;
         width: 30px;
         height: 18px;
-        .bg-image("brand");
+        bg-image("brand")
         background-size: 30px 18px;
       }
 
@@ -133,19 +133,19 @@ export default {
         background-size: 12px 12px;
         vertical-align: top;
         &.decrease {
-          .bg-image("decrease_1");
+          bg-image("decrease_1")
         }
         &.discount {
-          .bg-image("discount_1");
+          bg-image("discount_1")
         }
         &.special {
-          .bg-image("special_1");
+          bg-image("special_1")
         }
         &.invoice {
-          .bg-image("invoice_1");
+          bg-image("invoice_1")
         }
         &.guarantee {
-          .bg-image("guarantee_1");
+          bg-image("guarantee_1")
         }
       }
       .text {
@@ -193,7 +193,7 @@ export default {
     margin-left: 12px;
     width: 22px;
     height: 12px;
-    .bg-image("bulletin");
+    bg-image("bulletin")
     background-size: 22px 12px;
   }
   .bulletin-text {

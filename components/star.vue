@@ -23,7 +23,7 @@ export default {
         },
         items(){
             var o = [];
-            var floor = Math.floor(this.score);
+            var floor = Math.floor(this.score)
             var i=0;
             for(i =0;i<floor;i++){
                 o[i] = 'on'
@@ -40,8 +40,8 @@ export default {
 }
 </script>
 
-<style lang="less">
-@import url(~assets/mixin.less);
+<style lang="stylus">
+@import "~assets/mixin"
 .star{
     font-size: 0;
     .star-item{
@@ -58,13 +58,13 @@ export default {
                 margin-right: 0;
             }
             &.on{
-                .bg-image('star48_on')
+                bg-image('star48_on')
             }
             &.half{
-                .bg-image('star48_half')
+                bg-image('star48_half')
             }
             &.off{
-                .bg-image('star48_off')
+                bg-image('star48_off')
             }
         }
     }
@@ -78,13 +78,13 @@ export default {
                 margin-right: 0;
             }
             &.on{
-                .bg-image('star36_on')
+                bg-image('star36_on')
             }
             &.half{
-                .bg-image('star36_half')
+                bg-image('star36_half')
             }
             &.off{
-                .bg-image('star36_off')
+                bg-image('star36_off')
             }
         }
     }
@@ -98,13 +98,13 @@ export default {
                 margin-right: 0;
             }
             &.on{
-                .bg-image('star24_on')
+                bg-image('star24_on')
             }
             &.half{
-                .bg-image('star24_half')
+                bg-image('star24_half')
             }
             &.off{
-                .bg-image('star24_off')
+                bg-image('star24_off')
             }
         }
     }

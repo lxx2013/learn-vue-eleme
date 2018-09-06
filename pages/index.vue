@@ -25,8 +25,8 @@ export default {
 };
 </script>
 
-<style lang='less' scoped>
-@import url("~assets/mixin.less");
+<style lang='stylus' scoped>
+@import "~assets/mixin"
 .tab{
     line-height: 30px;
 }
