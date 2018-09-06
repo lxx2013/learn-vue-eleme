@@ -12,8 +12,9 @@
             <div class="desc">另需配送费{{seller.deliveryPrice}}元</div>
           </div>
           <div class="content-right">
-              <div class="pay" v-if="seller.minPrice>totalPrice">￥还差{{seller.minPrice-totalPrice}}起送</div>
-              <div class="pay" v-if="seller.minPrice<=totalPrice">￥立即下单</div>
+              <div class="pay" v-if="totalPrice===0">￥{{seller.minPrice}}起送</div>
+              <div class="pay" v-if="seller.minPrice>totalPrice">￥还差{{(seller.minPrice-totalPrice).toFixed(2)}}起送</div>
+              <div class="pay submit" v-if="seller.minPrice<=totalPrice">去结算</div>
           </div>
       </div>
   </div>
@@ -26,7 +27,7 @@ export default {
     },
     selectFoods: {
       type: Array,
-      default: [{price:3.11,count:2}]
+      default: [{price:3.11,count:0}]
     }
   },
   computed: {
@@ -135,6 +136,12 @@ export default {
         height: 48px;
         text-align: center;
         color: rgba(255, 255, 255, 0.4);
+      }
+      .submit{
+          background-color: #38ca73;
+          color:white;
+          font-size: 15px;
+          font-weight: 700;
       }
     }
   }
