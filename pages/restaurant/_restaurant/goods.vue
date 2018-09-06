@@ -90,7 +90,8 @@
           click:true
         });
         this.foodsScroll = new BScroll(this.$refs.foodsWrapper, {
-          probeType: 3
+          probeType: 3,
+          click:true
         });
         this.foodsScroll.on('scroll', (pos) => {
           this.scrollY = Math.abs(Math.round(pos.y))
@@ -345,6 +346,12 @@
               text-decoration :line-through
               font-weight 200
             }
+          }
+          .cartcontrol-wrapper{
+            position absolute
+            right 0
+            bottom 3px
+            
           }
         }
       }
