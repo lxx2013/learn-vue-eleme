@@ -2,14 +2,14 @@
   <div class="shopcart">
       <div class="content">
           <div class="content-left">
-              <div class="logo-wrapper">
+              <div class="logo-wrapper" :class="{'cart-jump':$store.state.cartJump}">
                 <div class="logo" :class="{'highlight':totalCount>0}">
                     <i class="icon-shopping_cart"></i>
                 </div>
                 <div class="num" v-if="totalCount>0">{{totalCount}}</div>
               </div>
-            <div class="price" :class="{'highlight':totalPrice>0}">￥{{totalPrice}}</div>
-            <div class="desc">另需配送费{{seller.deliveryPrice}}元</div>
+              <div class="price" :class="{'highlight':totalPrice>0}">￥{{totalPrice}}</div>
+              <div class="desc">另需配送费{{seller.deliveryPrice}}元</div>
           </div>
           <div class="content-right">
               <div class="pay" v-if="totalPrice===0">￥{{seller.minPrice}}起送</div>
@@ -60,6 +60,20 @@ export default {
 };
 </script>
 <style lang="stylus" scoped>
+@keyframes jump {
+  0%{
+    transform scale(1)
+  }
+  33%{
+    transform scale(0.9)
+  }
+  66%{
+    transform scale(1.2)
+  }
+  100%{
+    transform scale(1)
+  }
+}
 .shopcart {
   position fixed
   left 0
@@ -74,8 +88,10 @@ export default {
 
     .content-left {
       flex 1
-
       .logo-wrapper {
+        &.cart-jump{
+          animation jump ease-in-out 0.5s
+        }
         display inline-block
         position relative
         top -10px

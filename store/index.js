@@ -6,7 +6,8 @@ var store = () => new Vuex.Store({
     globalBlur: false,
     detailShow:false,
     restaurants:{},
-    selectedFoods:{}
+    selectedFoods:{},
+    cartJump:false
   },
   getters:{},
   mutations: {
@@ -26,6 +27,11 @@ var store = () => new Vuex.Store({
     },
     food(state,food){
       Vue.set(state.selectedFoods,food.name,food)
+    },
+    cartJump(state,t){
+      t= t | 500
+      state.cartJump = true;
+      setTimeout(()=>state.cartJump=false,t);
     }
   },
   actions: {},
