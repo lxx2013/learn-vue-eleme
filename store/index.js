@@ -28,6 +28,9 @@ var store = () => new Vuex.Store({
     food(state,food){
       Vue.set(state.selectedFoods,food.name,food)
     },
+    cartClear(state){
+      state.selectedFoods={}
+    },
     cartJump(state,t){
       t= t | 500
       state.cartJump = true;

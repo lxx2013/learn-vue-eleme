@@ -18,16 +18,18 @@
           </div>
       </div>
       <transition name="shadow">
-      <div class="shopcart-list-shadow" v-show="listShow"></div></transition>
+      <div class="shopcart-list-shadow" v-show="listShow" @click="toggle_showCart"></div></transition>
       <transition name="fold">
       <div class="shopcart-list" v-show="listShow">
         <div class="list-header">
           <h1 class="title">购物车</h1>
-          <span class="empty">清空</span>
+          <span class="empty" @click="cartClear">清空</span>
         </div>
+
         <div class="list-content">
-          <ul style="list-style:none">
-            <li class="food" v-for="(food,index) in $store.state.selectedFoods" :key="index">
+
+          <transition-group name="list" tag="ul" style="list-style:none">
+            <li class="food" v-for="food in $store.state.selectedFoods" v-if="food.count>0" :key="food.name">
               <span class="name">{{food.name}}</span>
               <div class="cartcontrol-wrapper">
                 <CartControl :food="food"></CartControl>
@@ -37,8 +39,10 @@
                 <span>{{food.price*food.count}}</span>
               </div>
             </li>
-          </ul>
+          </transition-group>
+
         </div>
+
       </div>
       </transition>
   </div>
@@ -64,6 +68,10 @@ export default {
     toggle_showCart() {
       if (!this.listShow && this.totalCount > 0) this.listShow = true;
       else if (this.listShow) this.listShow = false;
+    },
+    cartClear(){
+      this.$store.commit('cartClear')
+      this.toggle_showCart();
     }
   },
   computed: {
@@ -72,6 +80,9 @@ export default {
       for (let i in this.$store.state.selectedFoods) {
         let food = this.$store.state.selectedFoods[i];
         total += food.price * food.count;
+      }
+      if(total <=0){
+        this.toggle_showCart();
       }
       return total;
     },
@@ -260,7 +271,7 @@ export default {
     width 100%
 
     &.fold-enter-active, &.fold-leave-active {
-      transition all 0.5s
+      transition all 0.3s
     }
 
     &.fold-enter, &.fold-leave-to {
@@ -330,6 +341,16 @@ export default {
       }
     }
   }
+}
+.list-enter-active, .list-leave-active {
+  transition: all 1s;
+}
+.list-enter, .list-leave-to{
+  opacity: 0;
+  transform: translateY(30px);
+}
+.list-move{
+  transition: all 3s
 }
 </style>
 
