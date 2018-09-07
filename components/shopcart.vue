@@ -28,7 +28,7 @@
 
         <div class="list-content">
 
-          <transition-group name="list" tag="ul" style="list-style:none">
+          <ul style="list-style:none">
             <li class="food" v-for="food in $store.state.selectedFoods" v-if="food.count>0" :key="food.name">
               <span class="name">{{food.name}}</span>
               <div class="cartcontrol-wrapper">
@@ -39,7 +39,7 @@
                 <span>{{food.price*food.count}}</span>
               </div>
             </li>
-          </transition-group>
+          </ul>
 
         </div>
 
@@ -342,15 +342,6 @@ export default {
     }
   }
 }
-.list-enter-active, .list-leave-active {
-  transition: all 1s;
-}
-.list-enter, .list-leave-to{
-  opacity: 0;
-  transform: translateY(30px);
-}
-.list-move{
-  transition: all 3s
-}
+
 </style>
 
