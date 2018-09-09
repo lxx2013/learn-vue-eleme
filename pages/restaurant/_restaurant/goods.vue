@@ -15,7 +15,7 @@
         <li v-for="(item,_index) in goods" :key="_index" class="food-list food-list-hook">
           <h1 class="title">{{item.name}}</h1>
           <ul>
-            <li v-for="(food,index) in item.foods" :key="index" class="food-item">
+            <li  @click="checkFood(food,$event)" v-for="(food,index) in item.foods" :key="index" class="food-item">
               <div class="icon">
                 <img width="95px" height="95px" alt="food.icon" :src="food.icon">
               </div>
@@ -41,6 +41,7 @@
       </ul>
     </div>
     <ShopCart :seller="seller"></ShopCart>
+    <Food :food="checkedFood" ref="food"></Food>
   </div>
 
 </template>
@@ -49,10 +50,12 @@
   import BScroll from 'better-scroll'
   import ShopCart from '~/components/shopcart.vue'
   import CartControl from '~/components/cartcontrol.vue'
+  import Food from '~/components/food.vue'
   export default {
     components:{
       ShopCart,
-      CartControl
+      CartControl,
+      Food,
     },
     props: {
       seller: {
@@ -62,7 +65,8 @@
     data() {
       return {
         listHeight: [],
-        scrollY: 0
+        scrollY: 0,
+        checkedFood:{}
       };
     },
     computed: {
@@ -117,6 +121,14 @@
           let el = foodList[index];
           this.foodsScroll.scrollToElement(el,200);
         }
+      },
+      checkFood(food,event){
+        if(!event._constructed){
+            return 
+        }
+        this.checkedFood = food;
+        this.$refs.food.show();
+
       }
     },
     async asyncData({
