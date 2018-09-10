@@ -2,22 +2,23 @@
 
 > 使用 Vue 构建饿了么点餐页面
 
-## Build Setup
+## 涉及到的知识点
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+> ### 1.前端
+>- Vue.set() Object or Arrays - [深入响应式原理](https://cn.vuejs.org/v2/guide/reactivity.html)
+>- Vuex 集中数据管理
+>- Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+### 2.移动端适配
+- `border-1px` 通过 `scale` 实现
+- 元素大小可使用 `lib-flexible` 或遵循建议使用 `vw`
+- 结合`@media` 防止 iPhone 5 屏幕过窄而使得元素错位
 
-# build for production and launch server
-$ npm run build
-$ npm start
+### 3.后端
+- nuxt.js 服务器渲染
+- koa2 koa-router koa-static 简单服务器
+- nginx 端口转发 upstream
+- pm2 进程守护
 
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
+### 4.其它
+- eslint 配置[未完成]
