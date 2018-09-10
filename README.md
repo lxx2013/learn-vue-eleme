@@ -4,10 +4,10 @@
 
 ## 涉及到的知识点
 
-> ### 1.前端
->- Vue.set() Object or Arrays - [深入响应式原理](https://cn.vuejs.org/v2/guide/reactivity.html)
->- Vuex 集中数据管理
->- Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
+ ### 1.前端
+- Vue.set() Object or Arrays - [深入响应式原理](https://cn.vuejs.org/v2/guide/reactivity.html)
+- Vuex 集中数据管理
+- Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
 
 ### 2.移动端适配
 - `border-1px` 通过 `scale` 实现
@@ -15,10 +15,10 @@
 - 结合`@media` 防止 iPhone 5 屏幕过窄而使得元素错位
 
 ### 3.后端
-- nuxt.js 服务器渲染
-- koa2 koa-router koa-static 简单服务器
-- nginx 端口转发 upstream
-- pm2 进程守护
+- `nuxt.js` 服务器渲染
+- `koa2 koa-router koa-static` 简单服务器
+- `nginx` 端口转发 `upstream`
+- `pm2` 进程守护
 
 ### 4.其它
 - eslint 配置[未完成]

@@ -9,9 +9,10 @@ export default {};
 <style lang='stylus' scoped>
 .split{
     width:100%
-    height:16px
+    height:8px
     background-color #f3f5f7
     position: relative;
+    box-shadow: 0px 0px 3px #ccc inset;
       &:after {
         display: block;
         position: absolute;
