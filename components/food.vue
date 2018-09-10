@@ -19,23 +19,23 @@
               <cartcontrol :food="food"></cartcontrol>
             </div>
           </div>
-          <split></split>
+          <split v-if="food.info"></split>
           <div class="info" v-if="food.info">
             <h1 class="title">商品信息</h1>
             <p class="text">{{food.info}}</p>
           </div>
-          <split  v-if="food.info"></split>
-          <div class="rating">
+          <split v-if="food.ratings && food.ratings.length"></split>
+          <div class="rating" v-if="food.ratings && food.ratings.length">
             <h1 class="title">商品评价</h1>
-            <ratingselect :originSelectType="selectType"  :desc="desc" :ratings="food.ratings"></ratingselect>
+            <ratingselect :selectType="selectType"  :desc="desc" :ratings="food.ratings" :onlyContent="onlyContent" v-on:switch="onlyContent = !onlyContent" @select="selectType  = arguments[0]"></ratingselect>
             <div class="rating-wrapper">
               <ul v-show="food.ratings && food.ratings.length" style="list-style:none">
-                <li v-for="(rating,index) in food.ratings" :key="index" class="rating-item" >
+                <li v-for="(rating,index) in food.ratings" :key="index" class="rating-item"  v-if="needShow(rating.rateType,rating.text)">
                   <div class="user">
                     <span class="name">{{rating.username}}</span>
                     <img class='avatar' width="12px" height="12px" :src="rating.avatar" alt="rating.avatar">
                   </div>
-                  <div class="time">{{new Date(rating.rateTime).toLocaleString()}}</div>
+                  <div class="time">{{rating.rateTime| formatDate}}</div>
                   <p class="text">
                     <span :class="{'icon-thumb_up':rating.rateType===0,'icon-thumb_down':rating.rateType===1}"></span>
                     {{rating.text}}
@@ -53,7 +53,7 @@
 import cartcontrol from "~/components/cartcontrol.vue";
 import split from "~/components/split.vue";
 import ratingselect from "~/components/ratingselect.vue";
-
+import { formatDate } from "~/assets/common.js"
 const POSITIVE = 0;
 const NEGATIVE = 1;
 const ALL = 2;
@@ -76,8 +76,9 @@ export default {
       desc: {
         all: "全部",
         positive: "推荐",
-        negative: "吐槽"
-      }
+        negative: "吐槽",
+      },
+      onlyContent:true,
     };
   },
   methods: {
@@ -85,6 +86,23 @@ export default {
       this.showFlag = true;
       this.selectType = ALL;
       this.onlyContent = true;
+    },
+    needShow(type,text){
+      if(this.onlyContent && !text){
+        return false;
+      }
+      if(this.selectType === ALL){
+        return true;
+      }else {
+        return type === this.selectType
+      }
+    }
+  },
+  filters:{
+    formatDate(time){
+      let date = new Date(time)
+      return formatDate(date,'yyyy-MM-dd hh:mm');
+    //console.log(formatDate)
     }
   }
 };
@@ -217,6 +235,7 @@ export default {
           }
           .avatar {
             border-radius 50%
+            margin-left 3px
           }
         }
         .time{

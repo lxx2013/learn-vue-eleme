@@ -1,11 +1,11 @@
 <template>
   <div class="ratingselect">
     <div class="rating-type">
-      <span @click="select(2)" class="block all"  :class="{'active':selectType==2}">{{desc.all}}<span class="count">{{ratings.length}}</span></span>
-      <span @click="select(0)" class="block positve" :class="{'active':selectType==0}">{{desc.positive}}<span class="count">{{positives.length}}</span></span>
-      <span @click="select(1)" class="block negative" :class="{'active':selectType==1}">{{desc.negative}}<span class="count">{{negatives.length}}</span></span>
+      <span @click="$emit('select',2)" class="block all"  :class="{'active':selectType==2}">{{desc.all}}<span class="count">{{ratings.length}}</span></span>
+      <span @click="$emit('select',0)" class="block positve" :class="{'active':selectType==0}">{{desc.positive}}<span class="count">{{positives.length}}</span></span>
+      <span @click="$emit('select',1)" class="block negative" :class="{'active':selectType==1}">{{desc.negative}}<span class="count">{{negatives.length}}</span></span>
     </div>
-    <div class="switch" :class="{'on':onlyContent}" @click="onlyContent=!onlyContent">
+    <div class="switch" :class="{'on':onlyContent}" @click="$emit('switch')">
       <i class="icon-check_circle"></i>
       <span class="text">只看有内容的评价</span>
     </div>
@@ -25,11 +25,10 @@ export default {
         return [];
       }
     },
-    originSelectType: {
+    selectType: {
       type: Number,
       default: ALL
     },
-
     desc: {
       type: Object,
       default() {
@@ -39,18 +38,17 @@ export default {
           negative: "不满意"
         };
       }
+    },
+    onlyContent:{
+      type:Boolean
     }
   },
   data() {
     return {
-      selectType: 2,
-      onlyContent: true
     };
   },
   methods: {
-    select(s) {
-      this.selectType = s;
-    }
+
   },
   computed: {
     positives() {
@@ -63,9 +61,6 @@ export default {
         return rating.rateType === 1;
       }) 
     },
-  },
-  created() {
-    this.selectType = this.originSelectType;
   }
 };
 </script>
