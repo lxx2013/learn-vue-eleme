@@ -32,6 +32,10 @@ module.exports = {
       {
         "type": 4,
         "description": "已加入“外卖保”计划,食品安全保障"
+      },
+      {
+        "type": 5,
+        "description": "新用户下单立减13元(不与其他活动同享)"
       }
     ],
     "big-avatar":"/retaurant-image/dami-big-avatar.png",

@@ -33,6 +33,20 @@
     <split></split>
     <div class="bulletin">
         <h1 class="title">活动与服务</h1>
+        <ul v-if="seller.supports" class="supports">
+          <li class="support-item" v-for= "(item,index) in seller.supports" :key= "index" :class="classMap[seller.supports[index].type]">
+            <span class="icon" :class="classMap[seller.supports[index].type]">{{activity[item.type]}}</span>
+            <span class="text">{{seller.supports[index].description}}</span>
+          </li>
+        </ul>
+    </div>
+    <split></split>
+    <div class="pics">
+        <h1 class="title">商家实景</h1>
+    </div>
+    <split></split>
+    <div class="info">
+         <h1 class="title">商家信息</h1>
     </div>
 </div>
 </template>
@@ -49,6 +63,10 @@ export default {
     seller: {
       type: Object
     }
+  },
+  created() {
+    this.classMap = ["decrease", "discount", "special", "invoice", "guarantee","first-order"];
+    this.activity = ['满减','折扣','特价','发票','保险','首单']
   }
 };
 </script>
@@ -129,10 +147,68 @@ $147 = rgb(147, 153, 159)
             }
         }
     }
-    .bulletin{
+
+    .bulletin {
         padding 18px
-        
+        font-size 12px
+        font-weight 300
+        .supports{
+            margin-top 4.27vw
+            .support-item{
+                margin-bottom 3vw
+                .text{
+                    vertical-align bottom
+                }
+            }
+        }
     }
+}
+
+.icon {
+    display inline-block
+    width 36px
+    height 16px
+    line-height 16px
+    padding: 0 1.6vw;
+    margin-right: 1.6vw;
+    color white
+    font-size 12px
+    font-weight 400
+    vertical-align middle
+
+    &.decrease {
+        background-color rgb(240,115,115)
+    }
+
+    &.discount {
+        background-color #2fa1d2
+    }
+
+    &.special {
+        background-color rgb(241,136,79)
+    }
+
+    &.invoice {
+        background-color #920783
+    }
+
+    &.guarantee {
+        background-color #00cc99
+    }
+
+    &.first-order{
+        background-color rgb(112, 188, 70)
+    }
+}
+.pics{
+    padding 18px
+    font-size 12px
+    font-weight 300
+}
+.info{
+    padding 18px
+    font-size 12px
+    font-weight 300
 }
 </style>
 

@@ -22,3 +22,4 @@
 
 ### 4.其它
 - eslint 配置[未完成]
+- 随机图片来自于`"http://7xr4g8.com1.z0.glb.clouddn.com/" + parseInt(1+900*Math.random())`
