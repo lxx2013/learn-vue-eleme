@@ -1139,7 +1139,8 @@ module.exports = {
         "扁豆焖面",
         "娃娃菜炖豆腐",
         "牛肉馅饼"
-      ]
+      ],
+      "reply":"商家回复：亲爱的顾客，感谢您选择品尝本店的美食，谢谢您认可我们的口味和服务，我们会继续努力，为您提供更好的服务。祝您生活愉快"
     },
     {
       "username": "2******3",
@@ -1152,7 +1153,8 @@ module.exports = {
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
         "扁豆焖面"
-      ]
+      ],
+      "reply":"商家回复：亲爱的顾客，感谢您选择品尝本店的美食，谢谢您认可我们的口味和服务，我们会继续努力，为您提供更好的服务。祝您生活愉快！"
     },
     {
       "username": "3******b",
@@ -1161,7 +1163,8 @@ module.exports = {
       "rateType": 1,
       "text": "",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
-      "recommend": []
+      "recommend": [],
+      "reply":"商家回复：亲，非常感谢您的评价！赠人玫瑰，手留余香！喜欢，常来！"
     },
     {
       "username": "1******c",

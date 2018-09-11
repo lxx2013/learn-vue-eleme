@@ -26,23 +26,24 @@
         </div>
     </div>
     <split></split>
-    <ratingselect :selectType="selectType"  :desc="desc" :ratings="ratings" :onlyContent="onlyContent" v-on:switch="onlyContent = !onlyContent" @select="selectType  = arguments[0]"></ratingselect>
+    <ratingselect :selectType="selectType"  :desc="desc" :ratings="ratings" :onlyContent="onlyContent" @switch="onlyContent = !onlyContent" @select="selectType  = arguments[0]"></ratingselect>
     <div class="rating-wrapper">
         <ul style="list-style:none">
-            <li v-for="(rating,index) in ratings" :key="index" class="rating-item">
+            <li v-for="(rating,index) in ratings" :key="index" class="rating-item" v-if="needShow(rating.rateType,rating.text)">
                 <div class="avatar">
-                    <img :src="rating.avatar" alt="rating.avatar">
+                    <img :src="rating.avatar" alt="rating.avatar" width="28px" height="28px">
                 </div>
                 <div class="content">
                     <h1 class="name">{{rating.username}}</h1>
                     <div class="star-wrapper">
                         <star :size="24" :score="rating.score"></star>
-                        <span class="delivery" v-show="rating.deliveryTime"></span>
+                        <span class="delivery" v-show="rating.deliveryTime">{{rating.deliveryTime}}分钟送达</span>
                     </div>
                     <p class="text">{{rating.text}}</p>
-                    <div class="recommend" v-show="rating.recommend && rating.recommend.length">
+                    <div class="reply" v-if="rating.reply">{{rating.reply}}</div>
+                    <div class="recommend" v-if="recommend(rating)">
                         <i class="icon-thumb_up"></i>
-                        <span v-for="(item,index) in recommend" :key="index"></span>
+                        <span v-for="(item,index) in rating.recommend" :key="index">{{item}}</span>
                     </div>
                     <div class="time">{{rating.rateTime|formatDate }}</div>
                 </div>
@@ -84,6 +85,21 @@ export default {
       },
       onlyContent: true
     };
+  },
+  methods:{
+      recommend(rating){
+          return rating.recommend && rating.recommend.length;
+      },
+      needShow(type,text){
+        if(this.onlyContent && !text){
+          return false;
+        }
+        if(this.selectType === ALL){
+          return true;
+        }else {
+          return type === this.selectType
+        }
+      }
   },
   filters:{
     formatDate(time){
@@ -134,6 +150,8 @@ export default {
 };
 </script>
 <style lang="stylus" scoped>
+@import '~assets/mixin'
+
 .ratings {
     // position relative
     // top 174px
@@ -215,6 +233,97 @@ export default {
                     font-weight 500
                     vertical-align middle
                     margin-left 12px
+                }
+            }
+        }
+    }
+    .rating-wrapper{
+        padding 0 18px
+        color rgb(7,17,27)
+        .rating-item{
+            display flex
+            padding 18px 0
+            border-1px(rgba(7, 17, 27, 0.1))
+            .avatar{
+                flex: 0 0 28px
+                margin-right 12px
+                img{
+                    border-radius 50%
+                }
+            }
+            .content{
+                flex 1
+                position relative
+                .name{
+                    line-height 12px
+                    font-size 10px
+                    margin-bottom 4px
+                }
+                .star-wrapper{
+                    margin-bottom 6px
+                    font-size 0
+                    .star{
+                        display inline-block
+                        margin-right 6px
+                        vertical-align top
+                    }
+                    .delivery{
+                        font-size 10px
+                        font-weight 200
+                        color rgb(147,153,159)
+                        line-height 12px
+                    }
+                }
+                .text{
+                    line-height 18px
+                    font-weight 400
+                    margin 6px  0 8px 0
+                }
+                .reply{
+                    padding 8px 
+                    margin 8px 0
+                    background-color rgb(243, 243, 243)
+                    font-size 12px
+                    line-height 14px
+                    position relative
+                    &:after{
+                        content: " ";
+                        position: absolute;
+                        bottom: 100%;
+                        left: 4vw;
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 0 2.133333vw 2.133333vw;
+                        //border-width top right+left bottom
+                        border-color: transparent transparent #f3f3f3;
+                        //border-color red blue green yellow
+                    }
+                }
+                .recommend{
+                    line-height 16px
+                    .icon-thumb_up{
+                        display inline-block
+                        margin 0 8px 4px 0
+                        color rgb(0,160,220)
+                        vertical-align top
+                    }
+                    span{
+                        font-size 9px
+                        background-color #ebf5ff
+                        padding 0 6px
+                        margin-left 8px
+                        margin-bottom 8px
+                        color #6d7885
+                    }
+                }
+                .time{
+                    line-height 12px
+                    font-size 10px
+                    color rgb(147,153,159)
+                    position absolute
+                    top 0
+                    right 18px
                 }
             }
         }

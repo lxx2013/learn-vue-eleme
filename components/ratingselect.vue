@@ -70,10 +70,10 @@ export default {
 
 .ratingselect {
   line-height 20px
-
+  padding 0 18px
   .rating-type {
     padding 18px 0
-    margin 0 18px
+    // margin 0 18px
     border-1px(rgba(7, 17, 27, 0.1))
 
     .block {
@@ -106,7 +106,7 @@ export default {
   }
 
   .switch {
-    padding 12px 18px
+    padding 12px 0px
     line-height 24px
     border-1px(rgba(7, 17, 27, 0.1))
     color rgb(147, 153, 159)
