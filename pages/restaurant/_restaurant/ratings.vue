@@ -31,7 +31,7 @@
         <ul style="list-style:none">
             <li v-for="(rating,index) in ratings" :key="index" class="rating-item" v-if="needShow(rating.rateType,rating.text)">
                 <div class="avatar">
-                    <img :src="rating.avatar" alt="rating.avatar" width="28px" height="28px">
+                    <img :src="rating.avatar | randomImage" alt="rating.avatar" width="28px" height="28px">
                 </div>
                 <div class="content">
                     <h1 class="name">{{rating.username}}</h1>
@@ -106,6 +106,15 @@ export default {
       let date = new Date(time)
       return formatDate(date,'yyyy-MM-dd hh:mm');
     //console.log(formatDate)
+    },
+    randomImage(url){
+
+        if(url == "http://7xr4g8.com1.z0.glb.clouddn.com/"){
+            return url+parseInt(1+900*Math.random())
+        }
+        else{
+            return url;
+        }
     }
   },
   async asyncData({ params, store }) {
@@ -286,6 +295,7 @@ export default {
                     font-size 12px
                     line-height 14px
                     position relative
+                    border-radius 1vw
                     &:after{
                         content: " ";
                         position: absolute;
@@ -307,6 +317,7 @@ export default {
                         margin 0 8px 4px 0
                         color rgb(0,160,220)
                         vertical-align top
+                        transform translateY(2px)
                     }
                     span{
                         font-size 9px
@@ -323,7 +334,7 @@ export default {
                     color rgb(147,153,159)
                     position absolute
                     top 0
-                    right 18px
+                    right 0px
                 }
             }
         }

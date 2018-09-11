@@ -33,7 +33,7 @@
                 <li v-for="(rating,index) in food.ratings" :key="index" class="rating-item"  v-if="needShow(rating.rateType,rating.text)">
                   <div class="user">
                     <span class="name">{{rating.username}}</span>
-                    <img class='avatar' width="12px" height="12px" :src="rating.avatar" alt="rating.avatar">
+                    <img class='avatar' width="12px" height="12px" :src="rating.avatar|randomImage" alt="rating.avatar">
                   </div>
                   <div class="time">{{rating.rateTime| formatDate}}</div>
                   <p class="text">
@@ -103,6 +103,14 @@ export default {
       let date = new Date(time)
       return formatDate(date,'yyyy-MM-dd hh:mm');
     //console.log(formatDate)
+    },
+    randomImage(url){
+        if(url == "http://7xr4g8.com1.z0.glb.clouddn.com/"){
+            return url+parseInt(1+900*Math.random())
+        }
+        else{
+            return url;
+        }
     }
   }
 };

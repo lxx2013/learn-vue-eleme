@@ -69,21 +69,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "很喜欢的粥",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 1,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -102,21 +102,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 1,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "info": "",
@@ -137,21 +137,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 1,
               "text": "没啥味道",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 1,
               "text": "很一般啊",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -171,21 +171,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 1,
               "text": "难吃不推荐",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/114/h/114",
@@ -205,21 +205,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 1,
               "text": "不脆,不好吃",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -238,21 +238,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -272,21 +272,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -306,21 +306,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -340,21 +340,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -374,21 +374,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/0/05/097a2a59fd2a2292d08067e16380cjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -414,7 +414,7 @@ module.exports = {
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/6/72/cb844f0bb60c502c6d5c05e0bddf5jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -440,14 +440,14 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "还可以",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -473,14 +473,14 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "菜量还可以,味道还可以",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/d/2d/b1eb45b305635d9dd04ddf157165fjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -500,14 +500,14 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/9/c6/f3bc84468820121112e79583c24efjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -527,14 +527,14 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/4/e7/8277a6a2ea0a2e97710290499fc41jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -560,21 +560,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -594,21 +594,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/6/54/f654985b4e185f06eb07f8fa2b2e8jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -634,7 +634,7 @@ module.exports = {
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/f/49/27f26ed00c025b2200a9ccbb7e67ejpeg.jpeg?imageView2/1/w/114/h/114",
@@ -654,7 +654,7 @@ module.exports = {
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/8/96/f444a8087f0e940ef264617f9d98ajpeg.jpeg?imageView2/1/w/114/h/114",
@@ -692,21 +692,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/b/9f/5e6c99c593cf65229225c5661bcdejpeg.jpeg?imageView2/1/w/114/h/114",
@@ -726,14 +726,14 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "还可以",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/e/c6/f348e811772016ae24e968238bcbfjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -759,21 +759,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 1,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/c/6b/29e3d29b0db63d36f7c500bca31d8jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -793,21 +793,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 1,
               "text": "没啥味道",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 1,
               "text": "很一般啊",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -827,21 +827,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 1,
               "text": "难吃不推荐",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/114/h/114",
@@ -861,21 +861,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 1,
               "text": "不脆,不好吃",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -895,21 +895,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/0/05/097a2a59fd2a2292d08067e16380cjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -934,21 +934,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "很喜欢的粥",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 1,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -968,21 +968,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -1002,21 +1002,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/114/h/114",
@@ -1036,21 +1036,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -1070,7 +1070,7 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
@@ -1083,7 +1083,7 @@ module.exports = {
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/e/a3/5317c68dd618929b6ac05804e429ajpeg.jpeg?imageView2/1/w/114/h/114",
@@ -1103,21 +1103,21 @@ module.exports = {
               "rateTime": 1469281964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             },
             {
               "username": "3******b",
               "rateTime": 1469261964000,
               "rateType": 0,
               "text": "",
-              "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
+              "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/"
             }
           ],
           "icon": "http://fuss10.elemecdn.com/a/94/7371083792c19df00e546b29e344cjpeg.jpeg?imageView2/1/w/114/h/114",
@@ -1134,7 +1134,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,强烈推荐.",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": [
         "南瓜粥",
         "皮蛋瘦肉粥",
@@ -1152,7 +1152,7 @@ module.exports = {
       "rateType": 0,
       "deliveryTime": "",
       "text": "服务态度不错",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": [
         "扁豆焖面"
       ],
@@ -1164,7 +1164,7 @@ module.exports = {
       "score": 3,
       "rateType": 1,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": [],
       "reply":"Lalala~"
     },
@@ -1175,7 +1175,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "良心店铺",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1185,7 +1185,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1195,7 +1195,7 @@ module.exports = {
       "score": 1,
       "rateType": 1,
       "text": "送货速度蜗牛一样",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1205,7 +1205,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "很喜欢的粥店",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1215,7 +1215,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "量给的还可以",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1225,7 +1225,7 @@ module.exports = {
       "score": 3,
       "rateType": 1,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1235,7 +1235,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "孩子喜欢吃这家",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": [
         "南瓜粥"
       ]
@@ -1247,7 +1247,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "粥挺好吃的",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1257,7 +1257,7 @@ module.exports = {
       "score": 3,
       "rateType": 1,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1267,7 +1267,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "送货速度很快",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1277,7 +1277,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1287,7 +1287,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "下雨天给快递小哥点个赞",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1297,7 +1297,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "好",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1307,7 +1307,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "吃了还想再吃",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1317,7 +1317,7 @@ module.exports = {
       "score": 3,
       "rateType": 1,
       "text": "发票开的不对",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1327,7 +1327,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "好吃",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1337,7 +1337,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "还不错吧",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1347,7 +1347,7 @@ module.exports = {
       "score": 2,
       "rateType": 1,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1357,7 +1357,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "很喜欢的粥",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1367,7 +1367,7 @@ module.exports = {
       "score": 5,
       "rateType": 0,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     },
     {
@@ -1377,7 +1377,7 @@ module.exports = {
       "score": 4,
       "rateType": 0,
       "text": "",
-      "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
+      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
       "recommend": []
     }
   ]
