@@ -169,7 +169,7 @@ export default {
     width 100%
     line-height 12px
     color rgb(7, 17, 27)
-
+    z-index 300
     .overview {
         display flex
         padding 18px 0

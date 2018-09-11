@@ -10,7 +10,7 @@
 - Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
 
 ### 2.移动端适配
-- `border-1px` 通过 `scale` 实现
+- `border-1px` 通过 `scale` 实现
 - 元素大小可使用 `lib-flexible` 或遵循建议使用 `vw`
 - 结合`@media` 防止 iPhone 5 屏幕过窄而使得元素错位
 
