@@ -43,11 +43,22 @@
     <split></split>
     <div class="pics">
         <h1 class="title">商家实景</h1>
+        <div class="pic-wrapper">
+            <ul class="pic-list">
+                <li class="pic-item" v-for="(pic,index) in seller.pics" :key="index" @click="toggleImg(pic)">
+                    <img :src="pic" width="120px" height="90px" alt="pic">
+                </li>
+            </ul>
+        </div>
     </div>
     <split></split>
     <div class="info">
          <h1 class="title">商家信息</h1>
     </div>
+    <div class="big-img" v-show="showFlag" @click="toggleImg()">
+        <img :src="bigImgSrc" alt="pic">
+    </div>
+    <div class="shadow" v-show="showFlag" @click="toggleImg()"></div>
 </div>
 </template>
 <script>
@@ -63,6 +74,18 @@ export default {
     seller: {
       type: Object
     }
+  },
+  data(){
+      return {
+          showFlag:false,
+          bigImgSrc:''
+      }
+  },
+  methods:{
+      toggleImg(src){
+          this.bigImgSrc = src
+          this.showFlag = ! this.showFlag
+      }
   },
   created() {
     this.classMap = ["decrease", "discount", "special", "invoice", "guarantee","first-order"];
@@ -166,10 +189,9 @@ $147 = rgb(147, 153, 159)
 
 .icon {
     display inline-block
-    width 36px
     height 16px
     line-height 16px
-    padding: 0 1.6vw;
+    padding: 0 6px;
     margin-right: 1.6vw;
     color white
     font-size 12px
@@ -204,11 +226,43 @@ $147 = rgb(147, 153, 159)
     padding 18px
     font-size 12px
     font-weight 300
+    .pic-wrapper{
+        white-space nowrap
+        overflow-x  auto
+    }
+    .pic-list{
+        margin-top 8px
+        .pic-item{
+            display inline-block
+            margin-right 7px
+            
+        }
+    }
 }
 .info{
     padding 18px
     font-size 12px
     font-weight 300
+}
+.big-img{
+    position fixed
+    top 50%
+    left 0
+    margin-top -50%
+    width 100vw
+    z-index 900
+
+    img{
+        width 100vw
+    }
+}
+.shadow{
+    position fixed
+    left 0 
+    top 0
+    width 100vw
+    height 100vh
+    background-color rgba(0,0,0,0.9)
 }
 </style>
 
