@@ -31,7 +31,7 @@
         <ul style="list-style:none">
             <li v-for="(rating,index) in ratings" :key="index" class="rating-item" v-show="needShow(rating.rateType,rating.text)">
                 <div class="avatar">
-                    <img :src="hashImage2(rating.username,rating.avatar)" alt="rating.avatar" width="28px" height="28px">
+                    <img :src="hashImage(rating.username,rating.avatar)" alt="rating.avatar" width="28px" height="28px">
                 </div>
                 <div class="content">
                     <h1 class="name">{{rating.username}}</h1>
@@ -105,22 +105,6 @@ export default {
         name = name.charCodeAt(0)*100+name.charCodeAt(name.length-1);
         return "http://7xr4g8.com1.z0.glb.clouddn.com/" + (name % 900);
       }
-    },
-    hashImage2(str,url,caseSensitive){
-        if (url != "http://7xr4g8.com1.z0.glb.clouddn.com/"){
-            return url
-        }
-        if(!caseSensitive){
-            str = str.toLowerCase();
-        }
-        // 1315423911=b'1001110011001111100011010100111'
-        var hash  =   1315423911,i,ch;
-        for (i = str.length - 1; i >= 0; i--) {
-            ch = str.charCodeAt(i);
-            hash ^= ((hash << 5) + ch + (hash >> 2));
-        }
-
-        return  url+ (hash & 0x7FFFFFFF)%900;
     }
   },
   filters: {
