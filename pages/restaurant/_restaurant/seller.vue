@@ -54,6 +54,27 @@
     <split></split>
     <div class="info">
          <h1 class="title">商家信息</h1>
+         <p>{{seller.bulletin}}</p>
+         <div class="info-wrapper">
+             <ul class="info-list">
+                 <li class="info-item" v-for="(info,index) in seller. infos" :key="index">
+                     <span class="left">{{index}}</span>
+                     <a :href="'tel:'+info" v-if="index=='商家电话'" class='right'>{{info}}</a>
+                     <span v-else class="right">{{info}}</span>
+                 </li>
+             </ul>
+         </div>
+    </div>
+    <split></split>
+    <div class="pics">
+        <h1 class="title">营业资质</h1>
+        <div class="pic-wrapper">
+            <ul class="pic-list">
+                <li class="pic-item" v-for="(pic,index) in seller. certificate" :key="index" @click="toggleImg(pic)">
+                    <img :src="pic" width="120px" height="90px" alt="pic">
+                </li>
+            </ul>
+        </div>
     </div>
     <div class="big-img" v-show="showFlag" @click="toggleImg()">
         <img :src="bigImgSrc" alt="pic">
@@ -243,6 +264,38 @@ $147 = rgb(147, 153, 159)
     padding 18px
     font-size 12px
     font-weight 300
+    p {
+        padding 16px 0
+        border-1px($line)
+    }
+    .info-item{
+        border-1px($line)
+        padding 14px 0
+        &:last-of-type:after{
+            display:none;
+        }
+        &:last-of-type{
+            padding-bottom 0
+        }
+        font-size 12px
+        line-height 18px
+        vertical-align middle
+        display flex
+        flex-direction row
+        .left{
+            flex 0 0 60px
+            text-align left
+            font-weight 500
+        }
+        .right{
+            flex 1
+            text-align right
+        }
+        a.right{
+            color $grey
+        }
+        
+    }
 }
 .big-img{
     position fixed

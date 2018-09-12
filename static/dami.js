@@ -42,16 +42,20 @@ module.exports = {
     //"big-avatar":"./retaurant-image/4k.jpg",
     "avatar": "https://fuss10.elemecdn.com/c/ab/1bcde440a5cda55fea2c71dae0b8fpng.png",
     "pics": [
-      "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
+      "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg",
       "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
       "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
       "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
     ],
-    "infos": [
-      "该商家支持发票,请下单写好发票抬头",
-      "品类:其他菜系,包子粥店",
-      "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
-      "营业时间:10:00-20:30"
+    "infos": {
+      "品类" : "其他菜系,包子粥店",
+      "地址" : "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
+      "营业时间":"10:00-20:30",
+      "商家电话":"17720486174"
+    },
+    "certificate":[
+      "https://fuss10.elemecdn.com/a/97/a5986e383a18e8aa9c2a88944cfb9jpeg.jpeg",
+      "https://fuss10.elemecdn.com/7/69/3960d557cb7a8ee8ee409d602e1fcjpeg.jpeg"
     ]
   },
   "goods": [

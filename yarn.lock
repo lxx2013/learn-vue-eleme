@@ -2159,6 +2159,10 @@ eslint@^4.15.0:
     table "4.0.2"
     text-table "~0.2.0"
 
+esm@^3.0.82:
+  version "3.0.82"
+  resolved "http://registry.npm.taobao.org/esm/download/esm-3.0.82.tgz#e8c4363a14e30936bedf49a44bf962e2c91866ff"
+
 espree@^3.5.2, espree@^3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/espree/-/espree-3.5.4.tgz#b0f447187c8a8bed944b815a660bddf5deb5d1a7"
