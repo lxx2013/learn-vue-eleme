@@ -76,7 +76,7 @@
             </ul>
         </div>
     </div>
-    <div class="big-img" v-show="showFlag" @click="toggleImg()">
+    <div class="big-img" v-if="showFlag" @click="toggleImg()">
         <img :src="bigImgSrc" alt="pic">
     </div>
     <div class="shadow" v-show="showFlag" @click="toggleImg()"></div>
@@ -104,8 +104,14 @@ export default {
   },
   methods:{
       toggleImg(src){
-          this.bigImgSrc = src
           this.showFlag = ! this.showFlag
+          this.bigImgSrc = ''
+          if(!this.showFlag){
+            return
+          }
+          /.*(\?.*)/.test(src)
+          this.bigImgSrc = src.replace(RegExp.$1,'');
+          console.log(this.bigImgSrc)
       }
   },
   created() {
