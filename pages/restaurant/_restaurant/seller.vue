@@ -139,6 +139,9 @@ export default {
       console.log(name)
       this.favoriteActive =  loadFromLocal(name,'FavoriteActive',false)
       console.log(`localStorage : ${localStorage}`)
+  },
+  transition:{
+      name:'content',
   }
 };
 </script>
@@ -148,6 +151,7 @@ export default {
 $line = rgba(7, 17, 27, 0.1)
 $grey = rgb(7, 17, 27)
 $147 = rgb(147, 153, 159)
+
 
 .title {
     font-size 14px

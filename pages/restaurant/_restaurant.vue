@@ -5,11 +5,12 @@
       <div class="grey-blur" v-if="$store.state.globalBlur" ></div>
       <Header :seller= "seller" ></Header>
       <div class="tab">
-        <div class="tab-item"><router-link :to="'/restaurant/'+restaurant+'/goods'">商品</router-link></div>
-        <div class="tab-item"><router-link :to="'/restaurant/'+restaurant+'/ratings'">评价</router-link></div>
-        <div class="tab-item"><router-link :to="'/restaurant/'+restaurant+'/seller'">商家</router-link></div>
+        <div class="tab-item"><nuxt-link :to="'/restaurant/'+restaurant+'/goods'" >商品</nuxt-link></div>
+        <div class="tab-item"><nuxt-link :to="'/restaurant/'+restaurant+'/ratings'">评价</nuxt-link></div>
+        <div class="tab-item"><nuxt-link :to="'/restaurant/'+restaurant+'/seller'" key="seller">商家</nuxt-link></div>
       </div>
-      <div class="content"><nuxt-child :seller= "seller" /></div>
+      <div class="blue" :class="blueLine"></div>
+      <div class="content"><nuxt-child :seller= "seller" keep-alive/></div>
     </div>
   </section>
 </template>
@@ -28,6 +29,22 @@ export default {
       seller: {},
       detailShow: false
     };
+  },
+  computed:{
+    blueLine(){
+      /\/.*\/.*\/(.*)/.test(this.$route.fullPath)
+      var name = RegExp.$1;
+      console.log(name)
+      if(name === "seller"){
+        return 'blue-right'
+      }
+      else if(name == "goods"){
+        return 'blue-left'
+      }
+      else if(name ==="ratings"){
+        return 'blue-mid'
+      }
+    }
   },
   async asyncData({ params,store}) {
     //1.首先检测是否有数据缓存
@@ -63,6 +80,25 @@ export default {
 
 <style lang='stylus' scoped>
 @import "~assets/mixin"
+.blue{
+  background-color rgb(35,149,255)
+  position absolute
+  top 172px
+  left 0
+  height 0.53vw
+  width 8vw
+  transform translateX(-50%)
+  transition left 0.5s
+  &.blue-left{
+    left 16.7%
+  }
+  &.blue-mid{
+    left 50%
+  }
+  &.blue-right{
+    left 83.3%
+  }
+}
 .tab {
   display: flex;
   align-items: center;
@@ -77,10 +113,15 @@ export default {
       height: 40px;
       line-height: 40px;
       text-decoration: none;
-      color: rgb(77, 85, 93);
+      color: #666
+      font-weight 400
       font-size: 14px;
       &.nuxt-link-active {
-        color: rgb(240, 20, 20);
+        color: #333
+        font-weight 700
+        span{
+          border-bottom 1px solid rgb(35, 149, 255)
+        }
       }
     }
   }

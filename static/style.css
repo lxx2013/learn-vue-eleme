@@ -75,3 +75,21 @@ body,html{
   clear: both;
   visibility: hidden;
 }   
+.content-enter-active, .content-leave-active {
+  transition: opacity 0.2s ;
+}
+.content-enter {
+  opacity:0;
+}
+.content-leave-to{
+  opacity:0;
+}
+.content-leave,.content-enter-to{
+  opacity:1;
+}
+
+.nuxt-progress{
+  display:none
+}
+
+

@@ -52,6 +52,7 @@
   import CartControl from '~/components/cartcontrol.vue'
   import Food from '~/components/food.vue'
   export default {
+    transition:'content',
     components:{
       ShopCart,
       CartControl,
@@ -266,7 +267,6 @@
           vertical-align: middle;
           text-align: center;
           width: 56px;
-          border-1px(rgba(7, 17, 27, 0.1))
         }
       }
     }

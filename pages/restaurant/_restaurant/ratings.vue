@@ -64,6 +64,7 @@ const NEGATIVE = 1;
 const ALL = 2;
 
 export default {
+  transition: "content",
   components: {
     star,
     split,
@@ -100,10 +101,10 @@ export default {
         return type === this.selectType;
       }
     },
-    hashImage(name,url) {
+    hashImage(name, url) {
       if (url == "http://7xr4g8.com1.z0.glb.clouddn.com/") {
-        name = name.charCodeAt(0)*100+name.charCodeAt(name.length-1);
-        return "http://7xr4g8.com1.z0.glb.clouddn.com/" + (name % 900);
+        name = name.charCodeAt(0) * 100 + name.charCodeAt(name.length - 1);
+        return "http://7xr4g8.com1.z0.glb.clouddn.com/" + name % 900;
       }
     }
   },
@@ -164,6 +165,7 @@ export default {
 </script>
 <style lang="stylus" scoped>
 @import '~assets/mixin'
+
 
 .ratings {
     // position relative
