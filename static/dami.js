@@ -40,7 +40,7 @@ module.exports = {
     ],
     "big-avatar":"/retaurant-image/dami-big-avatar.png",
     //"big-avatar":"./retaurant-image/4k.jpg",
-    "avatar": "https://fuss10.elemecdn.com/c/ab/1bcde440a5cda55fea2c71dae0b8fpng.png",
+    "avatar": "https://fuss10.elemecdn.com/c/ab/1bcde440a5cda55fea2c71dae0b8fpng.png?imageView2/1/w/180/h/180",
     "pics": [
       "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
       "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
@@ -54,8 +54,8 @@ module.exports = {
       "商家电话":"17720486174"
     },
     "certificate":[
-      "https://fuss10.elemecdn.com/a/97/a5986e383a18e8aa9c2a88944cfb9jpeg.jpeg",
-      "https://fuss10.elemecdn.com/7/69/3960d557cb7a8ee8ee409d602e1fcjpeg.jpeg"
+      "https://fuss10.elemecdn.com/a/97/a5986e383a18e8aa9c2a88944cfb9jpeg.jpeg?imageView2/1/w/180/h/180",
+      "https://fuss10.elemecdn.com/7/69/3960d557cb7a8ee8ee409d602e1fcjpeg.jpeg?imageView2/1/w/180/h/180"
     ]
   },
   "goods": [

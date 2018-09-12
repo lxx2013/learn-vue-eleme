@@ -8,7 +8,7 @@
 - Vue.set() Object or Arrays - [深入响应式原理](https://cn.vuejs.org/v2/guide/reactivity.html)
 - Vuex 集中数据管理
 - Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
-
+- 基于 `JSON.parse` 和 `JSON.stringify` 实现了 `saveToLocal` 和`loadFromLocal`两个函数来访问`localStorage` , 可以保存诸如收藏之类的信息
 ### 2.移动端适配
 - `border-1px` 通过 `scale` 实现
 - 元素大小可使用 `lib-flexible` 或遵循建议使用 `vw`

@@ -29,6 +29,10 @@
                 </div>
             </li>
         </ul>
+        <div class="favorite" @click="toggleFavorite">
+            <span class="icon-favorite" :class="{'active':favoriteActive}"></span>
+            <span class="text">{{favoriteText}}</span>
+        </div>
     </div>
     <split></split>
     <div class="bulletin">
@@ -85,6 +89,7 @@
 <script>
 import star from "~/components/star.vue";
 import split from "~/components/split.vue";
+import { saveToLocal,loadFromLocal } from '~/assets/store'
 
 export default {
   components: {
@@ -99,7 +104,13 @@ export default {
   data(){
       return {
           showFlag:false,
-          bigImgSrc:''
+          bigImgSrc:'',
+          favoriteActive:false
+      }
+  },
+  computed:{
+      favoriteText(){
+          return this.favoriteActive ? '已收藏':'收藏'
       }
   },
   methods:{
@@ -112,11 +123,22 @@ export default {
           /.*(\?.*)/.test(src)
           this.bigImgSrc = src.replace(RegExp.$1,'');
           console.log(this.bigImgSrc)
+      },
+      toggleFavorite(){
+            this.favoriteActive = ! this.favoriteActive
+            var name = Object.keys(this.$store.state.restaurants)[0]
+            saveToLocal(name,'FavoriteActive',this.favoriteActive)
       }
   },
   created() {
     this.classMap = ["decrease", "discount", "special", "invoice", "guarantee","first-order"];
     this.activity = ['满减','折扣','特价','发票','保险','首单']
+  },
+  mounted(){
+      var name = Object.keys(this.$store.state.restaurants)[0]
+      console.log(name)
+      this.favoriteActive =  loadFromLocal(name,'FavoriteActive',false)
+      console.log(`localStorage : ${localStorage}`)
   }
 };
 </script>
@@ -194,6 +216,26 @@ $147 = rgb(147, 153, 159)
                         font-size 24px
                     }
                 }
+            }
+        }
+        .favorite{
+            position absolute
+            width 40px
+            right 18px
+            top 18px
+            text-align center
+            .icon-favorite{
+                display block
+                color #d4d6d9
+                font-size 24px
+                &.active{
+                    color rgb(240,20,20)
+                }
+            }
+            .text{
+                font-size 10px
+                color rgb(77,85,93)
+                line-height 10px
             }
         }
     }
