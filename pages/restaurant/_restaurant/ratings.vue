@@ -29,9 +29,9 @@
     <ratingselect :selectType="selectType"  :desc="desc" :ratings="ratings" :onlyContent="onlyContent" @switch="onlyContent = !onlyContent" @select="selectType  = arguments[0]"></ratingselect>
     <div class="rating-wrapper">
         <ul style="list-style:none">
-            <li v-for="(rating,index) in ratings" :key="index" class="rating-item" v-if="needShow(rating.rateType,rating.text)">
+            <li v-for="(rating,index) in ratings" :key="index" class="rating-item" v-show="needShow(rating.rateType,rating.text)">
                 <div class="avatar">
-                    <img :src="rating.avatar | randomImage" alt="rating.avatar" width="28px" height="28px">
+                    <img :src="hashImage2(rating.username,rating.avatar)" alt="rating.avatar" width="28px" height="28px">
                 </div>
                 <div class="content">
                     <h1 class="name">{{rating.username}}</h1>
@@ -53,11 +53,11 @@
 </div>
 </template>
 <script>
-import axios from "axios"
+import axios from "axios";
 import star from "~/components/star.vue";
 import split from "~/components/split.vue";
 import ratingselect from "~/components/ratingselect.vue";
-import { formatDate } from "~/assets/common.js"
+import { formatDate } from "~/assets/common.js";
 
 const POSITIVE = 0;
 const NEGATIVE = 1;
@@ -86,35 +86,55 @@ export default {
       onlyContent: true
     };
   },
-  methods:{
-      recommend(rating){
-          return rating.recommend && rating.recommend.length;
-      },
-      needShow(type,text){
-        if(this.onlyContent && !text){
-          return false;
-        }
-        if(this.selectType === ALL){
-          return true;
-        }else {
-          return type === this.selectType
-        }
-      }
-  },
-  filters:{
-    formatDate(time){
-      let date = new Date(time)
-      return formatDate(date,'yyyy-MM-dd hh:mm');
-    //console.log(formatDate)
+  methods: {
+    recommend(rating) {
+      return rating.recommend && rating.recommend.length;
     },
-    randomImage(url){
+    needShow(type, text) {
+      if (this.onlyContent && !text) {
+        return false;
+      }
+      if (this.selectType === ALL) {
+        return true;
+      } else {
+        return type === this.selectType;
+      }
+    },
+    hashImage(name,url) {
+      if (url == "http://7xr4g8.com1.z0.glb.clouddn.com/") {
+        name = name.charCodeAt(0)*100+name.charCodeAt(name.length-1);
+        return "http://7xr4g8.com1.z0.glb.clouddn.com/" + (name % 900);
+      }
+    },
+    hashImage2(str,url,caseSensitive){
+        if (url != "http://7xr4g8.com1.z0.glb.clouddn.com/"){
+            return url
+        }
+        if(!caseSensitive){
+            str = str.toLowerCase();
+        }
+        // 1315423911=b'1001110011001111100011010100111'
+        var hash  =   1315423911,i,ch;
+        for (i = str.length - 1; i >= 0; i--) {
+            ch = str.charCodeAt(i);
+            hash ^= ((hash << 5) + ch + (hash >> 2));
+        }
 
-        if(url == "http://7xr4g8.com1.z0.glb.clouddn.com/"){
-            return url+parseInt(1+900*Math.random())
-        }
-        else{
-            return url;
-        }
+        return  url+ (hash & 0x7FFFFFFF)%900;
+    }
+  },
+  filters: {
+    formatDate(time) {
+      let date = new Date(time);
+      return formatDate(date, "yyyy-MM-dd hh:mm");
+      //console.log(formatDate)
+    },
+    randomImage(url) {
+      if (url == "http://7xr4g8.com1.z0.glb.clouddn.com/") {
+        return url + parseInt(Math.random() * 900);
+      } else {
+        return url;
+      }
     }
   },
   async asyncData({ params, store }) {
@@ -170,6 +190,7 @@ export default {
     line-height 12px
     color rgb(7, 17, 27)
     z-index 300
+
     .overview {
         display flex
         padding 18px 0
@@ -246,80 +267,95 @@ export default {
             }
         }
     }
-    .rating-wrapper{
+
+    .rating-wrapper {
         padding 0 18px
-        color rgb(7,17,27)
-        .rating-item{
+        color rgb(7, 17, 27)
+
+        .rating-item {
             display flex
             padding 18px 0
             border-1px(rgba(7, 17, 27, 0.1))
-            .avatar{
-                flex: 0 0 28px
+
+            .avatar {
+                flex 0 0 28px
                 margin-right 12px
-                img{
+
+                img {
                     border-radius 50%
                 }
             }
-            .content{
+
+            .content {
                 flex 1
                 position relative
-                .name{
+
+                .name {
                     line-height 12px
                     font-size 10px
                     margin-bottom 4px
                 }
-                .star-wrapper{
+
+                .star-wrapper {
                     margin-bottom 6px
                     font-size 0
-                    .star{
+
+                    .star {
                         display inline-block
                         margin-right 6px
                         vertical-align top
                     }
-                    .delivery{
+
+                    .delivery {
                         font-size 10px
                         font-weight 200
-                        color rgb(147,153,159)
+                        color rgb(147, 153, 159)
                         line-height 12px
                     }
                 }
-                .text{
+
+                .text {
                     line-height 18px
                     font-weight 400
-                    margin 6px  0 8px 0
+                    margin 6px 0 8px 0
                 }
-                .reply{
-                    padding 8px 
+
+                .reply {
+                    padding 8px
                     margin 8px 0
                     background-color rgb(243, 243, 243)
                     font-size 12px
                     line-height 14px
                     position relative
                     border-radius 1vw
-                    &:after{
-                        content: " ";
-                        position: absolute;
-                        bottom: 100%;
-                        left: 4vw;
-                        width: 0;
-                        height: 0;
-                        border-style: solid;
-                        border-width: 0 2.133333vw 2.133333vw;
-                        //border-width top right+left bottom
-                        border-color: transparent transparent #f3f3f3;
-                        //border-color red blue green yellow
+
+                    &:after {
+                        content ' '
+                        position absolute
+                        bottom 100%
+                        left 4vw
+                        width 0
+                        height 0
+                        border-style solid
+                        border-width 0 2.133333vw 2.133333vw
+                        // border-width top right+left bottom
+                        border-color transparent transparent #f3f3f3
+                        // border-color red blue green yellow
                     }
                 }
-                .recommend{
+
+                .recommend {
                     line-height 16px
-                    .icon-thumb_up{
+
+                    .icon-thumb_up {
                         display inline-block
                         margin 0 8px 4px 0
-                        color rgb(0,160,220)
+                        color rgb(0, 160, 220)
                         vertical-align top
                         transform translateY(2px)
                     }
-                    span{
+
+                    span {
                         font-size 9px
                         background-color #ebf5ff
                         padding 0 6px
@@ -328,10 +364,11 @@ export default {
                         color #6d7885
                     }
                 }
-                .time{
+
+                .time {
                     line-height 12px
                     font-size 10px
-                    color rgb(147,153,159)
+                    color rgb(147, 153, 159)
                     position absolute
                     top 0
                     right 0px
