@@ -10,7 +10,7 @@
         <div class="tab-item"><nuxt-link :to="'/restaurant/'+restaurant+'/seller'" key="seller">商家</nuxt-link></div>
       </div>
       <div class="blue" :class="blueLine"></div>
-      <div class="content"><nuxt-child :seller= "seller" keep-alive/></div>
+      <div class="content"><nuxt-child :seller= "seller"/></div>
     </div>
   </section>
 </template>
