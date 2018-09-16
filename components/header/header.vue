@@ -1,6 +1,6 @@
 <template>
   <div class="header" >
-    <div class="back-to-index"><router-link to="/"><i class="icon-arrow_lift"></i></router-link></div>
+    <div class="back-to-index"><a href="/"><i class="icon-arrow_lift"></i></a></div>
     <div class="blur-image"><img :src="seller['big-avatar']?seller['big-avatar']:seller['avatar']" alt="blur-image" width="100vw" height="33vw"></div>
     <div class="container-wrapper">
       <div class="avatar">

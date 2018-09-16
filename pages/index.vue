@@ -1,9 +1,11 @@
 <template>
   <section >
-      <ul class='seller-list'>
-        <li v-for="(seller,index) in sellers" :key="index">
+      <transition-group name="list" tag="ul" class='seller-list'>
+        <li v-for="(seller,index) in sellers" :key="index" v-if="seller.isLike" class='list-item'>
           <a :href="'\/restaurant\/'+index+'\/goods'">
-              <div class="shadow" v-if="seller.shadow" @click.stop.prevent="seller.shadow = !seller.shadow"></div>
+              <div class="shadow" v-if="seller.shadow" @click.stop.prevent="seller.shadow = !seller.shadow">
+                <div class="dislike" @click.stop.prevent="seller.isLike=false">不喜欢</div>
+              </div>
               <div class="left">
                 <div class="avatar">
                   <img :src="seller.avatar" alt="seller.avatar">
@@ -44,7 +46,7 @@
               </div>
           </a>
         </li>
-      </ul>
+      </transition-group>
   </section>
 </template>
 
@@ -66,6 +68,7 @@ export default {
         sellers[i] = this.$store.state.restaurants[i].seller
         sellers[i].isFold = true;
         sellers[i].shadow = false;
+        sellers[i].isLike = true;
       }
       return sellers;
     }
@@ -73,7 +76,7 @@ export default {
   methods:{
     infoSplit(str){
       return str.split(/,|，/)
-    }
+    },
   },
   created() {
     this.classMap = ["decrease", "discount", "special", "invoice", "guarantee","first-order"];
@@ -108,10 +111,25 @@ export default {
 
 <style lang='stylus' scoped>
 @import "~assets/mixin"
+.list-item {
+  transition: all 0.5s;
+  display: inline-block;
+}
+.list-enter, .list-leave-to
+/* .list-leave-active for below version 2.1.8 */ {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.list-leave-active {
+  position: absolute;
+}
 *{
   line-height 17px
 }
 .seller-list{
+  .list-item{
+    width 100%
+  }
   li>a{
     display flex
     flex-direction row
@@ -131,6 +149,20 @@ export default {
       left 0
       z-index 100
       background-color rgba(0,0,0,0.5)
+      .dislike{
+        width 13.33vw
+        height 13.33vw
+        border-radius 50%
+        background-color #fff
+        text-align center
+        position absolute
+        top 50%
+        left 50%
+        transform translate(-50%,-50%)
+        font-size 12px
+        font-weight 600
+        line-height 13.33vw  
+      }
     }
     .left{
       width 17.33vw
