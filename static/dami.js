@@ -11,6 +11,7 @@ module.exports = {
     "deliveryPrice": 4,
     "ratingCount": 24,
     "sellCount": 90,
+    "koubei-recommend":true,
     "bulletin": '大米先生品牌店成立于2011年4月，作为乡村基的"兄弟品牌"是将自选式餐饮模式融合到中式快餐中，目前已经取得了不错的品牌和客户群。',
     "supports": [
       {
