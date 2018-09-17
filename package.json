@@ -28,6 +28,7 @@
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
     "esm": "^3.0.82",
+    "puppeteer": "^1.8.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
   }

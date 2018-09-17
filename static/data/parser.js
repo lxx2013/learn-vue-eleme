@@ -1,8 +1,7 @@
-/*需要手动填写的有: 
-营业资质图片
-*/
 const rn = 'damixiansheng' //restaunrant_name
-//配置部分结束
+//配置部分结束*/
+//***********/
+
 var fs = require('fs')
 var html  = fs.readFileSync(__dirname+`/html/${rn}.html`,'utf-8')
 
@@ -10,7 +9,7 @@ var cheerio=require('cheerio');
 var $=cheerio.load(html);
 var output = {seller:{},goods:{},ratings:{}}
 
-//seller
+//第1步:解析seller
 var seller = output.seller
 
 var activities = $('.shop-info .section:nth-of-type(3) >div>div')
@@ -64,5 +63,13 @@ $('.shop-info >div section:nth-of-type(1) li').each(function(i){
 console.log(infos)
 seller.infos = infos
 
-//seller.bulletin = $('.shop-info .section p:first-of-type').text()
+
+//第2步,解析 goods
+//第3步,解析 ratings
+
+//倒数第1步,爬取营业资质链接
+
+//最后一步, 数据输出为文件
 fs.writeFileSync(__dirname+`/${rn}.js`,'module.exports='+JSON.stringify(output,null,2),'utf-8')
+
+
