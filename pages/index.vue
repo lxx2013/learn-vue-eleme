@@ -275,12 +275,14 @@ export default {
             line-height 24px
             .icon{
               color white
-              border-radius 2px
-              background-size 120% 100%
+              display inline-block
+              line-height 15px
+              border-radius 3px
               background-position center center
               background-repeat no-repeat
               margin-right 4px
-              padding 0 1px
+              padding 0 2px 1px 1px
+              text-align center
               &.decrease {
                   background-color rgb(240,115,115)
               }
