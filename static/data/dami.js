@@ -12,7 +12,7 @@ module.exports = {
     "ratingCount": 24,
     "sellCount": 90,
     "koubei-recommend":true,
-    "bulletin": '大米先生品牌店成立于2011年4月，作为乡村基的"兄弟品牌"是将自选式餐饮模式融合到中式快餐中，目前已经取得了不错的品牌和客户群。',
+    "bulletin": '大米先生品牌店成立于2011年4月，作为乡村基的"兄弟品牌"是将自选式餐饮模式融合到中式快餐中，目前已经取得了不错的品牌和客户群。\n品质保证：精选益海嘉里‘海皇’品牌非转基因大豆油，正宗泰国茉莉香米，坚持使用李锦记、联合利华旗下品牌调料，用的放心，吃的舒心。\n大米先生坚持原材料当天进货加工，现炒更好吃。',
     "supports": [
       {
         "type": 0,
@@ -43,7 +43,7 @@ module.exports = {
     //"big-avatar":"./retaurant-image/4k.jpg",
     "avatar": "https://fuss10.elemecdn.com/c/ab/1bcde440a5cda55fea2c71dae0b8fpng.png?imageView2/1/w/180/h/180",
     "pics": [
-      "http://fuss10.elemecdn.com/8/71/c5cf5715740998d5040dda6e66abfjpeg.jpeg?imageView2/1/w/180/h/180",
+      "http://fuss10.elemecdn.com/b/8a/2334287085461d00427e28ae8354fjpeg.jpeg?imageMogr/format/webp/thumbnail/!200x200r/gravity/Center/crop/200x200/",
       "http://fuss10.elemecdn.com/b/6c/75bd250e5ba69868f3b1178afbda3jpeg.jpeg?imageView2/1/w/180/h/180",
       "http://fuss10.elemecdn.com/f/96/3d608c5811bc2d902fc9ab9a5baa7jpeg.jpeg?imageView2/1/w/180/h/180",
       "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"

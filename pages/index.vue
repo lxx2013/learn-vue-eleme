@@ -112,7 +112,7 @@ export default {
 <style lang='stylus' scoped>
 @import "~assets/mixin"
 .list-item {
-  transition: all 0.5s;
+  transition: transform 0.5s;
   display: inline-block;
 }
 .list-enter, .list-leave-to
@@ -247,7 +247,8 @@ export default {
             overflow hidden 
           }
           &.unfold{
-            
+            transition max-height 0.5s
+            max-height 480px
           }
           .button{
             position absolute 

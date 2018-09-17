@@ -2,7 +2,6 @@ const Koa = require('koa')
 const app = new Koa()
 const Router = require('koa-router')
 const serve = require('koa-static')
-const appData = require('./static/dami.js')
 
 var router = new Router()
 router.get('/', ctx => {
@@ -14,16 +13,16 @@ router.get('/', ctx => {
     }
 })
 router.get('/api/seller/:restaurant',(ctx)=>{
-  ctx.body = require(`./static/${ctx.params.restaurant}`).seller
+  ctx.body = require(`./static/data/${ctx.params.restaurant}`).seller
 })
 router.get('/api/goods/:restaurant',(ctx)=>{
-  ctx.body = require(`./static/${ctx.params.restaurant}`).goods
+  ctx.body = require(`./static/data/${ctx.params.restaurant}`).goods
 })
 router.get('/api/ratings/:restaurant',(ctx)=>{
-  ctx.body = require(`./static/${ctx.params.restaurant}`).ratings
+  ctx.body = require(`./static/data/${ctx.params.restaurant}`).ratings
 })
 router.get('/list/sellers',(ctx)=>{
-  ctx.body = ['dami','data']
+  ctx.body = ['dami','data','damixiansheng']
 })
 app.use(async function (ctx,next) {
   ctx.res.setHeader("Access-Control-Allow-Origin", "*")
