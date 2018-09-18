@@ -6,7 +6,7 @@
         </div>
         <div class="desc">
             <star :size="36" :score="seller.score"></star>
-            <span class="text">({{seller.ratingCount}})</span>
+            <span class="text">{{seller.score}}</span>
             <span class="text">月售{{seller.sellCount}}单</span>
         </div>
         <ul class="remark" style="list-style:none">
@@ -353,7 +353,7 @@ $147 = rgb(147, 153, 159)
     position fixed
     top 50%
     left 0
-    margin-top -50%
+    transform translateY(-50%)
     width 100vw
     z-index 900
 

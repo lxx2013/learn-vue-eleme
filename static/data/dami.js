@@ -9,7 +9,6 @@ module.exports = {
     "rankRate": 69.2,
     "minPrice": 20,
     "deliveryPrice": 4,
-    "ratingCount": 24,
     "sellCount": 90,
     "koubei-recommend":true,
     "bulletin": '大米先生品牌店成立于2011年4月，作为乡村基的"兄弟品牌"是将自选式餐饮模式融合到中式快餐中，目前已经取得了不错的品牌和客户群。\n品质保证：精选益海嘉里‘海皇’品牌非转基因大豆油，正宗泰国茉莉香米，坚持使用李锦记、联合利华旗下品牌调料，用的放心，吃的舒心。\n大米先生坚持原材料当天进货加工，现炒更好吃。',

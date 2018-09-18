@@ -304,6 +304,7 @@ export default {
                     line-height 18px
                     font-weight 400
                     margin 6px 0 8px 0
+                    font-size 14px
                 }
 
                 .reply {

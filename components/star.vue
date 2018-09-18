@@ -10,7 +10,7 @@ export default {
             type:Number
         },
         score:{
-            type:Number
+            type:[Number,String]
         },
         max:{
             type:Number,
