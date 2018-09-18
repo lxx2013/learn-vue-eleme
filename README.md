@@ -17,12 +17,15 @@
 ### 3.后端
 - `nuxt.js` 服务器渲染
 - `koa2 koa-router koa-static` 简单服务器
+- `cheerio` 获取并解析 eleme 网站数据 
+- `puppeteer`
 - `nginx` 端口转发 `upstream`
 - `pm2` 进程守护
 
 ### 4.其它
 - eslint 配置[未完成]
 - 随机图片来自于`"http://7xr4g8.com1.z0.glb.clouddn.com/" + parseInt(1+900*Math.random())`
+- 开发时使用`frp`做内网穿透 [segmentfault 链接](https://segmentfault.com/a/1190000016205654?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
 
 ## 已知问题
 1. `nuxt` 的 `keep-alive` 有问题, 如果选择了`keep-alive`会导致 `mounted` 和 `created` 函数不执行,而 data 会重新读取初始值. 我在官方目录参与的[ Issue 链接 ](https://github.com/nuxt/nuxt.js/issues/3267)

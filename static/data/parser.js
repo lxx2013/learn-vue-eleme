@@ -1,4 +1,4 @@
-const rn = 'damixiansheng' //restaunrant_name
+const rn = 'chuanjiaochufang' //restaunrant_name
 //配置部分结束*/
 //营业资质图片还是手动吧, eleme 很严格
 //***********/
@@ -63,7 +63,7 @@ var seller = output.seller
         seller["serviceScore"] = $('section[class^="overview"]>div:nth-of-type(2)').text().match(/\d+(\.\d+)?/g)[1];
         seller["foodScore"] = $('section[class^="overview"] >div:nth-of-type(2)').getNum();
         seller["rankRate"] = "99"
-        seller["minPrice"] = $('a[class^="submit-btn"]>span').getNum();
+        seller["minPrice"] = $('a[class^="submit-btn"]').getNum();
         seller["deliveryPrice"] = $('p[class^="bottomNav-cartdelivery"]').getNum();
         seller["sellCount"] = div.find('>div span:nth-of-type(2)').getNum()
     })()

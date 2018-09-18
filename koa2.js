@@ -22,7 +22,7 @@ router.get('/api/ratings/:restaurant',(ctx)=>{
   ctx.body = require(`./static/data/${ctx.params.restaurant}`).ratings
 })
 router.get('/list/sellers',(ctx)=>{
-  ctx.body = ['dami','data','damixiansheng']
+  ctx.body = ['dami','data','damixiansheng','chuanweixiaochu']
 })
 app.use(async function (ctx,next) {
   ctx.res.setHeader("Access-Control-Allow-Origin", "*")
