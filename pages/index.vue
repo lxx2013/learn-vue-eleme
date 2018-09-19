@@ -30,7 +30,7 @@
                 <div class="bulletin-bottom">
                   <div class="info-wrapper" v-if="seller.infos['品类']">
                     <span v-for="(item,index) in infoSplit(seller.infos['品类'])" :key="index">{{item}}</span>
-                    <div class="recommend" v-if="seller['koubei-recommend']"><img src="//fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/webp/thumbnail/!20x20r/gravity/Center/crop/20x20/">口碑人气好店</div>
+                    <div class="recommend" v-if="seller['koubei-recommend']"><img src="//fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/png/thumbnail/!20x20r/gravity/Center/crop/20x20/">口碑人气好店</div>
                   </div>
                   <div class="split"></div>
                   <div class="supports" @click.stop.prevent="seller.isFold = !seller.isFold" :class="seller.isFold?'fold':'unfold'">
@@ -112,13 +112,13 @@ export default {
 <style lang='stylus' scoped>
 @import "~assets/mixin"
 .list-item {
-  transition: transform 0.5s;
+  transition: all 0.5s cubic-bezier(.13, 1.33, .97, 1.09);
   display: inline-block;
 }
 .list-enter, .list-leave-to
 /* .list-leave-active for below version 2.1.8 */ {
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateX(-200%);
 }
 .list-leave-active {
   position: absolute;
@@ -140,7 +140,27 @@ export default {
     font-size 12px
     color #666
     font-weight normal
-    border-1px($line)
+    &:firs-of-type:after{
+      display: none
+    }
+    &:after {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0px;
+      width: 100%;
+      border-top: 1px solid $line;
+      content: ' ';
+      $media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio:2) {
+        -webkit-transform: scaleY(0.5)
+        transform: scaleY(0.5)
+      }
+      $media (-webkit-min-device-pixel-ratio: 3),
+      (min-device-pixel-ratio:3) {
+        -webkit-transform: scaleY(0.333333)
+        transform: scaleY(0.333333)
+      }
+    }
     .shadow{
       position absolute
       width 100%
@@ -242,13 +262,13 @@ export default {
         }
         .supports{
           position relative
+          overflow hidden 
           &.fold{
             max-height 48px 
             overflow hidden 
           }
           &.unfold{
-            transition max-height 0.5s
-            max-height 480px
+
           }
           .button{
             position absolute 
@@ -281,7 +301,7 @@ export default {
               background-position center center
               background-repeat no-repeat
               margin-right 4px
-              padding 0 2px 1px 1px
+              padding 0 1px 0px 1px
               text-align center
               &.decrease {
                   background-color rgb(240,115,115)
