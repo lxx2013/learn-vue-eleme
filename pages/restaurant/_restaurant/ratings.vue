@@ -106,6 +106,9 @@ export default {
         name = name.charCodeAt(0) * 100 + name.charCodeAt(name.length - 1);
         return "http://7xr4g8.com1.z0.glb.clouddn.com/" + name % 900;
       }
+      else {
+        return url
+      }
     }
   },
   filters: {
