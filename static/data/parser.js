@@ -11,24 +11,35 @@ var output = { seller: {}, goods: [], ratings: [] }
     var seller = output.seller , rst = input.rst
     seller.name = rst.name
     seller.distance = rst.distance
-    seller["deliveryTime"]= 38 
-    seller["score"]= 4.2 
+    seller["deliveryTime"]= rst.order_lead_time
+    seller["score"]= rst.rating 
     seller["serviceScore"]= 4.1 
     seller["foodScore"]= 4.3 
-    seller["rankRate"]= 69.2 
+    seller["rankRate"]= (69.2+parseFloat((Math.random()*5))).toFixed(1)
     seller["minPrice"]= rst.float_minimum_order_amount
     seller["deliveryPrice"]= rst.float_delivery_fee
-    seller["ratingCount"]= 24 
-    seller["sellCount"]= 90 
+    seller["ratingCount"]= rst.rating_count
+    seller["sellCount"]= rst.recent_order_num
     seller["avatar"] = rst.image_path.getUrl()
     seller["big-avatar"] = rst.shop_sign.image_hash.getUrl() || seller.avatar
     seller["bulletin"] = rst.description || '暂无简介'
     //数组部分
-    seller.supports = rst.activities.map(x =>{
-        var map  = {'满减':0,'折扣':1,'特价':2,'':3,'首单':5}
-        return {type:map[x.icon_name],description:x.description}
-    })
-    seller.pics = []
+    seller.activities = [...new Set(rst.activities.map(x =>{
+        return {icon_name:x.icon_name,description:x.description,icon_color:x.icon_color}
+    }))]
+    seller.activities.push(
+        {
+          "icon_name": "发票",
+          "description": "该商家支持发票,请下单写好发票抬头",
+          "icon_color": "920783"
+        },
+        {
+          "icon_name": "保险",
+          "description": "已加入“外卖保”计划,食品安全保障",
+          "icon_color": "00cc99"
+        },
+    )
+    seller.pics = rst.albums.map(x=>x.cover_image_hash.getUrl())
     seller.infos = {'地址':rst.address,'商家电话':rst.phone.match(/\d{11}/g)[0],"品类" : "其他菜系,包子粥店",
     "营业时间":rst.opening_hours[0],}
     seller.certificate = []
@@ -36,7 +47,15 @@ var output = { seller: {}, goods: [], ratings: [] }
     seller.latitude= rst.latitude
     seller.longitude=rst.longitude
     seller.description = '蜂鸟专送'
-    //seller.supports
+
+    //保留 certificate 信息
+    try {
+        var input_cer = require(__dirname + `/${NAME}.js`)
+        output.seller.certificate = input_cer.seller.certificate
+    }
+    catch (err) {
+        console.log(`No ${rn}.js file `, err)
+    }
 })()
 
 //ratings 部分

@@ -34,11 +34,11 @@
                   </div>
                   <div class="split"></div>
                   <div class="supports" @click.stop.prevent="seller.isFold = !seller.isFold" :class="seller.isFold?'fold':'unfold'">
-                    <span class='button'>{{seller.supports.length}}个活动<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOTk5IiBkPSJNNC41NzcgNS40MjNjLjc5Ljc3IDIuMDczLjc2NyAyLjg1NyAwbDQuMTItNC4wMjZDMTIuMzQ1LjYyNSAxMi4wOSAwIDEwLjk4NSAwSDEuMDI3Qy0uMDc3IDAtLjMzLjYzLjQ1NyAxLjM5N2w0LjEyIDQuMDI2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" :class="seller.isFold?'fold':'unfold'"></span>
+                    <span class='button'>{{seller.activities.length}}个活动<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsPSIjOTk5IiBkPSJNNC41NzcgNS40MjNjLjc5Ljc3IDIuMDczLjc2NyAyLjg1NyAwbDQuMTItNC4wMjZDMTIuMzQ1LjYyNSAxMi4wOSAwIDEwLjk4NSAwSDEuMDI3Qy0uMDc3IDAtLjMzLjYzLjQ1NyAxLjM5N2w0LjEyIDQuMDI2eiIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+" :class="seller.isFold?'fold':'unfold'"></span>
                     <ul>
-                      <li v-for="(support,index) in seller.supports" :key="index">
-                        <span class="icon" :class="classMap[support.type]">{{activity[support.type]}}</span>
-                        <span class="text">{{support.description}}</span>
+                      <li v-for="(item,index) in seller.activities" :key="index">
+                        <span class="icon" :style="'background-color:#'+item.icon_color">{{item.icon_name | iconNameToOne}}</span>
+                        <span class="text">{{item.description}}</span>
                       </li>
                     </ul>
                   </div>
@@ -71,6 +71,16 @@ export default {
         sellers[i].isLike = true;
       }
       return sellers;
+    }
+  },
+  filters:{
+    iconNameToOne(a){
+      if((typeof a == 'string') && ['满','发'].indexOf(a[0])>-1)
+        return a[1]
+      else if((typeof a == 'string'))
+        return a[0]
+      else 
+        return a
     }
   },
   methods:{
@@ -303,29 +313,6 @@ export default {
               margin-right 4px
               padding 0 1px 0px 1px
               text-align center
-              &.decrease {
-                  background-color rgb(240,115,115)
-              }
-
-              &.discount {
-                  background-color #2fa1d2
-              }
-
-              &.special {
-                  background-color rgb(241,136,79)
-              }
-
-              &.invoice {
-                  background-color #920783
-              }
-
-              &.guarantee {
-                  background-color #00cc99
-              }
-
-              &.first-order{
-                  background-color rgb(112, 188, 70)
-              }
             }
           }
         }

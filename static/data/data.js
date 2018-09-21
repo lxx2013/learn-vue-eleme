@@ -12,26 +12,25 @@ module.exports = {
     "ratingCount": 24,
     "sellCount": 90,
     "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
-    "supports": [
-      {
-        "type": 0,
-        "description": "在线支付满28减5"
-      },
-      {
-        "type": 1,
-        "description": "VC无限橙果汁全场8折"
-      },
-      {
-        "type": 2,
-        "description": "单人精彩套餐"
-      },
-      {
-        "type": 3,
-        "description": "该商家支持发票,请下单写好发票抬头"
-      },
+    "activities": [
       {
         "type": 4,
         "description": "已加入“外卖保”计划,食品安全保障"
+      },
+      {
+        "icon_name": "首单",
+        "description": "新用户下单立减13元(不与其它活动同享)",
+        "icon_color": "70bc46"
+      },
+      {
+        "icon_name": "满减",
+        "description": "在线支付满28减5",
+        "icon_color": "f07373"
+      },
+      {
+        "icon_name": "满赠",
+        "description": "VC无限橙果汁全场8折",
+        "icon_color": "3cc791"
       }
     ],
     "avatar": "http://static.galileo.xiaojukeji.com/static/tms/seller_avatar_256px.jpg",

@@ -37,10 +37,10 @@
     <split></split>
     <div class="bulletin">
         <h1 class="title">活动与服务</h1>
-        <ul v-if="seller.supports" class="supports">
-          <li class="support-item" v-for= "(item,index) in seller.supports" :key= "index" :class="classMap[seller.supports[index].type]">
-            <span class="icon" :class="classMap[seller.supports[index].type]">{{activity[item.type]}}</span>
-            <span class="text">{{seller.supports[index].description}}</span>
+        <ul v-if="seller.activities" class="activities">
+          <li class="activity-item" v-for= "(item,index) in seller.activities" :key= "index" >
+            <span class="icon" :style="'background-color:#'+item.icon_color">{{item.icon_name}}</span>
+            <span class="text">{{item.description}}</span>
           </li>
         </ul>
     </div>
@@ -248,9 +248,9 @@ $147 = rgb(147, 153, 159)
         padding 18px
         font-size 12px
         font-weight 300
-        .supports{
+        .activities{
             margin-top 4.27vw
-            .support-item{
+            .activity-item{
                 margin-bottom 3vw
                 .text{
                     vertical-align bottom
@@ -270,30 +270,6 @@ $147 = rgb(147, 153, 159)
     font-size 12px
     font-weight 400
     vertical-align middle
-
-    &.decrease {
-        background-color rgb(240,115,115)
-    }
-
-    &.discount {
-        background-color #2fa1d2
-    }
-
-    &.special {
-        background-color rgb(241,136,79)
-    }
-
-    &.invoice {
-        background-color #920783
-    }
-
-    &.guarantee {
-        background-color #00cc99
-    }
-
-    &.first-order{
-        background-color rgb(112, 188, 70)
-    }
 }
 .pics{
     padding 18px

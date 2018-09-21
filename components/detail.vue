@@ -9,10 +9,10 @@
             <div class="text">优惠信息</div>
             <div class="line"></div>
           </div>
-          <ul v-if="seller.supports" class="supports">
-            <li class="support-item" v-for= "(item,index) in seller.supports" :key= "index" :class="classMap[seller.supports[index].type]">
-              <span class="icon" :class="classMap[seller.supports[index].type]"></span>
-              <span class="text">{{seller.supports[index].description}}</span>
+          <ul v-if="seller.activities" class="supports">
+            <li class="support-item" v-for= "(item,index) in seller.activities" :key= "index" >
+              <span class="icon" :style="'background-color:#'+item.icon_color">{{item.icon_name | iconNameToOne}}</span>
+              <span class="text">{{item.description}}</span>
             </li>
           </ul>
           <div class="title">
@@ -38,6 +38,16 @@ export default {
     props: {
       seller: {
         type: Object
+      }
+    },
+    filters:{
+      iconNameToOne(a){
+        if((typeof a == 'string') && ['满','发'].indexOf(a[0])>-1)
+          return a[1]
+        else if((typeof a == 'string'))
+          return a[0]
+        else 
+          return a
       }
     },
     created() {
@@ -114,6 +124,12 @@ export default {
                 background-size: 16px 16px;
                 background-position: center center;
                 vertical-align: middle;
+                line-height 16px
+                font-size 14px
+                text-align center
+                font-weight 400
+                border-radius 3px
+                padding 0 1px 0px 1px
                 &.decrease {
                   bg-image("decrease_1")
                 }

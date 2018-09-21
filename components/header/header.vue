@@ -14,13 +14,13 @@
         <div class="description">
           {{seller.description}}/{{seller.deliveryTime}}分钟送达
         </div>
-        <div v-if="seller.supports" class="support">
-          <span class="icon" :class= "classMap[seller.supports[0].type]"></span>
-          <span class="text">{{seller.supports[0].description}}</span>
+        <div v-if="seller.activities" class="support">
+          <span class="icon" :style="'background-color:#'+seller.activities[0].icon_color">{{seller.activities[0].icon_name | iconNameToOne }}</span>
+          <span class="text">{{seller.activities[0].description}}</span>
         </div>
       </div>
-      <div v-if= "seller.supports" class="support-count" @click= "$store.commit('toggle_globalBlur');$store.commit('toggle_detailShow'); ">
-        <span class="count">{{seller.supports.length}}个</span>
+      <div v-if= "seller.activities" class="support-count" @click= "$store.commit('toggle_globalBlur');$store.commit('toggle_detailShow'); ">
+        <span class="count">{{seller.activities.length}}个</span>
         <i class="icon-keyboard_arrow_right"></i>
       </div>
     </div>
@@ -51,6 +51,16 @@ export default {
     // header_style:()=>{
     //   backgroundImage : `url${this.seller.avatar}`
     // }
+  },
+  filters:{
+    iconNameToOne(a){
+      if((typeof a == 'string') && ['满','发'].indexOf(a[0])>-1)
+        return a[1]
+      else if((typeof a == 'string'))
+        return a[0]
+      else 
+        return a
+    }
   },
   created() {
     this.classMap = ["decrease", "discount", "special", "invoice", "guarantee"];
@@ -127,34 +137,33 @@ export default {
 
     .support {
       .icon {
-        display: inline-block;
-        width: 12px;
-        height: 12px;
+        width: 14px;
+        height: 15px;
+        font-size 12px
         background-size: 12px 12px;
-        vertical-align: top;
-        &.decrease {
-          bg-image("decrease_1")
-        }
-        &.discount {
-          bg-image("discount_1")
-        }
-        &.special {
-          bg-image("special_1")
-        }
-        &.invoice {
-          bg-image("invoice_1")
-        }
-        &.guarantee {
-          bg-image("guarantee_1")
-        }
+        color white
+        display inline-block
+        line-height 15px
+        border-radius 3px
+        background-position center center
+        background-repeat no-repeat
+        margin-right 2px
+        padding 0 1px 0px 1px
+        text-align center
+        vertical-align top
       }
       .text {
+        display inline-block
         font-size: 10px;
         color: white;
         font-weight: 200;
         line-height: 12px;
         margin-left: 4px;
-        vertical-align: top;
+        vertical-align: bottom;
+        overflow hidden
+        width 50vw
+        white-space nowrap
+        text-overflow ellipsis
       }
     }
   }
