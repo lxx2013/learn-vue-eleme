@@ -23,6 +23,7 @@ var output = { seller: {}, goods: [], ratings: [] }
     seller["avatar"] = rst.image_path.getUrl()
     seller["big-avatar"] = rst.shop_sign.image_hash.getUrl() || seller.avatar
     seller["bulletin"] = rst.description || '暂无简介'
+    seller["koubei-recommend"] = rst.is_premium
     //数组部分
     seller.activities = [...new Set(rst.activities.map(x =>{
         return {icon_name:x.icon_name,description:x.description,icon_color:x.icon_color}
@@ -44,8 +45,8 @@ var output = { seller: {}, goods: [], ratings: [] }
     "营业时间":rst.opening_hours[0],}
     seller.certificate = []
     //需要修改前端的部分
-    seller.latitude= rst.latitude
-    seller.longitude=rst.longitude
+    seller.latitude= rst.latitude || 30.602098
+    seller.longitude=rst.longitude || 114.509348
     seller.description = '蜂鸟专送'
 
     //保留 certificate 信息
@@ -78,7 +79,7 @@ var output = { seller: {}, goods: [], ratings: [] }
 
 //goods 部分
 ;(function(){
-
+    output.goods = input.menu
 })()
 
 fs.writeFileSync(__dirname+`/${NAME}.js`,"module.exports =\n "+ JSON.stringify(output,null,2))

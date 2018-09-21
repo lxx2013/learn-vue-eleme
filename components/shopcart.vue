@@ -13,7 +13,7 @@
           </div>
           <div class="content-right">
               <div class="pay" v-if="totalPrice===0">￥{{seller.minPrice}}起送</div>
-              <div class="pay" v-if="seller.minPrice>totalPrice">￥还差{{(seller.minPrice-totalPrice).toFixed(2)}}起送</div>
+              <div class="pay" v-if="seller.minPrice>totalPrice">还差￥{{(seller.minPrice-totalPrice).toFixed(2)}}起送</div>
               <div class="pay submit" v-if="seller.minPrice<=totalPrice">去结算</div>
           </div>
       </div>
@@ -36,7 +36,7 @@
               </div>
               <div class="price">
                 <span>￥</span>
-                <span>{{food.price*food.count}}</span>
+                <span>{{(food.price*food.count).toFixed(2)}}</span>
               </div>
             </li>
           </ul>
@@ -84,7 +84,7 @@ export default {
       if(total <=0){
         this.toggle_showCart();
       }
-      return total;
+      return total.toFixed(2);
     },
     totalCount() {
       let count = 0;

@@ -138,7 +138,7 @@ export default {
       var name = Object.keys(this.$store.state.restaurants)[0]
       console.log(name)
       this.favoriteActive =  loadFromLocal(name,'FavoriteActive',false)
-      console.log(`localStorage : ${localStorage}`)
+      console.log(`localStorage :`,localStorage)
   },
   transition:{
       name:'content',

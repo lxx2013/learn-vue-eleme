@@ -3,7 +3,7 @@
     <div v-show="showFlag" class='food-detail'>
         <div class="food-content">
           <div class="image-header" @click="showFlag=false">
-            <img :src="food.image" alt="food.image">
+            <img :src="food.image_path | getUrl" alt="food.image">
             <div class="back" @click="showFlag=false">
               <i class="icon-arrow_lift"></i>
             </div>
@@ -11,18 +11,18 @@
           <div class="content">
             <div class="title">{{food.name}}</div>
             <div class="detail">
-              <div class="sell-count"> 月售{{food.sellCount}}份</div>
-              <div class="rating">好评率{{food.rating}}%</div>
+              <div class="sell-count"> 月售{{food.month_sales}}份</div>
+              <div class="rating">好评率{{food.satisfy_rate}}%</div>
             </div>
-            <div class="price">￥{{food.price}}</div>
+            <div class="price">￥{{getPrice(food)}}</div>
             <div class="cartcontrol-wrapper">
               <cartcontrol :food="food"></cartcontrol>
             </div>
           </div>
-          <split v-if="food.info"></split>
-          <div class="info" v-if="food.info">
+          <split v-if="food.info||food.description"></split>
+          <div class="info" v-if="food.info||food.description">
             <h1 class="title">商品信息</h1>
-            <p class="text">{{food.info}}</p>
+            <p class="text">{{food.info||food.description}}</p>
           </div>
           <split v-if="food.ratings && food.ratings.length"></split>
           <div class="rating" v-if="food.ratings && food.ratings.length">
@@ -96,6 +96,13 @@ export default {
       }else {
         return type === this.selectType
       }
+    },
+    getPrice(food){
+      if(food.specfoods)
+        return food.specfoods[0].price
+      else{
+        console.log(food)
+      }
     }
   },
   filters:{
@@ -111,6 +118,29 @@ export default {
         else{
             return url;
         }
+    },
+    getUrl(url) {
+      if (!(typeof url == 'string')) {
+        console.log("getUrl : not String", url);
+        return false;
+      }
+      if (!url || !url.length) {
+        return false;
+      }
+      var ourl = "http://fuss10.elemecdn.com/";
+      //c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/webp/thumbnail/150x/
+      if (/.*(jpeg|png|jpg|bmp|gif).*/.test(url)) {
+        ourl +=
+          url[0] +
+          "/" +
+          url[1] +
+          url[2] +
+          "/" +
+          url.slice(3) +
+          `.${RegExp.$1}` +
+          "?imageMogr/format/png/thumbnail/150x/";
+      }
+      return ourl;
     }
   }
 };

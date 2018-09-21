@@ -11,12 +11,10 @@ module.exports = {
     "deliveryPrice": 4,
     "ratingCount": 24,
     "sellCount": 90,
+    latitude: 30.502098,
+    longitude: 114.40,
     "bulletin": "粥品香坊其烹饪粥料的秘方源于中国千年古法，在融和现代制作工艺，由世界烹饪大师屈浩先生领衔研发。坚守纯天然、0添加的良心品质深得消费者青睐，发展至今成为粥类的引领品牌。是2008年奥运会和2013年园博会指定餐饮服务商。",
     "activities": [
-      {
-        "type": 4,
-        "description": "已加入“外卖保”计划,食品安全保障"
-      },
       {
         "icon_name": "首单",
         "description": "新用户下单立减13元(不与其它活动同享)",
