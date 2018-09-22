@@ -23,8 +23,8 @@
                   <span @click.stop.prevent="seller.shadow=!seller.shadow">···</span>
                   <div><span>蜂鸟专送</span></div>
                   <div class='span-split'>
-                    <span>{{(Math.random()*2).toFixed(2)}}km</span>
-                    <span>{{seller.deliveryTime}}分钟</span>
+                    <span>{{getDistance(seller.latitude,seller.longitude)}}km</span>
+                    <span>{{getDistance(seller.latitude,seller.longitude)|getDeliveryTime}}分钟</span>
                   </div>
                 </div>
                 <div class="bulletin-bottom">
@@ -52,47 +52,91 @@
 
 <script>
 import axios from "axios";
-import star from '~/components/star'
+import star from "~/components/star";
+import { calculateDistance } from "~/assets/common.js";
 export default {
   components: {
     star
   },
   data() {
     return {
+      here: {}
     };
   },
-  computed:{
-    sellers(){
-      var sellers = {}
-      for(let i in this.$store.state.restaurants){
-        sellers[i] = this.$store.state.restaurants[i].seller
+  computed: {
+    sellers() {
+      var sellers = {};
+      for (let i in this.$store.state.restaurants) {
+        sellers[i] = this.$store.state.restaurants[i].seller;
         sellers[i].isFold = true;
         sellers[i].shadow = false;
         sellers[i].isLike = true;
       }
       return sellers;
-    }
-  },
-  filters:{
-    iconNameToOne(a){
-      if((typeof a == 'string') && ['满','发'].indexOf(a[0])>-1)
-        return a[1]
-      else if((typeof a == 'string'))
-        return a[0]
-      else 
-        return a
-    }
-  },
-  methods:{
-    infoSplit(str){
-      return str.split(/,|，/)
     },
+   
+  },
+  filters: {
+    iconNameToOne(a) {
+      if (typeof a == "string" && ["满", "发"].indexOf(a[0]) > -1) return a[1];
+      else if (typeof a == "string") return a[0];
+      else return a;
+    },
+    getDeliveryTime(a) {
+      if(a<30){
+        return Math.round(a*2+Math.random()*10+5)
+      }
+      else{
+        return '∞';
+      }
+    }
+  },
+  methods: {
+    infoSplit(str) {
+      return str.split(/,|，/);
+    },
+    getDistance(la, lon) {
+      //返回一个2位float
+      var here = this.here;
+      var dis = calculateDistance(here.latitude, here.longitude, la, lon);
+      return Math.round(dis * 100) / 100;
+    }
   },
   created() {
-    this.classMap = ["decrease", "discount", "special", "invoice", "guarantee","first-order"];
-    this.activity = ['减','折','特','票','保','首']
+    this.classMap = [
+      "decrease",
+      "discount",
+      "special",
+      "invoice",
+      "guarantee",
+      "first-order"
+    ];
+    this.activity = ["减", "折", "特", "票", "保", "首"];
   },
-  async asyncData({ params,store }) {
+  mounted() {
+    var flag = 0;
+    var latitude, longitude;
+    var getCurrentPosition = (options = {}) => {
+      return new Promise((resolve, reject) => {
+        navigator.geolocation.getCurrentPosition(resolve, reject, options);
+      });
+    };
+    if (window && window.navigator) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          latitude = position.coords.latitude;
+          longitude = -position.coords.longitude;
+          console.log("h5定位成功；");
+          this.here = { latitude, longitude };
+        },
+        function(error) {
+          console.log("h5定失败；");
+        }
+      );
+    } else 
+    this.here = { latitude: 30.514, longitude: 114.407 };
+  },
+  async asyncData({ params, store }) {
     //请求服务端去加载数据
     try {
       console.log(
@@ -103,14 +147,14 @@ export default {
       let url = process.client
         ? `http://eleme.setsuna.wang:8101/list/sellers`
         : `http://localhost:8101/list/sellers`;
-      console.log(`[index.vue 2.] axios.get(url): ${url}`)
+      console.log(`[index.vue 2.] axios.get(url): ${url}`);
       let { data } = await axios.get(url);
-      for(let i=0;i<data.length;i++){
+      for (let i = 0; i < data.length; i++) {
         let url = process.client
           ? `http://eleme.setsuna.wang:8101/api/seller/${data[i]}`
           : `http://localhost:8101/api/seller/${data[i]}`;
-        let data2  = (await axios.get(url)).data;
-        store.commit('update',{name1:data[i],name2:'seller',o:data2});
+        let data2 = (await axios.get(url)).data;
+        store.commit("update", { name1: data[i], name2: "seller", o: data2 });
       }
     } catch (err) {
       console.log("[index.vue 40.]", err);
@@ -120,27 +164,32 @@ export default {
 </script>
 
 <style lang='stylus' scoped>
-@import "~assets/mixin"
+@import '~assets/mixin'
+
 .list-item {
-  transition: all 0.6s cubic-bezier(.13, 1.33, .97, 1.09);
-  display: inline-block;
+  transition all 0.6s cubic-bezier(0.13, 1.33, 0.97, 1.09)
+  display inline-block
 }
-.list-enter, .list-leave-to
-/* .list-leave-active for below version 2.1.8 */ {
-  opacity: 0;
-  transform: translateX(-160%);
+
+.list-enter, .list-leave-to, {
+  opacity 0
+  transform translateX(-160%)
 }
+
 .list-leave-active {
-  position: absolute;
+  position absolute
 }
-*{
+
+* {
   line-height 17px
 }
-.seller-list{
-  .list-item{
+
+.seller-list {
+  .list-item {
     width 100%
   }
-  li>a{
+
+  li>a {
     display flex
     flex-direction row
     position relative
@@ -150,36 +199,41 @@ export default {
     font-size 12px
     color #666
     font-weight normal
-    &:firs-of-type:after{
-      display: none
+
+    &:firs-of-type:after {
+      display none
     }
+
     &:after {
-      display: block;
-      position: absolute;
-      left: 0;
-      top: 0px;
-      width: 100%;
-      border-top: 1px solid $line;
-      content: ' ';
+      display block
+      position absolute
+      left 0
+      top 0px
+      width 100%
+      border-top 1px solid $line
+      content ' '
+
       $media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio:2) {
-        -webkit-transform: scaleY(0.5)
-        transform: scaleY(0.5)
+        -webkit-transform scaleY(0.5)
+        transform scaleY(0.5)
       }
-      $media (-webkit-min-device-pixel-ratio: 3),
-      (min-device-pixel-ratio:3) {
-        -webkit-transform: scaleY(0.333333)
-        transform: scaleY(0.333333)
+
+      $media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio:3) {
+        -webkit-transform scaleY(0.333333)
+        transform scaleY(0.333333)
       }
     }
-    .shadow{
+
+    .shadow {
       position absolute
       width 100%
       height 100%
       top 0
       left 0
       z-index 100
-      background-color rgba(0,0,0,0.5)
-      .dislike{
+      background-color rgba(0, 0, 0, 0.5)
+
+      .dislike {
         width 13.33vw
         height 13.33vw
         border-radius 50%
@@ -188,53 +242,62 @@ export default {
         position absolute
         top 50%
         left 50%
-        transform translate(-50%,-50%)
+        transform translate(-50%, -50%)
         font-size 12px
         font-weight 600
-        line-height 13.33vw  
+        line-height 13.33vw
       }
     }
-    .left{
+
+    .left {
       width 17.33vw
       height 17.33vw
-      img{
+
+      img {
         width 100%
         height 100%
-        border: .133333vw solid rgba(0,0,0,.08);
+        border 0.133333vw solid rgba(0, 0, 0, 0.08)
       }
     }
-    .right{
+
+    .right {
       padding-left 2.67vw
       width 100%
-      .title{
+
+      .title {
         font-size 16.5px
         color #333
         font-weight 700
         height 24px
       }
-      .star-right{
+
+      .star-right {
         display inline-block
         height 17px
         padding-left 3px
         vertical-align middle
       }
-      .delivery-middle{
+
+      .delivery-middle {
         margin-top 3px
         height 12px
         line-height 17px
       }
-      .delivery-right{
+
+      .delivery-right {
         position absolute
         right 2.67vw
         top 2.67vw
         text-align right
         color #999
-        span:first-of-type{
+
+        span:first-of-type {
           height 24px
           line-height 24px
         }
-        div:first-of-type span{
-          background-image linear-gradient(45deg,#0085ff,#0af)
+
+        div:first-of-type span {
+          background-image linear-gradient(45deg, #0085ff, #0af)
           color white
           border-radius 5px
           background-size 100% 80%
@@ -242,68 +305,82 @@ export default {
           background-position center center
         }
       }
-      .bulletin-bottom{
-        .info-wrapper{
+
+      .bulletin-bottom {
+        .info-wrapper {
           margin 3.5vw 2.67vw 0 0
-          span{
+
+          span {
             border 1px solid #ddd
             padding 0 1vw
             margin-right 1.3vw
             height 17px
             line-height 17px
             vertical-align middle
-            font-family 'Helvetica Neue',Tahoma,Arial,PingFangSC-Regular,'Hiragino Sans GB','Microsoft Yahei',sans-serif
+            font-family 'Helvetica Neue', Tahoma, Arial, PingFangSC-Regular, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif
           }
-          div{
+
+          div {
             display inline-block
             color #e8470b
-            img{
+
+            img {
               width 11px
               height 11px
               vertical-align top
               margin 3px
             }
-          } 
+          }
         }
-        .split{
+
+        .split {
           margin-top 3.5vw
           width 100%
           border-1px(#eee)
         }
-        .supports{
-          position relative
-          overflow hidden 
-          &.fold{
-            max-height 48px 
-            overflow hidden 
-          }
-          &.unfold{
 
+        .supports {
+          position relative
+          overflow hidden
+
+          &.fold {
+            max-height 48px
+            overflow hidden
           }
-          .button{
-            position absolute 
+
+          &.unfold {
+          }
+
+          .button {
+            position absolute
             top 0
             right 0
             color #999
-            img{
+
+            img {
               transition all 0.3s ease-in-out
               width 8px
               vertical-align middle
               margin-left 4px
             }
-            .fold{
+
+            .fold {
               transform rotate(0)
             }
-            .unfold{
+
+            .unfold {
               transform rotate(180deg)
             }
           }
-          ul{
+
+          ul {
             diplay flex
           }
-          li{
+
+          li {
             line-height 24px
-            .icon{
+
+            .icon {
               color white
               display inline-block
               line-height 15px
@@ -320,17 +397,20 @@ export default {
     }
   }
 }
-.span-split{
-  span{
+
+.span-split {
+  span {
     height 12px
     line-height 12px
   }
-  span:first-of-type{
+
+  span:first-of-type {
     border-right-1px($line)
     padding-right 3px
   }
-  span:last-of-type{
+
+  span:last-of-type {
     margin-left 3px
-  } 
+  }
 }
 </style>

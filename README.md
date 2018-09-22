@@ -9,10 +9,45 @@
 - Vuex 集中数据管理
 - Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
 - 基于 `JSON.parse` 和 `JSON.stringify` 实现了 `saveToLocal` 和`loadFromLocal`两个函数来访问`localStorage` , 可以保存诸如收藏之类的信息
+- 计算地球上两个点的距离 
+
+> [算法](https://www.zhihu.com/question/46808125)
+
+```js
+export function calculateDistance(lat1, lng1, lat2, lng2) { //latitude //langitude
+    var radLat1 = lat1 * Math.PI / 180.0;
+    var radLat2 = lat2 * Math.PI / 180.0;
+    var a = radLat1 - radLat2;
+    var b = lng1 * Math.PI / 180.0 - lng2 * Math.PI / 180.0;
+    var s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2), 2)));
+    s = s * 6378.137;
+    s = Math.round(s * 10000) / 10000;
+    return s
+};
+```
+> [为什么要使用**半正矢公式**?](https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%9C%86%E8%B7%9D%E7%A6%BB)
+
+令 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/8bb5db7537186e1f6dfc268b6a4b746116d02292) 分别代表球面上两点的经纬度，(s代表出发点，f代表前往点)， ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/0e95dac011503403b232574195bd8bc308d7351d)是两者差的绝对值，那么两点之间的圆心角可由[球面余弦定律(人教版高二数学选修3－3)](http://jiaofu.yousi.com/compontent/pdf/?url=http://jfpdf.yousi.com/160702070606838365.pdf#page=42)所给出:
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/659f673cc78ae3ca131ced79500c5907b2ced035)
+
+此两点间的大圆距离 d，即可根据弧长公式得出，
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/fa0661b0420275e570db90b059bd78171d492ccd)
+
+**在两点之间的大圆距离相对球体的半径很短时，其圆心角很小，余弦函数接近于1，按照以上的反余弦函数公式会有较大的舍入误差。** 此时可使用半正矢函数的定义和两角和的余弦函数展开式求出使用半正矢函数计算大圆距离的公式。
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/4fd2774647982be79459127cccddcc6768ec4680)
+
+这就是在航海上运用广泛的半正矢公式，历史上会将距离和半正矢函数值的关系直接制成表格，方便使用
+
+
 ### 2.移动端适配
 - `border-1px` 通过 `scale` 实现
 - 元素大小可使用 `lib-flexible` 或遵循建议使用 `vw`
 - 结合`@media` 防止 iPhone 5 屏幕过窄而使得元素错位
+
+
 
 ### 3.后端
 - `nuxt.js` 服务器渲染
