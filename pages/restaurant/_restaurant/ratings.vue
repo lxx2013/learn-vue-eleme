@@ -41,6 +41,9 @@
                     </div>
                     <p class="text">{{rating.text}}</p>
                     <div class="reply" v-if="rating.reply">{{rating.reply}}</div>
+                    <div class="order-image-wrapper">
+                        <img :src="getUrl(img.image_hash)" alt="order-image" v-for="img in rating.order_images" :key="img" :style="flexImageStyle(rating.order_images)">
+                    </div>
                     <div class="recommend" v-if="recommend(rating)">
                         <i class="icon-thumb_up"></i>
                         <span v-for="(item,index) in rating.recommend" :key="index">{{item}}</span>
@@ -109,6 +112,38 @@ export default {
       else {
         return url
       }
+    },
+    getUrl(url) {
+      if (!(typeof url == "string")) {
+        console.log("getUrl : not String", url);
+        return false;
+      }
+      if (!url || !url.length) {
+        return false;
+      }
+      var ourl = "http://fuss10.elemecdn.com/";
+      //c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/webp/thumbnail/150x/
+      if (/.*(jpeg|png|jpg|bmp|gif).*/.test(url)) {
+        ourl +=
+          url[0] +
+          "/" +
+          url[1] +
+          url[2] +
+          "/" +
+          url.slice(3) +
+          `.${RegExp.$1}` +
+          "?imageMogr/format/png/thumbnail/150x/";
+      }
+      return ourl;
+    },
+    flexImageStyle(images){
+        if(images && images.length!=0){
+            let o =`width:${80/images.length}vw;height:${80/images.length + 'vw'}`
+            return o
+        }
+        else {
+            return ''
+        }
     }
   },
   filters: {
@@ -333,7 +368,18 @@ export default {
                         // border-color red blue green yellow
                     }
                 }
-
+                .order-image-wrapper{
+                    display flex 
+                    flex-direction row
+                    flex-wrap nowrap
+                    width 80vw
+                    
+                    margin-bottom 8px
+                    img{
+                        flex 0 1 150px
+                        max-height 150px
+                    }
+                }
                 .recommend {
                     line-height 16px
 

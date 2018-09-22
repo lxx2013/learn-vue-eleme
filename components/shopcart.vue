@@ -92,9 +92,9 @@ export default {
         count += food.count;
       }
       if(count <=0 && count !=this.oldCount){
+        this.oldCount = count
         this.toggle_showCart();
       }
-      this.oldCount = count
       return count;
     }
   },

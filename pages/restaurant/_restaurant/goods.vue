@@ -28,7 +28,7 @@
                 </div>
                 <div class="price">
                   <span>￥</span>
-                  <span>{{food.specfoods[0].price}}</span>
+                  <span>{{(food.specfoods[0].price*100).toFixed(0)/100}}</span>
                   <span class="old-price" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
                 </div>
                 <div class="cartcontrol-wrapper">
@@ -72,7 +72,7 @@ export default {
   },
   filters: {
     getUrl(url) {
-      if (!(typeof url == 'string')) {
+      if (!(typeof url == "string")) {
         console.log("getUrl : not String", url);
         return false;
       }
@@ -82,7 +82,9 @@ export default {
       var ourl = "http://fuss10.elemecdn.com/";
       //c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/webp/thumbnail/150x/
       if (/.*(jpeg|png|jpg|bmp|gif).*/.test(url)) {
-        ourl +=url[0] + "/" +
+        ourl +=
+          url[0] +
+          "/" +
           url[1] +
           url[2] +
           "/" +
@@ -103,7 +105,7 @@ export default {
         }
       }
       return 0;
-    },
+    }
   },
   watch: {
     currentIndex: function(val) {
@@ -158,7 +160,7 @@ export default {
       this.$refs.food.show();
     },
     getUrl(url) {
-      if (!(typeof url == 'string')) {
+      if (!(typeof url == "string")) {
         console.log("getUrl : not String", url);
         return false;
       }

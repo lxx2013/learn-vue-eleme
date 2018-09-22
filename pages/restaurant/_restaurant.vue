@@ -83,7 +83,7 @@ export default {
 .blue{
   background-color rgb(35,149,255)
   position absolute
-  top 172px
+  top 175px
   left 0
   height 0.53vw
   width 8vw
