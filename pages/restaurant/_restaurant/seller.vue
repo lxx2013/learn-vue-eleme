@@ -44,8 +44,8 @@
           </li>
         </ul>
     </div>
-    <split></split>
-    <div class="pics">
+    <split v-if="seller.pics.length"></split>
+    <div class="pics" v-if="seller.pics.length">
         <h1 class="title">商家实景</h1>
         <div class="pic-wrapper">
             <ul class="pic-list">
@@ -56,7 +56,7 @@
         </div>
     </div>
     <split></split>
-    <div class="info">
+    <div class="info" >
          <h1 class="title">商家信息</h1>
          <p>{{seller.bulletin}}</p>
          <div class="info-wrapper">
@@ -69,8 +69,8 @@
              </ul>
          </div>
     </div>
-    <split></split>
-    <div class="pics">
+    <split v-if="seller.certificate.length"></split>
+    <div class="pics" v-if="seller.certificate.length">
         <h1 class="title">营业资质</h1>
         <div class="pic-wrapper">
             <ul class="pic-list">

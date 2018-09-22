@@ -122,13 +122,13 @@ export default {
 <style lang='stylus' scoped>
 @import "~assets/mixin"
 .list-item {
-  transition: all 0.5s cubic-bezier(.13, 1.33, .97, 1.09);
+  transition: all 0.6s cubic-bezier(.13, 1.33, .97, 1.09);
   display: inline-block;
 }
 .list-enter, .list-leave-to
 /* .list-leave-active for below version 2.1.8 */ {
   opacity: 0;
-  transform: translateX(-200%);
+  transform: translateX(-160%);
 }
 .list-leave-active {
   position: absolute;

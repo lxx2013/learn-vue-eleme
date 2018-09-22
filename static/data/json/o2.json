@@ -1,0 +1,3407 @@
+{
+    "bought_list": {
+        "food_ids": [],
+        "grey_icon_url": "b571e9375597c7dd8e5b7bd32120928epng",
+        "icon_url": "db75a248a885c94c389b5bbc5c8d876apng",
+        "text": "买过"
+    },
+    "menu": [
+        {
+            "activity": null,
+            "description": "大家喜欢吃，才叫真好吃。",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891371230,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "361f291820af7bbe82b9e0482f62c8a5jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "207199949022",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 28,
+                    "name": "咖喱鸡排蛋包饭",
+                    "photos": [
+                        "361f291820af7bbe82b9e0482f62c8a5jpeg"
+                    ],
+                    "pinyin_name": "galijipaidanbaofan",
+                    "rating": 4.2,
+                    "rating_count": 10,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 10,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537349848,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 621415496,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "207199949022",
+                            "name": "咖喱鸡排蛋包饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "galijipaidanbaofan",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 28,
+                            "recent_rating": 4.2,
+                            "restaurant_id": 788203,
+                            "sku_id": "236689467614",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9969,
+                            "virtual_food_id": 605881138,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "10评价 月售28份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 605881138
+                },
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891370206,
+                    "cold_box": null,
+                    "description": "此商品配有免费可乐或雪碧，请下单备注",
+                    "display_times": [],
+                    "image_path": "55b87ed388f9722f9b839e356fa1d1d3jpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526909150",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 22,
+                    "name": "和风牛肉",
+                    "photos": [
+                        "55b87ed388f9722f9b839e356fa1d1d3jpeg"
+                    ],
+                    "pinyin_name": "hefengniurou",
+                    "rating": 4,
+                    "rating_count": 3,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 3,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1536980226,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74683947,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526909150",
+                            "name": "和风牛肉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "hefengniurou",
+                            "price": 25,
+                            "promotion_stock": -1,
+                            "recent_popularity": 22,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340213982",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9978,
+                            "virtual_food_id": 33591511,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "3评价 月售22份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33591511
+                },
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891372254,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "ebae12c83b2e44f4cbada613ebd497ecjpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526919390",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 13,
+                    "name": "黑椒牛楠焗饭",
+                    "photos": [
+                        "ebae12c83b2e44f4cbada613ebd497ecjpeg"
+                    ],
+                    "pinyin_name": "heijiaoniunanjufan",
+                    "rating": 3,
+                    "rating_count": 3,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 1,
+                    "satisfy_rate": 33,
+                    "scheme": null,
+                    "server_utc": 1537416846,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 136202926,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526919390",
+                            "name": "黑椒牛楠焗饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "heijiaoniunanjufan",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 13,
+                            "recent_rating": 3,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340224222",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9990,
+                            "virtual_food_id": 78189784,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "3评价 月售13份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 78189784
+                },
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891371230,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "3c0b7300804450e8070c490b33f6d774jpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526915294",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 13,
+                    "name": "小丸子蛋包饭",
+                    "photos": [
+                        "3c0b7300804450e8070c490b33f6d774jpeg"
+                    ],
+                    "pinyin_name": "xiaowanzidanbaofan",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537349848,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74686150,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526915294",
+                            "name": "小丸子蛋包饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "xiaowanzidanbaofan",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 13,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340220126",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9986,
+                            "virtual_food_id": 33593564,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售13份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33593564
+                },
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891370206,
+                    "cold_box": null,
+                    "description": "此商品配有免费可乐或雪碧，请下单备注",
+                    "display_times": [],
+                    "image_path": "fae5952737b75cd9ed62729fe18674abjpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526908126",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 8,
+                    "name": "照烧鸡腿",
+                    "photos": [
+                        "fae5952737b75cd9ed62729fe18674abjpeg"
+                    ],
+                    "pinyin_name": "zhaoshaojitui",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1536980226,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74683708,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526908126",
+                            "name": "照烧鸡腿",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "zhaoshaojitui",
+                            "price": 24,
+                            "promotion_stock": -1,
+                            "recent_popularity": 8,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340212958",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9992,
+                            "virtual_food_id": 33591348,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售8份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33591348
+                },
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891370206,
+                    "cold_box": null,
+                    "description": "此商品配有免费可乐或雪碧，请下单备注",
+                    "display_times": [],
+                    "image_path": "e8ac6f66993d1e6c2e306e5f113f83a8jpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526910174",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 3,
+                    "name": "泡菜牛肉",
+                    "photos": [
+                        "e8ac6f66993d1e6c2e306e5f113f83a8jpeg"
+                    ],
+                    "pinyin_name": "paocainiurou",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1536980226,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74684474,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526910174",
+                            "name": "泡菜牛肉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "paocainiurou",
+                            "price": 25,
+                            "promotion_stock": -1,
+                            "recent_popularity": 3,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340215006",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9996,
+                            "virtual_food_id": 33591985,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售3份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33591985
+                }
+            ],
+            "global_id": "-1",
+            "grey_icon_url": "aba732b4ca103b2521c872442d7e5d4epng",
+            "icon_url": "06a05b267f338acfeb8bd682d16e836dpng",
+            "id": -1,
+            "is_activity": null,
+            "is_selected": true,
+            "name": "热销",
+            "type": 2
+        },
+        {
+            "activity": null,
+            "description": "截图扫一扫，最高领20元红包。",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 200000028222704862,
+                    "cold_box": null,
+                    "description": "截图扫一扫，最高领20元红包。",
+                    "display_times": [],
+                    "image_path": "5c6325142745194c57dda5bdf8b4ca97jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "200000032308889822",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 0,
+                    "name": "截图扫一扫，最高领20元红包。",
+                    "photos": [
+                        "5c6325142745194c57dda5bdf8b4ca97jpeg"
+                    ],
+                    "pinyin_name": "jietusaoyisao，zuigaoling20yuanhongbao。",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537493617,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 1232158885,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "200000032308889822",
+                            "name": "截图扫一扫，最高领20元红包。",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "jietusaoyisao，zuigaoling20yuanhongbao。",
+                            "price": 0,
+                            "promotion_stock": -1,
+                            "recent_popularity": 0,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "200000032930698462",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9986,
+                            "virtual_food_id": 1231551650,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售0份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 1231551650
+                }
+            ],
+            "global_id": "200000028222704862",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 200000028222704862,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "截图扫一扫，最高领20元红包。",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "红烧牛腩",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891370206,
+                    "cold_box": null,
+                    "description": "此商品配有免费可乐或雪碧，请下单备注",
+                    "display_times": [],
+                    "image_path": "fae5952737b75cd9ed62729fe18674abjpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526908126",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 9,
+                    "name": "照烧鸡腿",
+                    "photos": [
+                        "fae5952737b75cd9ed62729fe18674abjpeg"
+                    ],
+                    "pinyin_name": "zhaoshaojitui",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537160476,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74683708,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526908126",
+                            "name": "照烧鸡腿",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "zhaoshaojitui",
+                            "price": 24,
+                            "promotion_stock": -1,
+                            "recent_popularity": 9,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340212958",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9991,
+                            "virtual_food_id": 33591348,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售9份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33591348
+                },
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891370206,
+                    "cold_box": null,
+                    "description": "此商品配有免费可乐或雪碧，请下单备注",
+                    "display_times": [],
+                    "image_path": "55b87ed388f9722f9b839e356fa1d1d3jpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526909150",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 29,
+                    "name": "和风牛肉",
+                    "photos": [
+                        "55b87ed388f9722f9b839e356fa1d1d3jpeg"
+                    ],
+                    "pinyin_name": "hefengniurou",
+                    "rating": 4,
+                    "rating_count": 3,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 3,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537160476,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74683947,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526909150",
+                            "name": "和风牛肉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "hefengniurou",
+                            "price": 25,
+                            "promotion_stock": -1,
+                            "recent_popularity": 29,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340213982",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9973,
+                            "virtual_food_id": 33591511,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "3评价 月售29份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33591511
+                },
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891370206,
+                    "cold_box": null,
+                    "description": "此商品配有免费可乐或雪碧，请下单备注",
+                    "display_times": [],
+                    "image_path": "e8ac6f66993d1e6c2e306e5f113f83a8jpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526910174",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 4,
+                    "name": "泡菜牛肉",
+                    "photos": [
+                        "e8ac6f66993d1e6c2e306e5f113f83a8jpeg"
+                    ],
+                    "pinyin_name": "paocainiurou",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537160476,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74684474,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526910174",
+                            "name": "泡菜牛肉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "paocainiurou",
+                            "price": 25,
+                            "promotion_stock": -1,
+                            "recent_popularity": 4,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340215006",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9996,
+                            "virtual_food_id": 33591985,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售4份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33591985
+                }
+            ],
+            "global_id": "3891370206",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 3891370206,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "和风盖饭",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891371230,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "3c0b7300804450e8070c490b33f6d774jpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526915294",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 13,
+                    "name": "小丸子蛋包饭",
+                    "photos": [
+                        "3c0b7300804450e8070c490b33f6d774jpeg"
+                    ],
+                    "pinyin_name": "xiaowanzidanbaofan",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537349848,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74686150,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526915294",
+                            "name": "小丸子蛋包饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "xiaowanzidanbaofan",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 13,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340220126",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9986,
+                            "virtual_food_id": 33593564,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售13份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33593564
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891371230,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "8c6e00c71e88f8e2719df12d3e075f79jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "25526918366",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 7,
+                    "name": "传统炖牛肉蛋包饭",
+                    "photos": [
+                        "8c6e00c71e88f8e2719df12d3e075f79jpeg"
+                    ],
+                    "pinyin_name": "chuantongdunniuroudanbaofan",
+                    "rating": 4,
+                    "rating_count": 1,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537349848,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 182741728,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526918366",
+                            "name": "传统炖牛肉蛋包饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "chuantongdunniuroudanbaofan",
+                            "price": 28,
+                            "promotion_stock": -1,
+                            "recent_popularity": 7,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340223198",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9991,
+                            "virtual_food_id": 107262119,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "1评价 月售7份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 107262119
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891371230,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "361f291820af7bbe82b9e0482f62c8a5jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "207199949022",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 28,
+                    "name": "咖喱鸡排蛋包饭",
+                    "photos": [
+                        "361f291820af7bbe82b9e0482f62c8a5jpeg"
+                    ],
+                    "pinyin_name": "galijipaidanbaofan",
+                    "rating": 4.2,
+                    "rating_count": 10,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 10,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537349848,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 621415496,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "207199949022",
+                            "name": "咖喱鸡排蛋包饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "galijipaidanbaofan",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 28,
+                            "recent_rating": 4.2,
+                            "restaurant_id": 788203,
+                            "sku_id": "236689467614",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9969,
+                            "virtual_food_id": 605881138,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "10评价 月售28份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 605881138
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891371230,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "3b2ad02d3e4087c91010d730af464098jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "207200027870",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 14,
+                    "name": "神之咖喱牛肉蛋包饭",
+                    "photos": [
+                        "3b2ad02d3e4087c91010d730af464098jpeg"
+                    ],
+                    "pinyin_name": "shenzhigaliniuroudanbaofan",
+                    "rating": 4.75,
+                    "rating_count": 4,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 4,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537349848,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 621415580,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "207200027870",
+                            "name": "神之咖喱牛肉蛋包饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "shenzhigaliniuroudanbaofan",
+                            "price": 28,
+                            "promotion_stock": -1,
+                            "recent_popularity": 14,
+                            "recent_rating": 4.75,
+                            "restaurant_id": 788203,
+                            "sku_id": "236689553630",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9983,
+                            "virtual_food_id": 605881215,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "4评价 月售14份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 605881215
+                }
+            ],
+            "global_id": "3891371230",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 3891371230,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "蛋包饭",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 25374463198,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "d3b729dd731b2b0eff87bd2bff0d4562jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "147772396766",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 5,
+                    "name": "博洛尼亚千层面",
+                    "photos": [
+                        "d3b729dd731b2b0eff87bd2bff0d4562jpeg"
+                    ],
+                    "pinyin_name": "boluoniyaqiancengmian",
+                    "rating": 4,
+                    "rating_count": 1,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537588431,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 556763435,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "147772396766",
+                            "name": "博洛尼亚千层面",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "boluoniyaqiancengmian",
+                            "price": 32,
+                            "promotion_stock": -1,
+                            "recent_popularity": 5,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "170485757150",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9995,
+                            "virtual_food_id": 547848419,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "1评价 月售5份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 547848419
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 25374463198,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "6408bacfbb18f215dd6effc328dc95b6jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "147769860318",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 8,
+                    "name": "香肠肉酱焗通粉",
+                    "photos": [
+                        "6408bacfbb18f215dd6effc328dc95b6jpeg"
+                    ],
+                    "pinyin_name": "xiangchangroujiangjutongfen",
+                    "rating": 4.17,
+                    "rating_count": 6,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 6,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537588431,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 556766161,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "147769860318",
+                            "name": "香肠肉酱焗通粉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "xiangchangroujiangjutongfen",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 8,
+                            "recent_rating": 4.17,
+                            "restaurant_id": 788203,
+                            "sku_id": "170488548574",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9992,
+                            "virtual_food_id": 547845942,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "6评价 月售8份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 547845942
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 25374463198,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "e57130b09960e68d65de5051ccca738fjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "147771848926",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 2,
+                    "name": "黑椒牛柳意面",
+                    "photos": [
+                        "e57130b09960e68d65de5051ccca738fjpeg"
+                    ],
+                    "pinyin_name": "heijiaoniuliuyimian",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537588431,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 556771015,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "147771848926",
+                            "name": "黑椒牛柳意面",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "heijiaoniuliuyimian",
+                            "price": 25,
+                            "promotion_stock": -1,
+                            "recent_popularity": 2,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "170493519070",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9998,
+                            "virtual_food_id": 547847884,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售2份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 547847884
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [
+                        {
+                            "name": "辣度",
+                            "values": [
+                                "微辣",
+                                "中辣"
+                            ]
+                        }
+                    ],
+                    "brand": null,
+                    "category_id": 25374463198,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "4caebe123040de95cd2df625b69d8d45jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210052569310",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 5,
+                    "name": "热辣海鲜意面",
+                    "photos": [
+                        "4caebe123040de95cd2df625b69d8d45jpeg"
+                    ],
+                    "pinyin_name": "relahaixianyimian",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537588431,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625126057,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210052569310",
+                            "name": "热辣海鲜意面",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "relahaixianyimian",
+                            "price": 27,
+                            "promotion_stock": -1,
+                            "recent_popularity": 5,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240489082078",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9997,
+                            "virtual_food_id": 608666900,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售5份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608666900
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 25374463198,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "7af929905003d50b6ef77e232510f054jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210055563486",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 1,
+                    "name": "茄汁肉丸意面",
+                    "photos": [
+                        "7af929905003d50b6ef77e232510f054jpeg"
+                    ],
+                    "pinyin_name": "qiezhirouwanyimian",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537588431,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625130296,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210055563486",
+                            "name": "茄汁肉丸意面",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "qiezhirouwanyimian",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 1,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240493422814",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9999,
+                            "virtual_food_id": 608669824,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售1份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608669824
+                }
+            ],
+            "global_id": "25374463198",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 25374463198,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "意面",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891372254,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "ebae12c83b2e44f4cbada613ebd497ecjpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526919390",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 13,
+                    "name": "黑椒牛楠焗饭",
+                    "photos": [
+                        "ebae12c83b2e44f4cbada613ebd497ecjpeg"
+                    ],
+                    "pinyin_name": "heijiaoniunanjufan",
+                    "rating": 3,
+                    "rating_count": 3,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 1,
+                    "satisfy_rate": 33,
+                    "scheme": null,
+                    "server_utc": 1537416846,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 136202926,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526919390",
+                            "name": "黑椒牛楠焗饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "heijiaoniunanjufan",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 13,
+                            "recent_rating": 3,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340224222",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9990,
+                            "virtual_food_id": 78189784,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "3评价 月售13份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 78189784
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891372254,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "73370d1c9fd5b64a8e029987ad207f69jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "25526920414",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 3,
+                    "name": "葡国奶油焗鸡",
+                    "photos": [
+                        "73370d1c9fd5b64a8e029987ad207f69jpeg"
+                    ],
+                    "pinyin_name": "puguonaiyoujuji",
+                    "rating": 4,
+                    "rating_count": 1,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537416846,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 136203547,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526920414",
+                            "name": "葡国奶油焗鸡",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "puguonaiyoujuji",
+                            "price": 27,
+                            "promotion_stock": -1,
+                            "recent_popularity": 3,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340225246",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9997,
+                            "virtual_food_id": 78190163,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "1评价 月售3份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 78190163
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891372254,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "028e3076cc16038794d961aaca555ce9jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "25526921438",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 8,
+                    "name": "奶油海鲜焗饭",
+                    "photos": [
+                        "028e3076cc16038794d961aaca555ce9jpeg"
+                    ],
+                    "pinyin_name": "naiyouhaixianjufan",
+                    "rating": 4,
+                    "rating_count": 3,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 3,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537416846,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 136203203,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526921438",
+                            "name": "奶油海鲜焗饭",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "naiyouhaixianjufan",
+                            "price": 27,
+                            "promotion_stock": -1,
+                            "recent_popularity": 8,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340226270",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9992,
+                            "virtual_food_id": 78189962,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "3评价 月售8份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 78189962
+                }
+            ],
+            "global_id": "3891372254",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 3891372254,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "焗饭",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891373278,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "4a7be306e2974d9aaf17ce437947f962jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210066679006",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 1,
+                    "name": "彩虹沙拉",
+                    "photos": [
+                        "4a7be306e2974d9aaf17ce437947f962jpeg"
+                    ],
+                    "pinyin_name": "caihongshala",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537591892,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625145678,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210066679006",
+                            "name": "彩虹沙拉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "caihongshala",
+                            "price": 26,
+                            "promotion_stock": -1,
+                            "recent_popularity": 1,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240509173982",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9999,
+                            "virtual_food_id": 608680679,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售1份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608680679
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891373278,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "9c0c5b191c5db5e63800777d17ce02d8jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210067589342",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 2,
+                    "name": "黄桃鸡肉沙拉",
+                    "photos": [
+                        "9c0c5b191c5db5e63800777d17ce02d8jpeg"
+                    ],
+                    "pinyin_name": "huangtaojiroushala",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537591892,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625146630,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210067589342",
+                            "name": "黄桃鸡肉沙拉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "huangtaojiroushala",
+                            "price": 25,
+                            "promotion_stock": -1,
+                            "recent_popularity": 2,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240510148830",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9998,
+                            "virtual_food_id": 608681568,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售2份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608681568
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891373278,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "54c493796001a1c7362afffd902e89abjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210064854238",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 5,
+                    "name": "酸奶水果沙拉",
+                    "photos": [
+                        "54c493796001a1c7362afffd902e89abjpeg"
+                    ],
+                    "pinyin_name": "suannaishuiguoshala",
+                    "rating": 5,
+                    "rating_count": 2,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 2,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537591892,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625149356,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210064854238",
+                            "name": "酸奶水果沙拉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "suannaishuiguoshala",
+                            "price": 20,
+                            "promotion_stock": -1,
+                            "recent_popularity": 5,
+                            "recent_rating": 5,
+                            "restaurant_id": 788203,
+                            "sku_id": "240512940254",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9995,
+                            "virtual_food_id": 608678897,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "2评价 月售5份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608678897
+                }
+            ],
+            "global_id": "3891373278",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 3891373278,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "分享沙拉",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891374302,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "ae3eb07ee63401fd053e95d73a4582c5jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "25526926558",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 6,
+                    "name": "深海鳕鱼",
+                    "photos": [
+                        "ae3eb07ee63401fd053e95d73a4582c5jpeg"
+                    ],
+                    "pinyin_name": "shenhaixueyu",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537428105,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74693812,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526926558",
+                            "name": "深海鳕鱼",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "shenhaixueyu",
+                            "price": 11,
+                            "promotion_stock": -1,
+                            "recent_popularity": 6,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340231390",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9993,
+                            "virtual_food_id": 33599671,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售6份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33599671
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891374302,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "cb48bebc514d00fba20cce4c54678922jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "25526931678",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 12,
+                    "name": "牛扒薯条",
+                    "photos": [
+                        "cb48bebc514d00fba20cce4c54678922jpeg"
+                    ],
+                    "pinyin_name": "niubashutiao",
+                    "rating": 4.33,
+                    "rating_count": 3,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 3,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537428105,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 182742305,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526931678",
+                            "name": "牛扒薯条",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "niubashutiao",
+                            "price": 9,
+                            "promotion_stock": -1,
+                            "recent_popularity": 12,
+                            "recent_rating": 4.33,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340236510",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9990,
+                            "virtual_food_id": 107262494,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "3评价 月售12份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 107262494
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891374302,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "9eff1e8d53fe6085b61cb45d81c5736bjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210030845150",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 4,
+                    "name": "小吃拼盘",
+                    "photos": [
+                        "9eff1e8d53fe6085b61cb45d81c5736bjpeg"
+                    ],
+                    "pinyin_name": "xiaochipinpan",
+                    "rating": 4,
+                    "rating_count": 1,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537428105,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625094478,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210030845150",
+                            "name": "小吃拼盘",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "xiaochipinpan",
+                            "price": 35,
+                            "promotion_stock": -1,
+                            "recent_popularity": 4,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "240456745182",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9995,
+                            "virtual_food_id": 608645685,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "1评价 月售4份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608645685
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891374302,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "892bc9f73c9033dd9de2901c09505683jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210036010206",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 1,
+                    "name": "田园沙拉",
+                    "photos": [
+                        "892bc9f73c9033dd9de2901c09505683jpeg"
+                    ],
+                    "pinyin_name": "tianyuanshala",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537428105,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625102377,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210036010206",
+                            "name": "田园沙拉",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "tianyuanshala",
+                            "price": 10,
+                            "promotion_stock": -1,
+                            "recent_popularity": 1,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240464833758",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9999,
+                            "virtual_food_id": 608650729,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售1份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608650729
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891374302,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "d2b99472ba9f0710af7c0679367ac2bcjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210075085022",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 6,
+                    "name": "鲜蔬鸡肉卷",
+                    "photos": [
+                        "d2b99472ba9f0710af7c0679367ac2bcjpeg"
+                    ],
+                    "pinyin_name": "xianshujiroujuan",
+                    "rating": 4,
+                    "rating_count": 2,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 2,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537428105,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625160258,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210075085022",
+                            "name": "鲜蔬鸡肉卷",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "xianshujiroujuan",
+                            "price": 18,
+                            "promotion_stock": -1,
+                            "recent_popularity": 6,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "240524103902",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9994,
+                            "virtual_food_id": 608688888,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "2评价 月售6份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608688888
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891374302,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "5e7aa7863222f47029c78563fc1ded4fjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "383284420830",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 13,
+                    "name": "盐酥鸡",
+                    "photos": [
+                        "5e7aa7863222f47029c78563fc1ded4fjpeg"
+                    ],
+                    "pinyin_name": "yansuji",
+                    "rating": 4,
+                    "rating_count": 5,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 5,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537428105,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 821506254,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "383284420830",
+                            "name": "盐酥鸡",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "yansuji",
+                            "price": 12,
+                            "promotion_stock": -1,
+                            "recent_popularity": 13,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "441582388446",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9987,
+                            "virtual_food_id": 777838618,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "5评价 月售13份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 777838618
+                }
+            ],
+            "global_id": "3891374302",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 3891374302,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "小吃",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891375326,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "aeb5e20266744c7e3a3bb64dcdd8093fjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "25526932702",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 6,
+                    "name": "可乐",
+                    "photos": [
+                        "aeb5e20266744c7e3a3bb64dcdd8093fjpeg"
+                    ],
+                    "pinyin_name": "kele",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537160476,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74694633,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526932702",
+                            "name": "可乐",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "kele",
+                            "price": 3,
+                            "promotion_stock": -1,
+                            "recent_popularity": 6,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340237534",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9992,
+                            "virtual_food_id": 33600382,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售6份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33600382
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 3891375326,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "562bcad57487115770c4c86734705533jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "25526933726",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 8,
+                    "name": "雪碧",
+                    "photos": [
+                        "562bcad57487115770c4c86734705533jpeg"
+                    ],
+                    "pinyin_name": "xuebi",
+                    "rating": 4,
+                    "rating_count": 3,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 3,
+                    "satisfy_rate": 100,
+                    "scheme": null,
+                    "server_utc": 1537160476,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74694718,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "25526933726",
+                            "name": "雪碧",
+                            "original_price": null,
+                            "packing_fee": 0,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "xuebi",
+                            "price": 3,
+                            "promotion_stock": -1,
+                            "recent_popularity": 8,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340238558",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9993,
+                            "virtual_food_id": 33600457,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "3评价 月售8份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 33600457
+                }
+            ],
+            "global_id": "3891375326",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 3891375326,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "饮品",
+            "type": 1
+        },
+        {
+            "activity": null,
+            "description": "",
+            "foods": [
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 28315262174,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "f5212442d97acb3053991d7adc7a0ea5jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "209940411614",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 2,
+                    "name": "我是芝士控",
+                    "photos": [
+                        "f5212442d97acb3053991d7adc7a0ea5jpeg"
+                    ],
+                    "pinyin_name": "woshizhishikong",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537609500,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 624997536,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "209940411614",
+                            "name": "我是芝士控",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "woshizhishikong",
+                            "price": 38,
+                            "promotion_stock": -1,
+                            "recent_popularity": 2,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240357476574",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9998,
+                            "virtual_food_id": 608557371,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售2份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608557371
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 28315262174,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "4ad9e7d9f445a3a4a0201da0a2aee650jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "209943784670",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 1,
+                    "name": "口口都是肉",
+                    "photos": [
+                        "4ad9e7d9f445a3a4a0201da0a2aee650jpeg"
+                    ],
+                    "pinyin_name": "koukoudoushirou",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537609500,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625005153,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "209943784670",
+                            "name": "口口都是肉",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "koukoudoushirou",
+                            "price": 40,
+                            "promotion_stock": -1,
+                            "recent_popularity": 1,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240365276382",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 10000,
+                            "virtual_food_id": 608560665,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售1份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608560665
+                },
+                {
+                    "activity": null,
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": null,
+                    "category_id": 28315262174,
+                    "cold_box": null,
+                    "description": "",
+                    "display_times": [],
+                    "image_path": "35698cc92ee2245388b9969c03dd35bdjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210027642078",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 1,
+                    "name": "夏威夷风情",
+                    "photos": [
+                        "35698cc92ee2245388b9969c03dd35bdjpeg"
+                    ],
+                    "pinyin_name": "xiaweiyifengqing",
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": null,
+                    "server_utc": 1537609500,
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625092811,
+                            "is_essential": false,
+                            "is_selected": null,
+                            "item_id": "210027642078",
+                            "name": "夏威夷风情",
+                            "original_price": null,
+                            "packing_fee": 1,
+                            "partial_reduce_activity_id": null,
+                            "pinyin_name": "xiaweiyifengqing",
+                            "price": 36,
+                            "promotion_stock": -1,
+                            "recent_popularity": 1,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240455038174",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9999,
+                            "virtual_food_id": 608642557,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售1份",
+                    "type": 0,
+                    "video": null,
+                    "virtual_food_id": 608642557
+                }
+            ],
+            "global_id": "28315262174",
+            "grey_icon_url": "",
+            "icon_url": "",
+            "id": 28315262174,
+            "is_activity": 0,
+            "is_selected": false,
+            "name": "披萨",
+            "type": 1
+        }
+    ],
+    "recommend": [
+        {
+            "items": [
+                {
+                    "attributes": [],
+                    "attrs": [
+                        {
+                            "name": "辣度",
+                            "values": [
+                                "微辣",
+                                "中辣"
+                            ]
+                        }
+                    ],
+                    "brand": {
+                        "attrs2": [
+                            {
+                                "details": [
+                                    {
+                                        "linkage_photo_hash": "",
+                                        "name": "微辣",
+                                        "photo_hash": "",
+                                        "selected": true
+                                    },
+                                    {
+                                        "linkage_photo_hash": "",
+                                        "name": "中辣",
+                                        "photo_hash": "",
+                                        "selected": false
+                                    }
+                                ],
+                                "linkage_status": 0,
+                                "name": "辣度"
+                            }
+                        ],
+                        "ingredient_info": null,
+                        "show_photo_type": 0,
+                        "specifications2": [],
+                        "sub_items": []
+                    },
+                    "category_id": 25374463198,
+                    "description": "",
+                    "image_path": "4caebe123040de95cd2df625b69d8d45jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210052569310",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 5,
+                    "name": "热辣海鲜意面",
+                    "photos": [
+                        "4caebe123040de95cd2df625b69d8d45jpeg"
+                    ],
+                    "rating": 0,
+                    "rating_count": 0,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 0,
+                    "satisfy_rate": 0,
+                    "scheme": "eleme://catering?target_food_id=625126057&restaurant_id=788203&category_id=25374463198",
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625126057,
+                            "is_essential": false,
+                            "item_id": "210052569310",
+                            "name": "热辣海鲜意面",
+                            "packing_fee": 1,
+                            "pinyin_name": "relahaixianyimian",
+                            "price": 27,
+                            "promotion_stock": -1,
+                            "recent_popularity": 5,
+                            "recent_rating": 0,
+                            "restaurant_id": 788203,
+                            "sku_id": "240489082078",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9997,
+                            "virtual_food_id": 608666900,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "0评价 月售5份",
+                    "type": 0,
+                    "virtual_food_id": 608666900
+                },
+                {
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": {
+                        "attrs2": [],
+                        "ingredient_info": null,
+                        "show_photo_type": 0,
+                        "specifications2": [],
+                        "sub_items": []
+                    },
+                    "category_id": 25374463198,
+                    "description": "",
+                    "image_path": "d3b729dd731b2b0eff87bd2bff0d4562jpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "147772396766",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 5,
+                    "name": "博洛尼亚千层面",
+                    "photos": [
+                        "d3b729dd731b2b0eff87bd2bff0d4562jpeg"
+                    ],
+                    "rating": 4,
+                    "rating_count": 1,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 1,
+                    "satisfy_rate": 100,
+                    "scheme": "eleme://catering?target_food_id=556763435&restaurant_id=788203&category_id=25374463198",
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 556763435,
+                            "is_essential": false,
+                            "item_id": "147772396766",
+                            "name": "博洛尼亚千层面",
+                            "packing_fee": 1,
+                            "pinyin_name": "boluoniyaqiancengmian",
+                            "price": 32,
+                            "promotion_stock": -1,
+                            "recent_popularity": 5,
+                            "recent_rating": 4,
+                            "restaurant_id": 788203,
+                            "sku_id": "170485757150",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9995,
+                            "virtual_food_id": 547848419,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "1评价 月售5份",
+                    "type": 0,
+                    "virtual_food_id": 547848419
+                },
+                {
+                    "attributes": [],
+                    "attrs": [],
+                    "brand": {
+                        "attrs2": [],
+                        "ingredient_info": null,
+                        "show_photo_type": 0,
+                        "specifications2": [],
+                        "sub_items": []
+                    },
+                    "category_id": 3891373278,
+                    "description": "",
+                    "image_path": "54c493796001a1c7362afffd902e89abjpeg",
+                    "is_essential": false,
+                    "is_featured": 0,
+                    "item_id": "210064854238",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 5,
+                    "name": "酸奶水果沙拉",
+                    "photos": [
+                        "54c493796001a1c7362afffd902e89abjpeg"
+                    ],
+                    "rating": 5,
+                    "rating_count": 2,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 2,
+                    "satisfy_rate": 100,
+                    "scheme": "eleme://catering?target_food_id=625149356&restaurant_id=788203&category_id=3891373278",
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 625149356,
+                            "is_essential": false,
+                            "item_id": "210064854238",
+                            "name": "酸奶水果沙拉",
+                            "packing_fee": 1,
+                            "pinyin_name": "suannaishuiguoshala",
+                            "price": 20,
+                            "promotion_stock": -1,
+                            "recent_popularity": 5,
+                            "recent_rating": 5,
+                            "restaurant_id": 788203,
+                            "sku_id": "240512940254",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9995,
+                            "virtual_food_id": 608678897,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "2评价 月售5份",
+                    "type": 0,
+                    "virtual_food_id": 608678897
+                },
+                {
+                    "attributes": [
+                        {
+                            "icon_color": "ec9c68",
+                            "icon_name": "招牌"
+                        }
+                    ],
+                    "attrs": [],
+                    "brand": {
+                        "attrs2": [],
+                        "ingredient_info": null,
+                        "show_photo_type": 0,
+                        "specifications2": [],
+                        "sub_items": []
+                    },
+                    "category_id": 3891370206,
+                    "description": "此商品配有免费可乐或雪碧，请下单备注",
+                    "image_path": "55b87ed388f9722f9b839e356fa1d1d3jpeg",
+                    "is_essential": false,
+                    "is_featured": 1,
+                    "item_id": "25526909150",
+                    "limitation": {},
+                    "min_purchase": 1,
+                    "month_sales": 33,
+                    "name": "和风牛肉",
+                    "photos": [
+                        "55b87ed388f9722f9b839e356fa1d1d3jpeg"
+                    ],
+                    "rating": 4.4,
+                    "rating_count": 5,
+                    "restaurant_id": 788203,
+                    "satisfy_count": 5,
+                    "satisfy_rate": 100,
+                    "scheme": "eleme://catering?target_food_id=74683947&restaurant_id=788203&category_id=3891370206",
+                    "specfoods": [
+                        {
+                            "checkout_mode": 1,
+                            "food_id": 74683947,
+                            "is_essential": false,
+                            "item_id": "25526909150",
+                            "name": "和风牛肉",
+                            "packing_fee": 1,
+                            "pinyin_name": "hefengniurou",
+                            "price": 25,
+                            "promotion_stock": -1,
+                            "recent_popularity": 33,
+                            "recent_rating": 4.4,
+                            "restaurant_id": 788203,
+                            "sku_id": "30340213982",
+                            "sold_out": false,
+                            "specs": [],
+                            "stock": 9967,
+                            "virtual_food_id": 33591511,
+                            "weight": 0
+                        }
+                    ],
+                    "specifications": [],
+                    "tips": "5评价 月售33份",
+                    "type": 0,
+                    "virtual_food_id": 33591511
+                }
+            ],
+            "name": "商家推荐",
+            "window_type": 0
+        }
+    ],
+    "redpack": [],
+    "rst": {
+        "activities": [
+            {
+                "attribute": "13.0",
+                "description": "新用户下单立减13元(不与其它活动同享)",
+                "icon_color": "70bc46",
+                "icon_name": "首单",
+                "id": 1463615137,
+                "is_exclusive_with_food_activity": true,
+                "name": "新用户立减(不与其他活动共享)",
+                "tips": "新用户下单立减13元(不与其它活动同享)",
+                "type": 103
+            }
+        ],
+        "address": "武汉市洪山区华中科技大学西三区华宏留学生服务中心门面",
+        "albums": [
+            {
+                "count": 1,
+                "cover_image_hash": "9d756094a5eba323dcbca5620a9b826ajpeg",
+                "name": "门面",
+                "photos": [
+                    {
+                        "description": "门头照",
+                        "id": 1817567,
+                        "image_hash": "9d756094a5eba323dcbca5620a9b826ajpeg",
+                        "type": "FRONT"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "cover_image_hash": "7885d2af8f4df53ff9dabc3e34823ad1jpeg",
+                "name": "大堂",
+                "photos": [
+                    {
+                        "description": "店内照",
+                        "id": 1817568,
+                        "image_hash": "7885d2af8f4df53ff9dabc3e34823ad1jpeg",
+                        "type": "HALL"
+                    },
+                    {
+                        "description": "",
+                        "id": 16169361,
+                        "image_hash": "42da60b47291f820e758f68dcd171394jpeg",
+                        "type": "HALL"
+                    }
+                ]
+            }
+        ],
+        "authentic_id": 5323660079465203,
+        "business_info": "{}",
+        "delivery_mode": {
+            "border": "",
+            "color": "2395FF",
+            "gradient": {
+                "rgb_from": "00AAFF",
+                "rgb_to": "0085FF"
+            },
+            "icon_hash": "b9b45d2f6ff0dbeef3a78ef0e4e90abapng",
+            "id": 1,
+            "is_solid": true,
+            "text": "蜂鸟专送",
+            "text_color": "FFFFFF"
+        },
+        "description": "叫外卖上饿了么！",
+        "distance": 1460,
+        "favored": false,
+        "flavors": [
+            {
+                "id": 234,
+                "name": "炸鸡炸串"
+            },
+            {
+                "id": 265,
+                "name": "简餐"
+            }
+        ],
+        "float_delivery_fee": 3.6,
+        "float_minimum_order_amount": 20,
+        "has_story": false,
+        "id": 788203,
+        "image_path": "363449fbb222d50c1181a3904c885f7cpng",
+        "is_new": false,
+        "is_premium": false,
+        "is_stock_empty": 0,
+        "is_valid": 1,
+        "latitude": 30.51531,
+        "longitude": 114.40474,
+        "max_applied_quantity_per_order": 1,
+        "name": "氧气层(华科店)",
+        "next_business_time": "",
+        "only_use_poi": false,
+        "opening_hours": [
+            "10:30/20:00"
+        ],
+        "order_lead_time": 29,
+        "phone": "18062156175",
+        "piecewise_agent_fee": {
+            "description": "配送费¥3.6",
+            "extra_fee": 0.1,
+            "is_extra": true,
+            "no_subsidy_fee": "",
+            "rules": [
+                {
+                    "fee": 3.6,
+                    "price": 20
+                }
+            ],
+            "tips": "配送费¥3.6"
+        },
+        "platform": 0,
+        "posters": [],
+        "promotion_info": "派送时间：11：00—21：00",
+        "qualification": {
+            "link": "https://h5.ele.me/shop/certification/#/?restaurant_id=E11577363975113850854"
+        },
+        "rating": 4.8,
+        "rating_count": 57,
+        "recent_order_num": 172,
+        "recommend": {
+            "is_ad": false,
+            "reason": ""
+        },
+        "recommend_reasons": [
+            {
+                "name": "配送飞快"
+            }
+        ],
+        "regular_customer_count": 0,
+        "scheme": "eleme://catering?restaurant_id=788203",
+        "shop_sign": {
+            "brand_story": "",
+            "image_hash": ""
+        },
+        "status": 1,
+        "support_tags": [
+            {
+                "border": "dddddd",
+                "color": "666666",
+                "icon": "4e20966ca2a516de3f02fb9c7fd1bc6dpng",
+                "text": "炸鸡炸串",
+                "type": 1
+            }
+        ],
+        "supports": [],
+        "theme": {
+            "default_color": "2395ff",
+            "header_style": 3,
+            "hongbao_style": 0,
+            "price_color": "ff5339",
+            "third_tab_name": "商家",
+            "vanish_fields": []
+        },
+        "type": 0,
+        "weight": {
+            "basic": 20000,
+            "maximum": 20000,
+            "unit": 20000,
+            "unit_fee": 20000
+        }
+    },
+    "user": {
+        "avatar": "",
+        "balance": 0,
+        "brand_member_new": 0,
+        "column_desc": {
+            "game_desc": "玩游戏领红包",
+            "game_image_hash": "05f108ca4e0c543488799f0c7c708cb1jpeg",
+            "game_is_show": 1,
+            "game_link": "https://gamecenter.faas.ele.me",
+            "gift_mall_desc": "0元好物在这里"
+        },
+        "current_address_id": 0,
+        "current_invoice_id": 0,
+        "delivery_card_expire_days": 0,
+        "email": "",
+        "gift_amount": 2,
+        "id": 397490226,
+        "is_active": 1,
+        "is_email_valid": false,
+        "is_mobile_valid": true,
+        "mobile": "17720486174",
+        "point": 124,
+        "real_point": 0,
+        "supervip_status": 3,
+        "user_id": 398000826,
+        "username": "e32e4b6803e"
+    },
+    "ratings": [
+        {
+            "avatar": "748ae7e00a56194274ac23e2bed412f2jpeg",
+            "food_ratings": [
+                {
+                    "food_id": 74686150,
+                    "rate_name": "小丸子蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340220126
+                },
+                {
+                    "food_id": 74694633,
+                    "rate_name": "可乐",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340237534
+                },
+                {
+                    "food_id": 556763435,
+                    "rate_name": "博洛尼亚千层面",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 170485757150
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225743702339652663,
+            "order_images": [
+                {
+                    "food_ids": [
+                        74686150
+                    ],
+                    "food_names": [
+                        "小丸子蛋包饭"
+                    ],
+                    "image_hash": "0a0827fbc374f4dfcabe9f93a3458945jpeg"
+                }
+            ],
+            "rated_at": "2018-09-21",
+            "rating": 5,
+            "rating_text": "哈哈哈哈哈哈哈哈哈哈好吃",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "一***下"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 621415580,
+                    "rate_name": "神之咖喱牛肉蛋包饭",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 236689553630
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225620531460454455,
+            "order_images": [
+                {
+                    "food_ids": [
+                        621415580
+                    ],
+                    "food_names": [
+                        "神之咖喱牛肉蛋包饭"
+                    ],
+                    "image_hash": "0c5ef6698c1f0d0e66f948c585a68644jpeg"
+                }
+            ],
+            "rated_at": "2018-09-15",
+            "rating": 4,
+            "rating_text": "比店里量少一些，不过一直很好吃～",
+            "reply": {
+                "content": "谢谢你的评价，下次备注可以多点！",
+                "created_at": "2018-09-16 14:51:58"
+            },
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "3*******a"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 74683947,
+                    "rate_name": "和风牛肉",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340213982
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225284113567654967,
+            "order_images": [
+                {
+                    "food_ids": [
+                        74683947
+                    ],
+                    "food_names": [
+                        "和风牛肉"
+                    ],
+                    "image_hash": "3adf241705d6509db653387c22e3c834jpeg"
+                }
+            ],
+            "rated_at": "2018-09-08",
+            "rating": 4,
+            "rating_text": "稍微辣了些 不吃辣的人不太能接受 要是能把顶层的红色萝卜丝换成单面煎的溏心蛋会更好！",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "c*********2"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 182741728,
+                    "rate_name": "传统炖牛肉蛋包饭",
+                    "rating": 4,
+                    "rating_text": "传统炖牛肉蛋包饭 ",
+                    "sku_id": 30340223198
+                }
+            ],
+            "highlights_v2": {
+                "传统炖牛肉蛋包饭": 30340223198
+            },
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1223140030636213303,
+            "order_images": [
+                {
+                    "food_ids": [
+                        182741728
+                    ],
+                    "food_names": [
+                        "传统炖牛肉蛋包饭"
+                    ],
+                    "image_hash": "ff6fe5c75b6c65cd265aa26f41ce742djpeg"
+                }
+            ],
+            "rated_at": "2018-07-24",
+            "rating": 5,
+            "rating_text": "传统炖牛肉蛋包饭 ",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "3*******0"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 182741728,
+                    "rate_name": "传统炖牛肉蛋包饭",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 30340223198
+                },
+                {
+                    "food_id": 74694718,
+                    "rate_name": "雪碧",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 30340238558
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1221943056704607287,
+            "order_images": [
+                {
+                    "food_ids": [
+                        182741728
+                    ],
+                    "food_names": [
+                        "传统炖牛肉蛋包饭"
+                    ],
+                    "image_hash": "6307ba7421e2dc83ae0390b8202bde4bjpeg"
+                },
+                {
+                    "food_ids": [
+                        182741728
+                    ],
+                    "food_names": [
+                        "传统炖牛肉蛋包饭"
+                    ],
+                    "image_hash": "6b14a496ff470f722b19359497f1a5bfjpeg"
+                }
+            ],
+            "rated_at": "2018-06-29",
+            "rating": 5,
+            "rating_text": "蛋皮q弹爽滑，牛肉软嫩入味，汤汁和饭拌在一起吃口感超好",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "4*******7"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 74694718,
+                    "rate_name": "雪碧",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340238558
+                },
+                {
+                    "food_id": 621415496,
+                    "rate_name": "咖喱鸡排蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 236689467614
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225859908845489207,
+            "rated_at": "2018-09-21",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "4*******a"
+        },
+        {
+            "avatar": "816035d2b47bb9f4a1d17c33f1d22fe2jpeg",
+            "food_ratings": [
+                {
+                    "food_id": 182741728,
+                    "rate_name": "传统炖牛肉蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340223198
+                },
+                {
+                    "food_id": 621415496,
+                    "rate_name": "咖喱鸡排蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 236689467614
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225817880812219447,
+            "rated_at": "2018-09-19",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "秋****z"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 74683947,
+                    "rate_name": "和风牛肉",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 30340213982
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225621361672750135,
+            "rated_at": "2018-09-19",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "4*******6"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 136202926,
+                    "rate_name": "黑椒牛楠焗饭",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 30340224222
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225806055651578935,
+            "rated_at": "2018-09-18",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "3*******a"
+        },
+        {
+            "avatar": "731be17c7828e4ed775f854a1b012e67jpeg",
+            "food_ratings": [
+                {
+                    "food_id": 74683947,
+                    "rate_name": "和风牛肉",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 30340213982
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225612043019693111,
+            "rated_at": "2018-09-17",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "按时送达",
+            "username": "A******t"
+        },
+        {
+            "avatar": "bc163b0756730fc19a192a700778a8a2jpeg",
+            "food_ratings": [
+                {
+                    "food_id": 625149356,
+                    "rate_name": "酸奶水果沙拉",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 240512940254
+                },
+                {
+                    "food_id": 182742305,
+                    "rate_name": "牛扒薯条",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 30340236510
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225647435832030263,
+            "rated_at": "2018-09-16",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "汉******g"
+        },
+        {
+            "avatar": "bc163b0756730fc19a192a700778a8a2jpeg",
+            "food_ratings": [
+                {
+                    "food_id": 621415580,
+                    "rate_name": "神之咖喱牛肉蛋包饭",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 236689553630
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225729367576081463,
+            "rated_at": "2018-09-16",
+            "rating": 5,
+            "rating_text": "没蛋送了瓶可乐 划算",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "汉******g"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 621415496,
+                    "rate_name": "咖喱鸡排蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 236689467614
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": false,
+            "is_taobao_vip": false,
+            "order_id": 1225713514944126007,
+            "rated_at": "2018-09-16",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "9*********6"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 821506254,
+                    "rate_name": "盐酥鸡",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 441582388446
+                },
+                {
+                    "food_id": 136203203,
+                    "rate_name": "奶油海鲜焗饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340226270
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225598349942466615,
+            "rated_at": "2018-09-15",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "w********9"
+        },
+        {
+            "avatar": "bc163b0756730fc19a192a700778a8a2jpeg",
+            "food_ratings": [
+                {
+                    "food_id": 625149356,
+                    "rate_name": "酸奶水果沙拉",
+                    "rating": 5,
+                    "rating_text": "",
+                    "sku_id": 240512940254
+                },
+                {
+                    "food_id": 182742305,
+                    "rate_name": "牛扒薯条",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340236510
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225508939066700855,
+            "rated_at": "2018-09-14",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "按时送达",
+            "username": "汉******g"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 136202926,
+                    "rate_name": "黑椒牛楠焗饭",
+                    "rating": 2,
+                    "rating_text": "",
+                    "sku_id": 30340224222
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225535787183973431,
+            "rated_at": "2018-09-13",
+            "rating": 3,
+            "rating_text": "太咸了 淡点会好吃",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "按时送达",
+            "username": "c*********2"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 74683947,
+                    "rate_name": "和风牛肉",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340213982
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": false,
+            "is_taobao_vip": false,
+            "order_id": 1225449546312793143,
+            "rated_at": "2018-09-12",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "3*********7"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 136203547,
+                    "rate_name": "葡国奶油焗鸡",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340225246
+                },
+                {
+                    "food_id": 182741728,
+                    "rate_name": "传统炖牛肉蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340223198
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225322087713891383,
+            "rated_at": "2018-09-11",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "C*******b"
+        },
+        {
+            "avatar": "afd4f6a5bacef6b0c6c51019f6f28130jpeg",
+            "food_ratings": [
+                {
+                    "food_id": 621415580,
+                    "rate_name": "神之咖喱牛肉蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 236689553630
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 3029121610916377655,
+            "rated_at": "2018-09-11",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "u*********L"
+        },
+        {
+            "avatar": "",
+            "food_ratings": [
+                {
+                    "food_id": 74694718,
+                    "rate_name": "雪碧",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 30340238558
+                },
+                {
+                    "food_id": 621415496,
+                    "rate_name": "咖喱鸡排蛋包饭",
+                    "rating": 4,
+                    "rating_text": "",
+                    "sku_id": 236689467614
+                }
+            ],
+            "highlights_v2": {},
+            "is_super_vip": true,
+            "is_taobao_vip": false,
+            "order_id": 1225344202055928887,
+            "rated_at": "2018-09-10",
+            "rating": 5,
+            "rating_text": "",
+            "tags": [
+                ""
+            ],
+            "time_spent_desc": "",
+            "username": "4*******a"
+        }
+    ]
+}

@@ -28,7 +28,7 @@
                 </div>
                 <div class="price">
                   <span>￥</span>
-                  <span>{{(food.specfoods[0].price*100).toFixed(0)/100}}</span>
+                  <span>{{((food.specfoods[0].price*100).toFixed(0))/100}}</span>
                   <span class="old-price" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
                 </div>
                 <div class="cartcontrol-wrapper">
@@ -245,7 +245,7 @@ ul {
 .goods {
   position absolute
   display flex
-  top 175px
+  top 177px
   bottom 46px
   width 100%
 

@@ -137,8 +137,7 @@ export default {
           url[2] +
           "/" +
           url.slice(3) +
-          `.${RegExp.$1}` +
-          "?imageMogr/format/png/thumbnail/150x/";
+          `.${RegExp.$1}`;
       }
       return ourl;
     }

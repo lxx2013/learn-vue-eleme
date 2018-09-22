@@ -1,5 +1,5 @@
 //该文件把从 batch_shop拿到的 json 数据转化为前端需要的数据格式,存在 static/data 目录中,目前格式为*.js 后期要存入 mongo 
-const NAME = 'yangguofu'
+const NAME = 'lamian'
 const fs = require('fs')
 const utils = require('./utils') //修改 string
 
@@ -22,7 +22,7 @@ var output = { seller: {}, goods: [], ratings: [] }
     seller["sellCount"]= rst.recent_order_num
     seller["avatar"] = rst.image_path.getUrl()
     seller["big-avatar"] = rst.shop_sign.image_hash.getUrl() || seller.avatar
-    seller["bulletin"] = rst.description || '暂无简介'
+    seller["bulletin"] = rst.description || rst.promotion_info || '暂无简介'
     seller["koubei-recommend"] = rst.is_premium
     //数组部分
     var set = {}
@@ -49,23 +49,15 @@ var output = { seller: {}, goods: [], ratings: [] }
           "icon_color": "00cc99"
         },
     )
-    seller.pics = rst.albums.map(x=>x.cover_image_hash.getUrl())
-    seller.infos = {'地址':rst.address,'商家电话':rst.phone.match(/\d{11}/g)[0],"品类" : "其他菜系,包子粥店",
+    seller.pics = rst.albums? rst.albums.map(x=>x.cover_image_hash.getUrl()):[]
+    seller.infos = {'地址':rst.address,'商家电话':rst.phone.match(/[\d-]{10,11}/g)[0],"品类" : rst.flavors.map(x=>x.name).join(','),
     "营业时间":rst.opening_hours[0],}
-    seller.certificate = []
+    seller.certificate = rst.certificate?rst.certificate.map(x=>x.replace('//','http://').replace('webp','png')) : []
+    console.log('certificate',seller.certificate)
     //需要修改前端的部分
     seller.latitude= rst.latitude || 30.602098
     seller.longitude=rst.longitude || 114.509348
     seller.description = '蜂鸟专送'
-
-    //保留 certificate 信息
-    try {
-        var input_cer = require(__dirname + `/js/${NAME}.js`)
-        output.seller.certificate = input_cer.seller.certificate
-    }
-    catch (err) {
-        console.log(`No ${NAME}.js file `, err)
-    }
 })()
 
 //ratings 部分
