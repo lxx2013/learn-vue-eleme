@@ -25,9 +25,18 @@ var output = { seller: {}, goods: [], ratings: [] }
     seller["bulletin"] = rst.description || '暂无简介'
     seller["koubei-recommend"] = rst.is_premium
     //数组部分
-    seller.activities = [...new Set(rst.activities.map(x =>{
+    var set = {}
+    seller.activities = rst.activities.map(x =>{
         return {icon_name:x.icon_name,description:x.description,icon_color:x.icon_color}
-    }))]
+    }).filter(x =>{
+        if(set[x.description]){
+            return false
+        }
+        else {
+            set[x.description] = 1;
+            return true
+        }
+    })
     seller.activities.push(
         {
           "icon_name": "发票",
@@ -51,11 +60,11 @@ var output = { seller: {}, goods: [], ratings: [] }
 
     //保留 certificate 信息
     try {
-        var input_cer = require(__dirname + `/${NAME}.js`)
+        var input_cer = require(__dirname + `/js/${NAME}.js`)
         output.seller.certificate = input_cer.seller.certificate
     }
     catch (err) {
-        console.log(`No ${rn}.js file `, err)
+        console.log(`No ${NAME}.js file `, err)
     }
 })()
 
@@ -67,7 +76,8 @@ var output = { seller: {}, goods: [], ratings: [] }
         r.username = i.username
         r.rateTime = (new Date(i.rated_at)).valueOf()+parseInt((Math.random() * 24 * 3600 * 1000))
         r.text = i.rating_text
-        r.reply = i.reply
+        r.reply = i.reply ? i.reply.content :null ;
+        r.order_images = i.order_images
         r.avatar = i.avatar?i.avatar.getUrl():'http://7xr4g8.com1.z0.glb.clouddn.com/'
         r.score = i.rating
         r.rateType = i.rating>3.5?0:1
@@ -82,4 +92,4 @@ var output = { seller: {}, goods: [], ratings: [] }
     output.goods = input.menu
 })()
 
-fs.writeFileSync(__dirname+`/${NAME}.js`,"module.exports =\n "+ JSON.stringify(output,null,2))
+fs.writeFileSync(__dirname+`/js/${NAME}.js`,"module.exports =\n "+ JSON.stringify(output,null,2))

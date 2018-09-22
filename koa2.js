@@ -13,16 +13,16 @@ router.get('/', ctx => {
     }
 })
 router.get('/api/seller/:restaurant',(ctx)=>{
-  ctx.body = require(`./static/data/${ctx.params.restaurant}`).seller
+  ctx.body = require(`./static/data/js/${ctx.params.restaurant}`).seller
 })
 router.get('/api/goods/:restaurant',(ctx)=>{
-  ctx.body = require(`./static/data/${ctx.params.restaurant}`).goods
+  ctx.body = require(`./static/data/js/${ctx.params.restaurant}`).goods
 })
 router.get('/api/ratings/:restaurant',(ctx)=>{
-  ctx.body = require(`./static/data/${ctx.params.restaurant}`).ratings
+  ctx.body = require(`./static/data/js/${ctx.params.restaurant}`).ratings
 })
 router.get('/list/sellers',(ctx)=>{
-  ctx.body = ['dami','data','yangguofu']
+  ctx.body = ['dami','yangguofu']
 })
 app.use(async function (ctx,next) {
   ctx.res.setHeader("Access-Control-Allow-Origin", "*")
