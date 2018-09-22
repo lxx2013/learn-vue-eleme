@@ -32,7 +32,7 @@ export default {
       //console.log(this.$store.state.selectedFoods)
       this.$store.commit("food", {
         name: food.name,
-        price: food.price || food.specfoods[0].price,
+        price: food.price != undefined || food.specfoods[0].price,
         count: selectedFood.count
       });
       this.$store.commit("cartJump", 500);

@@ -13,12 +13,13 @@
           </div>
           <div class="content-right">
               <div class="pay" v-if="totalPrice===0">￥{{seller.minPrice}}起送</div>
-              <div class="pay" v-if="seller.minPrice>totalPrice">还差￥{{(seller.minPrice-totalPrice).toFixed(2)}}起送</div>
+              <div class="pay" v-if="seller.minPrice>totalPrice">还差￥{{((seller.minPrice-totalPrice)*100).toFixed(0)/100}}起送</div>
               <div class="pay submit" v-if="seller.minPrice<=totalPrice">去结算</div>
           </div>
       </div>
       <transition name="shadow">
-      <div class="shopcart-list-shadow" v-show="listShow" @click="toggle_showCart"></div></transition>
+        <div class="shopcart-list-shadow" v-show="listShow" @click="toggle_showCart"></div>
+      </transition>
       <transition name="fold">
       <div class="shopcart-list" v-show="listShow">
         <div class="list-header">
@@ -56,7 +57,8 @@ export default {
   },
   data() {
     return {
-      listShow: false
+      listShow: false,
+      oldCount:0
     };
   },
   props: {
@@ -81,9 +83,6 @@ export default {
         let food = this.$store.state.selectedFoods[i];
         total += food.price * food.count;
       }
-      if(total <=0){
-        this.toggle_showCart();
-      }
       return total.toFixed(2);
     },
     totalCount() {
@@ -92,6 +91,10 @@ export default {
         let food = this.$store.state.selectedFoods[i];
         count += food.count;
       }
+      if(count <=0 && count !=this.oldCount){
+        this.toggle_showCart();
+      }
+      this.oldCount = count
       return count;
     }
   },
