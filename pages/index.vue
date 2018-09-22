@@ -84,7 +84,7 @@ export default {
     },
     getDeliveryTime(a) {
       if(a<30){
-        return Math.round(a*2+Math.random()*10+5)
+        return Math.ceil(a*3+7)
       }
       else{
         return '∞';
@@ -125,12 +125,13 @@ export default {
       navigator.geolocation.getCurrentPosition(
         (position) => {
           latitude = position.coords.latitude;
-          longitude = -position.coords.longitude;
+          longitude = position.coords.longitude;
           console.log("h5定位成功；");
           this.here = { latitude, longitude };
         },
-        function(error) {
-          console.log("h5定失败；");
+        (error)=> {
+          console.log("h5定位权限被关闭；");
+          this.here = { latitude: 30.514, longitude: 114.407 };
         }
       );
     } else 
@@ -356,6 +357,7 @@ export default {
             top 0
             right 0
             color #999
+            line-height 24px
 
             img {
               transition all 0.3s ease-in-out
@@ -406,7 +408,7 @@ export default {
 
   span:first-of-type {
     border-right-1px($line)
-    padding-right 3px
+    padding-right 6px
   }
 
   span:last-of-type {

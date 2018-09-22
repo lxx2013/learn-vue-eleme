@@ -42,7 +42,7 @@
                     <p class="text">{{rating.text}}</p>
                     <div class="reply" v-if="rating.reply">{{rating.reply}}</div>
                     <div class="order-image-wrapper">
-                        <img :src="getUrl(img.image_hash)" alt="order-image" v-for="img in rating.order_images" :key="img" :style="flexImageStyle(rating.order_images)">
+                        <img :src="getUrl(img.image_hash)" alt="order-image" v-for="(img,_index) in rating.order_images" :key="_index" :style="flexImageStyle(rating.order_images)">
                     </div>
                     <div class="recommend" v-if="recommend(rating)">
                         <i class="icon-thumb_up"></i>
