@@ -146,13 +146,13 @@ export default {
         }`
       );
       let url = process.client
-        ? `https://eleme.setsuna.wang:8101/list/sellers`
+        ? `https://eleme.setsuna.wang/list/sellers`
         : `http://localhost:8101/list/sellers`;
       console.log(`[index.vue 2.] axios.get(url): ${url}`);
       let { data } = await axios.get(url);
       for (let i = 0; i < data.length; i++) {
         let url = process.client
-          ? `https://eleme.setsuna.wang:8101/api/seller/${data[i]}`
+          ? `https://eleme.setsuna.wang/api/seller/${data[i]}`
           : `http://localhost:8101/api/seller/${data[i]}`;
         let data2 = (await axios.get(url)).data;
         store.commit("update", { name1: data[i], name2: "seller", o: data2 });

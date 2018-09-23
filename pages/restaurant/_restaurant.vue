@@ -65,7 +65,7 @@ export default {
           }`
         );
         let url = process.client
-          ? `https://eleme.setsuna.wang:8101/api/seller/${params.restaurant}`
+          ? `https://eleme.setsuna.wang/api/seller/${params.restaurant}`
           : `http://localhost:8101/api/seller/${params.restaurant}`;
         console.log(`[header.vue 2.] axios.get(url): ${url}`)
         let { data } = await axios.get(url);
