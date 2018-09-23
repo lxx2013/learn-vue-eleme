@@ -1,6 +1,8 @@
 # learn-vue-eleme
 
-> 使用 Vue 构建饿了么点餐页面
+> 使用 Vue 构建饿了么点餐页面,作为练手项目,记录一下自己的学习过程  
+
+![](http://pe7l6i61v.bkt.clouddn.com/2018-09-23%2021.27.03.gif)![](http://pe7l6i61v.bkt.clouddn.com/2018-09-23%2021.29.24.gif)![](http://pe7l6i61v.bkt.clouddn.com/2018-09-23%2021.32.27.gif)
 
 ## 涉及到的知识点
 
