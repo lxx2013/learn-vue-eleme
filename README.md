@@ -61,7 +61,13 @@ export function calculateDistance(lat1, lng1, lat2, lng2) { //latitude //langitu
 - eslint 配置[未完成]
 - hash图片来自于`"http://7xr4g8.com1.z0.glb.clouddn.com/" + parseInt(1+900*Math.random())`
 - 开发时使用`frp`做内网穿透 [segmentfault 链接](https://segmentfault.com/a/1190000016205654?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
-
+- 正则表达式`look-forward` 金钱分割 `$`表示以此结尾
+```js
+"1234567890".replace(/(\d)(?=(\d{3})+$)/g,"$1,")
+//1,234,567,890
+"1234567890".replace(/(\d)(?=(\d{3})+)/g,"$1,")
+//1,2,3,4,5,6,7,890
+```
 ## 已知问题
 1. `nuxt` 的 `keep-alive` 有问题, 如果选择了`keep-alive`会导致 `mounted` 和 `created` 函数不执行,而 data 会重新读取初始值. 我在官方目录参与的[ Issue 链接 ](https://github.com/nuxt/nuxt.js/issues/3267)
 2. `nuxt` 的 `nuxt-child transition` 的`mode`有问题, 如果设置`mode:'in-out'` 或`mode:'out-in'`均和 vue 的`transition-mode`一致, 但是**无法执行那种前一个元素离开和后一个元素进入同步进行的动画** , 这个需要等待 `nuxt`改进
