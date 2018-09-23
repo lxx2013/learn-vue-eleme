@@ -12,8 +12,8 @@ module.exports =
     "deliveryPrice": 0.1,
     "ratingCount": 1938,
     "sellCount": 2018,
-    "avatar": "http://fuss10.elemecdn.com/6/da/0f68ccbc9033254b5a420fce17660jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-    "big-avatar": "http://fuss10.elemecdn.com/0/fc/320cd6f864584aceae42613106198jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "avatar": "https://fuss10.elemecdn.com/6/da/0f68ccbc9033254b5a420fce17660jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "big-avatar": "https://fuss10.elemecdn.com/0/fc/320cd6f864584aceae42613106198jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
     "bulletin": "大米先生! 在武汉更受欢迎的中式快餐! 选择多、好吃又干净，当然更受欢迎! 吃快餐，到大米先生!",
     "koubei-recommend": true,
     "activities": [
@@ -64,8 +64,8 @@ module.exports =
       }
     ],
     "pics": [
-      "http://fuss10.elemecdn.com/3/6e/f50d651f8e7fd847c3c8e28f69e96jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-      "http://fuss10.elemecdn.com/f/fe/3555af76497e8d043c48265de902cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
+      "https://fuss10.elemecdn.com/3/6e/f50d651f8e7fd847c3c8e28f69e96jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "https://fuss10.elemecdn.com/f/fe/3555af76497e8d043c48265de902cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
     ],
     "infos": {
       "地址": "武汉市东湖新技术开发区东信路光谷创业街特1栋1层03室06号",
@@ -74,8 +74,8 @@ module.exports =
       "营业时间": "10:30/20:30"
     },
     "certificate": [
-      "http://fuss10.elemecdn.com/7/d9/fd7ebc043a1f39f8fe1b414dd76cbjpeg.jpeg?imageMogr/format/png/150x/",
-      "http://fuss10.elemecdn.com/e/18/756b15e03489faf17e60a180401b0jpeg.jpeg?imageMogr/format/png/150x/"
+      "https://fuss10.elemecdn.com/7/d9/fd7ebc043a1f39f8fe1b414dd76cbjpeg.jpeg?imageMogr/format/png/150x/",
+      "https://fuss10.elemecdn.com/e/18/756b15e03489faf17e60a180401b0jpeg.jpeg?imageMogr/format/png/150x/"
     ],
     "latitude": 30.501071,
     "longitude": 114.413991,
@@ -8232,7 +8232,7 @@ module.exports =
           "image_hash": "63a6e57da952915c7ce333bd51b39027jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/5/a3/8fca683d2097c715800fd1627f4d8jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/5/a3/8fca683d2097c715800fd1627f4d8jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "47",
@@ -8549,7 +8549,7 @@ module.exports =
       "rateTime": 1536980386952,
       "text": "味道很好 希望一直如此 ",
       "reply": "亲爱的顾客，感谢您选择品尝本店的美食，谢谢您认可我们的口味和服务，我们会继续努力，为您提供更好的服务。祝您生活愉快！",
-      "avatar": "http://fuss10.elemecdn.com/5/99/8a83a9a24cbbaaaee39beb3dd124ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/5/99/8a83a9a24cbbaaaee39beb3dd124ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "49",

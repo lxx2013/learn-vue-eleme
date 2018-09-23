@@ -2455,7 +2455,7 @@ module.exports =
       "rateTime": 1535664397135,
       "text": "味道好，送餐速度也快，一次还会继续点",
       "reply": "亲爱的顾客，感谢您选择品尝本店的美食，谢谢您认可我们的口味和服务，我们会继续努力，为您提供更好的服务。祝您生活愉快！",
-      "avatar": "http://fuss10.elemecdn.com/4/6b/784845fc51d2574f3b81f01bdac69jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/6b/784845fc51d2574f3b81f01bdac69jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "36",

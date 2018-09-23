@@ -12,8 +12,8 @@ module.exports =
     "deliveryPrice": 3.6,
     "ratingCount": 57,
     "sellCount": 172,
-    "avatar": "http://fuss10.elemecdn.com/3/63/449fbb222d50c1181a3904c885f7cpng.png?imageMogr/format/png/thumbnail/150x/",
-    "big-avatar": "http://fuss10.elemecdn.com/3/63/449fbb222d50c1181a3904c885f7cpng.png?imageMogr/format/png/thumbnail/150x/",
+    "avatar": "https://fuss10.elemecdn.com/3/63/449fbb222d50c1181a3904c885f7cpng.png?imageMogr/format/png/thumbnail/150x/",
+    "big-avatar": "https://fuss10.elemecdn.com/3/63/449fbb222d50c1181a3904c885f7cpng.png?imageMogr/format/png/thumbnail/150x/",
     "bulletin": "叫外卖上饿了么！",
     "koubei-recommend": false,
     "activities": [
@@ -34,8 +34,8 @@ module.exports =
       }
     ],
     "pics": [
-      "http://fuss10.elemecdn.com/9/d7/56094a5eba323dcbca5620a9b826ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-      "http://fuss10.elemecdn.com/7/88/5d2af8f4df53ff9dabc3e34823ad1jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
+      "https://fuss10.elemecdn.com/9/d7/56094a5eba323dcbca5620a9b826ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "https://fuss10.elemecdn.com/7/88/5d2af8f4df53ff9dabc3e34823ad1jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
     ],
     "infos": {
       "地址": "武汉市洪山区华中科技大学西三区华宏留学生服务中心门面",
@@ -2389,7 +2389,7 @@ module.exports =
           "image_hash": "0a0827fbc374f4dfcabe9f93a3458945jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/7/48/ae7e00a56194274ac23e2bed412f2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/7/48/ae7e00a56194274ac23e2bed412f2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "44",
@@ -2513,7 +2513,7 @@ module.exports =
       "rateTime": 1537348205753,
       "text": "",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/8/16/035d2b47bb9f4a1d17c33f1d22fe2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/8/16/035d2b47bb9f4a1d17c33f1d22fe2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "18",
@@ -2550,7 +2550,7 @@ module.exports =
       "rateTime": 1537175670578,
       "text": "",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/7/31/be17c7828e4ed775f854a1b012e67jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/7/31/be17c7828e4ed775f854a1b012e67jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "15",
@@ -2563,7 +2563,7 @@ module.exports =
       "rateTime": 1537071492488,
       "text": "",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/b/c1/63b0756730fc19a192a700778a8a2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/c1/63b0756730fc19a192a700778a8a2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "44",
@@ -2577,7 +2577,7 @@ module.exports =
       "rateTime": 1537113942691,
       "text": "没蛋送了瓶可乐 划算",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/b/c1/63b0756730fc19a192a700778a8a2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/c1/63b0756730fc19a192a700778a8a2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "24",
@@ -2612,7 +2612,7 @@ module.exports =
       "rateTime": 1536951163548,
       "text": "",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/b/c1/63b0756730fc19a192a700778a8a2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/c1/63b0756730fc19a192a700778a8a2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "56",
@@ -2658,7 +2658,7 @@ module.exports =
       "rateTime": 1536708036653,
       "text": "",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/a/fd/4f6a5bacef6b0c6c51019f6f28130jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/a/fd/4f6a5bacef6b0c6c51019f6f28130jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "38",

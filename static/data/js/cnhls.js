@@ -12,8 +12,8 @@ module.exports =
     "deliveryPrice": 1.1,
     "ratingCount": 1103,
     "sellCount": 1988,
-    "avatar": "http://fuss10.elemecdn.com/0/bf/84b9661d40fe6378320437eeef648png.png?imageMogr/format/png/thumbnail/150x/",
-    "big-avatar": "http://fuss10.elemecdn.com/4/40/78341ab64488536c247d57d85e09epng.png?imageMogr/format/png/thumbnail/150x/",
+    "avatar": "https://fuss10.elemecdn.com/0/bf/84b9661d40fe6378320437eeef648png.png?imageMogr/format/png/thumbnail/150x/",
+    "big-avatar": "https://fuss10.elemecdn.com/4/40/78341ab64488536c247d57d85e09epng.png?imageMogr/format/png/thumbnail/150x/",
     "bulletin": "欢迎您光临华科大（佳园路）华莱士.感谢各位小主长久以来的关照，如您对本店的服务、产品质量有任何意见或建议的，欢迎联系！餐厅电话：17786371772店长电话：18154371263我们一定尽心为您服务。华莱士感谢大家的支持和光顾 ฅ( ̳• •̫ • ̳) 喵.我们会给到亲满意",
     "koubei-recommend": true,
     "activities": [
@@ -49,8 +49,8 @@ module.exports =
       }
     ],
     "pics": [
-      "http://fuss10.elemecdn.com/9/6d/ed080f935eb3b3364872799153bcajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-      "http://fuss10.elemecdn.com/5/d8/34c92e6f0e751b1b9d49bb477640ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
+      "https://fuss10.elemecdn.com/9/6d/ed080f935eb3b3364872799153bcajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "https://fuss10.elemecdn.com/5/d8/34c92e6f0e751b1b9d49bb477640ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
     ],
     "infos": {
       "地址": "武汉市洪山区燕梅汉堡店",
@@ -59,8 +59,8 @@ module.exports =
       "营业时间": "09:30/23:30"
     },
     "certificate": [
-      "http://fuss10.elemecdn.com/0/24/5cb93cdb52494abb29b4d34e47572jpeg.jpeg?imageMogr/format/png/",
-      "http://fuss10.elemecdn.com/0/24/5cb93cdb52494abb29b4d34e47572jpeg.jpeg?imageMogr/format/png/"
+      "https://fuss10.elemecdn.com/0/24/5cb93cdb52494abb29b4d34e47572jpeg.jpeg?imageMogr/format/png/",
+      "https://fuss10.elemecdn.com/0/24/5cb93cdb52494abb29b4d34e47572jpeg.jpeg?imageMogr/format/png/"
     ],
     "latitude": 30.506029,
     "longitude": 114.433632,
@@ -10165,7 +10165,7 @@ module.exports =
           "image_hash": "b38135f69cdc3a5ef616463558c08c01jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/0/61/c8e0ce385821d0437eee9ec8003b0jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/0/61/c8e0ce385821d0437eee9ec8003b0jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 4,
       "rateType": 0,
       "deliveryTime": "49",
@@ -10211,7 +10211,7 @@ module.exports =
           "image_hash": "a9526c97fe4301171c6cb5980f908c25jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/c/21/9974ef1df8a2986fb6513c3922a5ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/c/21/9974ef1df8a2986fb6513c3922a5ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "66",
@@ -10263,7 +10263,7 @@ module.exports =
           "image_hash": "8dbb63ff7524367420bf50c8b4569fb7jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/d/aa/a957da11682a745ddf440b0d54b1djpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/d/aa/a957da11682a745ddf440b0d54b1djpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "55",
@@ -10289,7 +10289,7 @@ module.exports =
           "image_hash": "daa1aa62f3d98b4ec45df100caa70323jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/b/95/1b64f40e2e729ced893460671c0c1jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/95/1b64f40e2e729ced893460671c0c1jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "63",
@@ -10450,7 +10450,7 @@ module.exports =
           "image_hash": "4a396bd2266eb5789c36c234fc0f8fc2jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/b/0a/7cbf3f94f48c5c14b10510a63d501jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/0a/7cbf3f94f48c5c14b10510a63d501jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "62",
@@ -10526,7 +10526,7 @@ module.exports =
           "image_hash": "f3ce860f16147a12d628916ff68a4fd6jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/7/3f/af8bb53f6d7cfc4686c3fd4e77df2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/7/3f/af8bb53f6d7cfc4686c3fd4e77df2jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "21",
@@ -10588,7 +10588,7 @@ module.exports =
       "rateTime": 1537292019054,
       "text": "很快，很划算，味道不错",
       "reply": "亲爱的顾客，感谢您选择品尝本店的美食，谢谢您认可我们的口味和服务，我们会继续努力，为您提供更好的服务。祝您生活愉快！",
-      "avatar": "http://fuss10.elemecdn.com/c/d0/f1bfc14819e3bd29d614fe895b283jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/c/d0/f1bfc14819e3bd29d614fe895b283jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "31",
@@ -10798,7 +10798,7 @@ module.exports =
           "image_hash": "b38135f69cdc3a5ef616463558c08c01jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/0/61/c8e0ce385821d0437eee9ec8003b0jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/0/61/c8e0ce385821d0437eee9ec8003b0jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 4,
       "rateType": 0,
       "deliveryTime": "71",

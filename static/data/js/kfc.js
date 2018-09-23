@@ -12,8 +12,8 @@ module.exports =
     "deliveryPrice": 9,
     "ratingCount": 354,
     "sellCount": 694,
-    "avatar": "http://fuss10.elemecdn.com/7/d3/48a777a6b444dc317cc24d101220cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-    "big-avatar": "http://fuss10.elemecdn.com/7/d3/48a777a6b444dc317cc24d101220cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "avatar": "https://fuss10.elemecdn.com/7/d3/48a777a6b444dc317cc24d101220cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "big-avatar": "https://fuss10.elemecdn.com/7/d3/48a777a6b444dc317cc24d101220cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
     "bulletin": "肯德基宅急送（剑桥店）",
     "koubei-recommend": true,
     "activities": [
@@ -129,7 +129,7 @@ module.exports =
       }
     ],
     "pics": [
-      "http://fuss10.elemecdn.com/e/2a/f8ec741efed1927c0fd241d98ccb6jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
+      "https://fuss10.elemecdn.com/e/2a/f8ec741efed1927c0fd241d98ccb6jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
     ],
     "infos": {
       "地址": "武汉市洪山区珞瑜路以南、华科大体育中心对面叶麻店",
@@ -138,8 +138,8 @@ module.exports =
       "营业时间": "07:00/22:55"
     },
     "certificate": [
-      "http://fuss10.elemecdn.com/f/00/1a36db0e0855cce4f8f92181bea0fjpeg.jpeg?imageMogr/format/png/",
-      "http://fuss10.elemecdn.com/7/e1/8192ef31dae7a789ca562b0d37ca2jpeg.jpeg?imageMogr/format/png/"
+      "https://fuss10.elemecdn.com/f/00/1a36db0e0855cce4f8f92181bea0fjpeg.jpeg?imageMogr/format/png/",
+      "https://fuss10.elemecdn.com/7/e1/8192ef31dae7a789ca562b0d37ca2jpeg.jpeg?imageMogr/format/png/"
     ],
     "latitude": 30.506967,
     "longitude": 114.419044,
@@ -4786,7 +4786,7 @@ module.exports =
           "image_hash": "be40ec6904fe30cda8a37ae05652ef57jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/c7/9701423b97de278ceaef5a560d940jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/c7/9701423b97de278ceaef5a560d940jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "37",
@@ -4830,7 +4830,7 @@ module.exports =
           "image_hash": "9bd0617a5dc566d47ec23d368b90ead0jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/0a/021c6beb2db918ff0b93d1ea5988cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/0a/021c6beb2db918ff0b93d1ea5988cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "14",
@@ -4867,7 +4867,7 @@ module.exports =
       "rateTime": 1537507663308,
       "text": "还行 ",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/6/6f/6d2598dab92b05ac97fb797c42458jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/6/6f/6d2598dab92b05ac97fb797c42458jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "25",
@@ -4939,7 +4939,7 @@ module.exports =
       "rateTime": 1537157570256,
       "text": "味道挺好的，烤翅不地道",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/c/5d/c85370ab386531064c65ae9312726jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/c/5d/c85370ab386531064c65ae9312726jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 4,
       "rateType": 0,
       "deliveryTime": "27",
@@ -4983,7 +4983,7 @@ module.exports =
       "rateTime": 1536616356319,
       "text": "还行，不错",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/c/b0/35c67c239c8865133b1821ad48e41jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/c/b0/35c67c239c8865133b1821ad48e41jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "32",

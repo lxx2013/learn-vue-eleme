@@ -30,7 +30,7 @@
                 <div class="bulletin-bottom">
                   <div class="info-wrapper" v-if="seller.infos['品类']">
                     <span v-for="(item,index) in infoSplit(seller.infos['品类'])" :key="index">{{item}}</span>
-                    <div class="recommend" v-if="seller['koubei-recommend']"><img src="//fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/png/thumbnail/!20x20r/gravity/Center/crop/20x20/">口碑人气好店</div>
+                    <div class="recommend" v-if="seller['koubei-recommend']"><img src="https://fuss10.elemecdn.com/a/c1/24c767ffa7fd296d3e2d6f01798c6png.png?imageMogr/format/png/thumbnail/!20x20r/gravity/Center/crop/20x20/">口碑人气好店</div>
                   </div>
                   <div class="split"></div>
                   <div class="supports" @click.stop.prevent="seller.isFold = !seller.isFold" :class="seller.isFold?'fold':'unfold'">

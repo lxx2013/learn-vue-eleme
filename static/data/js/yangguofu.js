@@ -12,8 +12,8 @@ module.exports =
     "deliveryPrice": 2.1,
     "ratingCount": 21599,
     "sellCount": 5085,
-    "avatar": "http://fuss10.elemecdn.com/c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-    "big-avatar": "http://fuss10.elemecdn.com/c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "avatar": "https://fuss10.elemecdn.com/c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "big-avatar": "https://fuss10.elemecdn.com/c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
     "bulletin": "暂无简介",
     "koubei-recommend": false,
     "activities": [
@@ -44,7 +44,7 @@ module.exports =
       }
     ],
     "pics": [
-      "http://fuss10.elemecdn.com/2/5f/1eb4d8cf639e3f810a267d7aaa52apng.png?imageMogr/format/png/thumbnail/150x/"
+      "https://fuss10.elemecdn.com/2/5f/1eb4d8cf639e3f810a267d7aaa52apng.png?imageMogr/format/png/thumbnail/150x/"
     ],
     "infos": {
       "地址": "武汉市洪山区关山路27号金盛花园商住楼北-19号",
@@ -53,8 +53,8 @@ module.exports =
       "营业时间": "10:30/23:55"
     },
     "certificate": [
-      "http://fuss10.elemecdn.com/a/48/2b7163e50158df931cdc586684faajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-      "http://fuss10.elemecdn.com/2/0c/1250afae04b5ba096ac4d7b8eec66jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
+      "https://fuss10.elemecdn.com/a/48/2b7163e50158df931cdc586684faajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "https://fuss10.elemecdn.com/2/0c/1250afae04b5ba096ac4d7b8eec66jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
     ],
     "latitude": 30.502098,
     "longitude": 114.409348,
@@ -7169,7 +7169,7 @@ module.exports =
           "image_hash": "0611dc58809cba6826fe9583b6b189d3jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/5/27/53e2e1555bb9d508ff1d973e58c14jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/5/27/53e2e1555bb9d508ff1d973e58c14jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "52",
@@ -7235,7 +7235,7 @@ module.exports =
           "image_hash": "1a039c04f582ca449d577ab3cb3340d6jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/5/60/6e5cef427f54386752ea76c4be13ejpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/5/60/6e5cef427f54386752ea76c4be13ejpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "28",
@@ -7330,7 +7330,7 @@ module.exports =
           "image_hash": "e9ed4d958360868b6ed9e14fe98fd2b0jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/0/b8/3b6b4d34c9dc50461a1f9c6aa34c9jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/0/b8/3b6b4d34c9dc50461a1f9c6aa34c9jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "22",
@@ -7485,7 +7485,7 @@ module.exports =
           "image_hash": "8f1f863f5371356e6df56d3bd42c4ef3jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/b/52/0211305b19cfc2945e1993bc4961ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/52/0211305b19cfc2945e1993bc4961ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "38",
@@ -7571,7 +7571,7 @@ module.exports =
           "image_hash": "73637f20f78c30d79c646fe8f3c37fcfjpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/b/29/bda4447133ad29d49b32d033a3bc4jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/29/bda4447133ad29d49b32d033a3bc4jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "41",
@@ -7707,7 +7707,7 @@ module.exports =
           "image_hash": "a140f9fcd32c8622152aba10ccf122d2jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/0/b8/3b6b4d34c9dc50461a1f9c6aa34c9jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/0/b8/3b6b4d34c9dc50461a1f9c6aa34c9jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "22",
@@ -7729,7 +7729,7 @@ module.exports =
           "image_hash": "d12909d231485693e647e6a319866b21jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/40/b9e4d032fea850a54338326efd7c5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/40/b9e4d032fea850a54338326efd7c5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "26",
@@ -7751,7 +7751,7 @@ module.exports =
           "image_hash": "67878eb25ec6c5f3fd61aa873a20d273jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/40/b9e4d032fea850a54338326efd7c5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/40/b9e4d032fea850a54338326efd7c5jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "46",

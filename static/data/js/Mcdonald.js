@@ -12,8 +12,8 @@ module.exports =
     "deliveryPrice": 9,
     "ratingCount": 269,
     "sellCount": 895,
-    "avatar": "http://fuss10.elemecdn.com/1/32/c75a72f674052473fb35b5c8ab1d7jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-    "big-avatar": "http://fuss10.elemecdn.com/1/32/c75a72f674052473fb35b5c8ab1d7jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "avatar": "https://fuss10.elemecdn.com/1/32/c75a72f674052473fb35b5c8ab1d7jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+    "big-avatar": "https://fuss10.elemecdn.com/1/32/c75a72f674052473fb35b5c8ab1d7jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
     "bulletin": "麦当劳",
     "koubei-recommend": true,
     "activities": [
@@ -56,8 +56,8 @@ module.exports =
       "营业时间": "00:00/04:45"
     },
     "certificate": [
-      "http://fuss10.elemecdn.com/8/8c/1f69a7cc731afc338f920f2688e05jpeg.jpeg?imageMogr/format/png/",
-      "http://fuss10.elemecdn.com/2/2e/d1ec64f9524ffecf4b9541014a6eajpeg.jpeg?imageMogr/format/png/"
+      "https://fuss10.elemecdn.com/8/8c/1f69a7cc731afc338f920f2688e05jpeg.jpeg?imageMogr/format/png/",
+      "https://fuss10.elemecdn.com/2/2e/d1ec64f9524ffecf4b9541014a6eajpeg.jpeg?imageMogr/format/png/"
     ],
     "latitude": 30.516506,
     "longitude": 114.415214,
@@ -9613,7 +9613,7 @@ module.exports =
           "image_hash": "2e6f41393a0cd399fe96d0bc7cbba664jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/5/c4/24817367c9955d0005b3161d18805jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/5/c4/24817367c9955d0005b3161d18805jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "45",
@@ -9749,7 +9749,7 @@ module.exports =
           "image_hash": "5f2ca1260f4ff073df37f33427c2b0c3jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/e/81/3af8132b4e0a00b2da8d253e7ef46jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/e/81/3af8132b4e0a00b2da8d253e7ef46jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "56",
@@ -9797,7 +9797,7 @@ module.exports =
           "image_hash": "110fb89a0d64a1414d67724e300a08c2jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/e/81/3af8132b4e0a00b2da8d253e7ef46jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/e/81/3af8132b4e0a00b2da8d253e7ef46jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "52",
@@ -9822,7 +9822,7 @@ module.exports =
           "image_hash": "2a7582de1184e69f7b9acaa68a905350jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/0a/021c6beb2db918ff0b93d1ea5988cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/0a/021c6beb2db918ff0b93d1ea5988cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "37",
@@ -9846,7 +9846,7 @@ module.exports =
           "image_hash": "06eb5fddf76f3e67096ba5d53128b933jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/0a/021c6beb2db918ff0b93d1ea5988cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/0a/021c6beb2db918ff0b93d1ea5988cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "21",
@@ -9872,7 +9872,7 @@ module.exports =
           "image_hash": "f649cf57e2e4d8a56c83205141edc0e0jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/0/61/c8e0ce385821d0437eee9ec8003b0jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/0/61/c8e0ce385821d0437eee9ec8003b0jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 4,
       "rateType": 0,
       "deliveryTime": "35",

@@ -12,8 +12,8 @@ module.exports =
     "deliveryPrice": 1.1,
     "ratingCount": 270,
     "sellCount": 622,
-    "avatar": "http://fuss10.elemecdn.com/1/72/3c54d8b5a9b582555bc9e97430acfpng.png?imageMogr/format/png/thumbnail/150x/",
-    "big-avatar": "http://fuss10.elemecdn.com/0/4b/bbec4c0d77828278b9101c40555e3png.png?imageMogr/format/png/thumbnail/150x/",
+    "avatar": "https://fuss10.elemecdn.com/1/72/3c54d8b5a9b582555bc9e97430acfpng.png?imageMogr/format/png/thumbnail/150x/",
+    "big-avatar": "https://fuss10.elemecdn.com/0/4b/bbec4c0d77828278b9101c40555e3png.png?imageMogr/format/png/thumbnail/150x/",
     "bulletin": "必胜客（保利广场店）",
     "koubei-recommend": true,
     "activities": [
@@ -74,9 +74,9 @@ module.exports =
       }
     ],
     "pics": [
-      "http://fuss10.elemecdn.com/8/9a/39ac699c5f95fa922c6b3c4f4bb01jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-      "http://fuss10.elemecdn.com/e/2c/fabc63b79382efae84e5f0d0ce38ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
-      "http://fuss10.elemecdn.com/0/92/fe2178d887855624d4787af4fc6d6jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
+      "https://fuss10.elemecdn.com/8/9a/39ac699c5f95fa922c6b3c4f4bb01jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "https://fuss10.elemecdn.com/e/2c/fabc63b79382efae84e5f0d0ce38ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "https://fuss10.elemecdn.com/0/92/fe2178d887855624d4787af4fc6d6jpeg.jpeg?imageMogr/format/png/thumbnail/150x/"
     ],
     "infos": {
       "地址": "武汉市东湖新技术开发区关山村关山大道332号武汉保利广场一楼",
@@ -85,8 +85,8 @@ module.exports =
       "营业时间": "10:00/22:00"
     },
     "certificate": [
-      "http://fuss10.elemecdn.com/c/3a/0cfde9056c7aaa70dd21bf5b48227jpeg.jpeg?imageMogr/format/png/",
-      "http://fuss10.elemecdn.com/4/13/e1938177a303ce68c60fab3bb1870jpeg.jpeg?imageMogr/format/png/"
+      "https://fuss10.elemecdn.com/c/3a/0cfde9056c7aaa70dd21bf5b48227jpeg.jpeg?imageMogr/format/png/",
+      "https://fuss10.elemecdn.com/4/13/e1938177a303ce68c60fab3bb1870jpeg.jpeg?imageMogr/format/png/"
     ],
     "latitude": 30.490833,
     "longitude": 114.410895,
@@ -4931,7 +4931,7 @@ module.exports =
           "image_hash": "ac357ea43de125c4949963a5c20f8e1cjpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/f2/53bb6b5350e456c49bd0ba786b719jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/f2/53bb6b5350e456c49bd0ba786b719jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "16",
@@ -5048,7 +5048,7 @@ module.exports =
           "image_hash": "3b80da1b0b8eebd574a386bc385b0573jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/4/f2/53bb6b5350e456c49bd0ba786b719jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/4/f2/53bb6b5350e456c49bd0ba786b719jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "55",
@@ -5106,7 +5106,7 @@ module.exports =
           "image_hash": "b32d7248fd004a0b52d81c66f80ffb3bjpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/6/c5/21cdddea792c7d32d12453094f876jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/6/c5/21cdddea792c7d32d12453094f876jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "36",
@@ -5130,7 +5130,7 @@ module.exports =
           "image_hash": "f8b09865d6f9738b42f41ce8620f0475jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/7/28/204974e686c51260b1ee2f0352f2ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/7/28/204974e686c51260b1ee2f0352f2ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "51",
@@ -5154,7 +5154,7 @@ module.exports =
           "image_hash": "96f0f95e23dba00fc38a6934f401b8d6jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/7/28/204974e686c51260b1ee2f0352f2ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/7/28/204974e686c51260b1ee2f0352f2ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "44",
@@ -5331,7 +5331,7 @@ module.exports =
           "image_hash": "96f0f95e23dba00fc38a6934f401b8d6jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/7/28/204974e686c51260b1ee2f0352f2ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/7/28/204974e686c51260b1ee2f0352f2ajpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "35",
@@ -5380,7 +5380,7 @@ module.exports =
           "image_hash": "7a97c5df464bd375a0a48d87c6d50578jpeg"
         }
       ],
-      "avatar": "http://fuss10.elemecdn.com/9/d7/c12599a973d488249633485680b3cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/9/d7/c12599a973d488249633485680b3cjpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "77",
@@ -5456,7 +5456,7 @@ module.exports =
       "rateTime": 1535661082994,
       "text": "！！！！！！！",
       "reply": null,
-      "avatar": "http://fuss10.elemecdn.com/6/5f/d3cb64201543282c4b85a5e7638e8jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/6/5f/d3cb64201543282c4b85a5e7638e8jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "51",
@@ -5533,7 +5533,7 @@ module.exports =
       "rateTime": 1535248925280,
       "text": "烤翅比KFC的好吃！正好做活动特别划算！",
       "reply": "今天能收到您的赞扬，首先我要感谢领导给予我的栽培！感谢我的公司能给予我为您服务的机会！还要感谢祖国对我的培养！当然最最最需要感谢的，还是您对我的认同！\n",
-      "avatar": "http://fuss10.elemecdn.com/b/1b/bad4be698de404be0effce7a10906jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/b/1b/bad4be698de404be0effce7a10906jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "68",
@@ -5557,7 +5557,7 @@ module.exports =
       "rateTime": 1535186793199,
       "text": "快递小哥服务态度超级好！很有耐心，十分好评！",
       "reply": "我飞快的跑着，在拥挤的人群之中，路人投射过来异样的眼神。诧异也好，欣赏也罢。并不曾使我的脚步凌乱。因为令我飞奔的，不是别人注视的目光。而是我不想你饿着的心。\n",
-      "avatar": "http://fuss10.elemecdn.com/2/31/88d32450d8b5f5767f43eb9b5bf80jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/2/31/88d32450d8b5f5767f43eb9b5bf80jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "93",
@@ -5590,7 +5590,7 @@ module.exports =
       "rateTime": 1534554054947,
       "text": "好",
       "reply": "今天能收到您的赞扬，首先我要感谢领导给予我的栽培！感谢我的公司能给予我为您服务的机会！还要感谢祖国对我的培养！当然最最最需要感谢的，还是您对我的认同！\n",
-      "avatar": "http://fuss10.elemecdn.com/2/a4/b947828e5b8c7b190f40bdddb0b53jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
+      "avatar": "https://fuss10.elemecdn.com/2/a4/b947828e5b8c7b190f40bdddb0b53jpeg.jpeg?imageMogr/format/png/thumbnail/150x/",
       "score": 4,
       "rateType": 0,
       "deliveryTime": "74",
