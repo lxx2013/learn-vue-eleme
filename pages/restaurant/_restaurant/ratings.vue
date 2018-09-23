@@ -182,7 +182,7 @@ export default {
         }`
       );
       let url = process.client
-        ? `http://eleme.setsuna.wang:8101/api/ratings/${params.restaurant}`
+        ? `https://eleme.setsuna.wang:8101/api/ratings/${params.restaurant}`
         : `http://localhost:8101/api/ratings/${params.restaurant}`;
       console.log(`[ratings.vue] axios.get(url): ${url}`);
       let { data } = await axios.get(url);
