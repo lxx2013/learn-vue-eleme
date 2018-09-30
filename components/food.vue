@@ -112,7 +112,7 @@ export default {
     //console.log(formatDate)
     },
     randomImage(url){
-        if(url == "http://7xr4g8.com1.z0.glb.clouddn.com/"){
+        if(url == "https://picsum.photos/50/50/?image="){
             return url+parseInt(1+900*Math.random())
         }
         else{

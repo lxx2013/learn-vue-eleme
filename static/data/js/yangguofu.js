@@ -7147,7 +7147,7 @@ module.exports =
           "image_hash": "eb628cb9a1a009fa5d2aae1ffca37f86jpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "22",
@@ -7191,7 +7191,7 @@ module.exports =
           "image_hash": "95d52b0d875a6440db6c23c8c41abe67jpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "41",
@@ -7213,7 +7213,7 @@ module.exports =
           "image_hash": "f0c8067cbd95bfaf2ce02e33628fae0fjpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "52",
@@ -7308,7 +7308,7 @@ module.exports =
           "image_hash": "58704afb325e426e6c39922d275c3678jpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "35",
@@ -7384,7 +7384,7 @@ module.exports =
           "image_hash": "684b0201b972e5f805fd69db4baf8816jpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 4,
       "rateType": 0,
       "deliveryTime": "31",
@@ -7408,7 +7408,7 @@ module.exports =
           "image_hash": "3daccc0a5c2e105c50562d5682f239cejpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "18",
@@ -7442,7 +7442,7 @@ module.exports =
           "image_hash": "b6aca467c28fb573810082fd9a5f0dbdjpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "21",
@@ -7518,7 +7518,7 @@ module.exports =
           "image_hash": "df4ad8fd906623a4e33aa66c7b78de91jpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "52",
@@ -7544,7 +7544,7 @@ module.exports =
           "image_hash": "09ed0eccff6065d3f69edd458b872411jpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "26",
@@ -7606,7 +7606,7 @@ module.exports =
           "image_hash": "b4cff3e2bca459436bf850d4e4c45f6cjpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "46",
@@ -7650,7 +7650,7 @@ module.exports =
           "image_hash": "3a2bfa671413df4c0a67bc2a240cb18bjpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "32",
@@ -7685,7 +7685,7 @@ module.exports =
           "image_hash": "0aa850fc0b1d6dae65636b99d4436f35jpeg"
         }
       ],
-      "avatar": "http://7xr4g8.com1.z0.glb.clouddn.com/",
+      "avatar": "https://picsum.photos/50/50/?image=",
       "score": 5,
       "rateType": 0,
       "deliveryTime": "18",

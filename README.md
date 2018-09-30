@@ -59,7 +59,7 @@ export function calculateDistance(lat1, lng1, lat2, lng2) { //latitude //langitu
 
 ### 4.其它
 - eslint 配置[未完成]
-- hash图片来自于`"http://7xr4g8.com1.z0.glb.clouddn.com/" + parseInt(1+900*Math.random())`
+- hash图片来自于`"https://picsum.photos/50/50/?image=" + parseInt(1+900*Math.random())`
 - 开发时使用`frp`做内网穿透 [segmentfault 链接](https://segmentfault.com/a/1190000016205654?utm_source=weekly&utm_medium=email&utm_campaign=email_weekly)
 
 ## 已知问题

@@ -138,7 +138,7 @@ var seller = output.seller
             var rate = {}
             var t = $(this)
             rate.username = t.find('h3').text()
-            rate["avatar"] = "http://7xr4g8.com1.z0.glb.clouddn.com/"
+            rate["avatar"] = "https://picsum.photos/50/50/?image="
             rate["rateTime"] = t.find('small').randomTime()
             rate["deliveryTime"] = (Math.random() * (seller.deliveryTime-7) * 2+14).toFixed(0),
             rate["score"]=  (()=>{
