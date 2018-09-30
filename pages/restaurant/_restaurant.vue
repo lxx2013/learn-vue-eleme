@@ -2,7 +2,6 @@
   <section >
     <Detail :seller= "seller"></Detail>
     <div :class="$store.state.globalBlur?'global-blur':''">
-      <div class="grey-blur" v-if="$store.state.globalBlur" ></div>
       <Header :seller= "seller" ></Header>
       <div class="tab">
         <div class="tab-item"><nuxt-link :to="'/restaurant/'+restaurant+'/goods'" >商品</nuxt-link></div>

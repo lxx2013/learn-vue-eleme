@@ -67,7 +67,7 @@ export default {
       overflow: auto;
       z-index: 100;
       color: white;
-      background-color: rgba(7, 17, 27, 0.01);
+      background-color: rgba(7, 17, 27, .8)
       .detail-wrapper {
         min-height: 100%;
         width: 100%;
