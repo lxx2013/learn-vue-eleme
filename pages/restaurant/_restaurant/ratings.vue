@@ -105,9 +105,9 @@ export default {
       }
     },
     hashImage(name, url) {
-      if (url == "http://7xr4g8.com1.z0.glb.clouddn.com/") {
+      if (url == "https://picsum.photos/50/50/?image=") {
         name = name.charCodeAt(0) * 100 + name.charCodeAt(name.length - 1);
-        return "http://7xr4g8.com1.z0.glb.clouddn.com/" + name % 900;
+        return "https://picsum.photos/50/50/?image=" + name % 900;
       }
       else {
         return url
@@ -153,7 +153,7 @@ export default {
       //console.log(formatDate)
     },
     randomImage(url) {
-      if (url == "http://7xr4g8.com1.z0.glb.clouddn.com/") {
+      if (url == "https://picsum.photos/50/50/?image=") {
         return url + parseInt(Math.random() * 900);
       } else {
         return url;

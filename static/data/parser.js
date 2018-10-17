@@ -70,7 +70,7 @@ var output = { seller: {}, goods: [], ratings: [] }
         r.text = i.rating_text
         r.reply = i.reply ? i.reply.content :null ;
         r.order_images = i.order_images
-        r.avatar = i.avatar?i.avatar.getUrl():'http://7xr4g8.com1.z0.glb.clouddn.com/'
+        r.avatar = i.avatar?i.avatar.getUrl():'https://picsum.photos/50/50/?image='
         r.score = i.rating
         r.rateType = i.rating>3.5?0:1
         r.deliveryTime = (Math.random() * (output.seller.deliveryTime-7) * 2+14).toFixed(0)
