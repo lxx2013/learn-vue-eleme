@@ -358,11 +358,11 @@ export default {
                         content ' '
                         position absolute
                         bottom 100%
-                        left 4vw
+                        left 15px
                         width 0
                         height 0
                         border-style solid
-                        border-width 0 2.133333vw 2.133333vw
+                        border-width 0 8px 8px
                         // border-width top right+left bottom
                         border-color transparent transparent #f3f3f3
                         // border-color red blue green yellow

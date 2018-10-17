@@ -85,7 +85,7 @@ export default {
   position absolute
   top 175px
   left 0
-  height 0.53vw
+  height 2px
   width 8vw
   transform translateX(-50%)
   transition left 0.5s

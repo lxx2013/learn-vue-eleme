@@ -99,6 +99,12 @@ export default {
     img {
       border-radius: 2px;
     }
+    @media only screen and (max-width: 320px) {
+      img{
+        width 50px;
+        height 50px;
+      }
+    }
   }
 
   .content {
