@@ -195,7 +195,7 @@ export default {
     flex-direction row
     position relative
     width 100%
-    padding 4vw 2.67vw
+    padding 10px 8px
     text-decoration none
     font-size 12px
     color #666
@@ -252,7 +252,6 @@ export default {
 
     .left {
       width 17.33vw
-      height 17.33vw
 
       img {
         width 100%
@@ -287,20 +286,20 @@ export default {
 
       .delivery-right {
         position absolute
-        right 2.67vw
-        top 2.67vw
+        right 10px
+        top 10px
         text-align right
         color #999
 
         span:first-of-type {
-          height 24px
           line-height 24px
         }
 
         div:first-of-type span {
           background-image linear-gradient(45deg, #0085ff, #0af)
           color white
-          border-radius 5px
+          padding 0 1px
+          border-radius 4px
           background-size 100% 80%
           background-repeat no-repeat
           background-position center center
@@ -309,15 +308,16 @@ export default {
 
       .bulletin-bottom {
         .info-wrapper {
-          margin 3.5vw 2.67vw 0 0
+          margin 15px 2.67vw 0 0
 
           span {
             border 1px solid #ddd
-            padding 0 1vw
+            padding 0 4px
             margin-right 1.3vw
             height 17px
             line-height 17px
             vertical-align middle
+            font-weight 600
             font-family 'Helvetica Neue', Tahoma, Arial, PingFangSC-Regular, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif
           }
 
@@ -335,7 +335,7 @@ export default {
         }
 
         .split {
-          margin-top 3.5vw
+          margin-top 3vw
           width 100%
           border-1px(#eee)
         }
@@ -358,7 +358,9 @@ export default {
             right 0
             color #999
             line-height 24px
-
+            @media only screen and (max-width: 320px) {
+                font-size:0
+            }
             img {
               transition all 0.3s ease-in-out
               width 8px
