@@ -269,9 +269,7 @@ ul {
 
       &.current {
         color rgb(240, 20, 20)
-        position relative
         font-weight 600
-        z-index 10
         margin-top -1px
         background-color #fff
 
