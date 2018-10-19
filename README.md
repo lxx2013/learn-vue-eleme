@@ -11,6 +11,7 @@
 - Vuex 集中数据管理
 - Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
 - 基于 `JSON.parse` 和 `JSON.stringify` 实现了 `saveToLocal` 和`loadFromLocal`两个函数来访问`localStorage` , 可以保存诸如收藏之类的信息
+- 应用<<CSS 世界>>中学到的 **z-index不犯二** 准则
 - 计算地球上两个点的距离 
 
 > [算法](https://www.zhihu.com/question/46808125)
@@ -79,5 +80,6 @@ export function calculateDistance(lat1, lng1, lat2, lng2) { //latitude //langitu
 ```
 
 ## 后续可以补充的更新
+1. `z-index`管理 已完成[#2](#2)
 1. 把店铺数据存入`mongo`
 1. 上拉加载新数据,即`mongo 分页`
