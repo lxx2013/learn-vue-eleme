@@ -65,7 +65,7 @@ export default {
       width: 100%;
       height: 100%;
       overflow: auto;
-      z-index: 100;
+      z-index: 1;
       color: white;
       background-color: rgba(7, 17, 27, .8)
       .detail-wrapper {
@@ -75,7 +75,6 @@ export default {
         .detail-main {
           margin-top: 64px;
           padding-bottom: 64px;
-          z-index: 101;
           .name {
             line-height: 32px;
             text-align: center;
