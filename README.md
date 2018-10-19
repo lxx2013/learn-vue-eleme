@@ -11,6 +11,7 @@
 - Vuex 集中数据管理
 - Vue 过渡动画 [transition transition-group](https://cn.vuejs.org/v2/guide/transitions.html)
 - 基于 `JSON.parse` 和 `JSON.stringify` 实现了 `saveToLocal` 和`loadFromLocal`两个函数来访问`localStorage` , 可以保存诸如收藏之类的信息
+- 应用<<CSS 世界>>中学到的 **z-index不犯二** 准则
 - 计算地球上两个点的距离 
 
 > [算法](https://www.zhihu.com/question/46808125)
@@ -79,5 +80,23 @@ export function calculateDistance(lat1, lng1, lat2, lng2) { //latitude //langitu
 ```
 
 ## 后续可以补充的更新
+1. `z-index`管理 已完成[#1](#1)
 1. 把店铺数据存入`mongo`
 1. 上拉加载新数据,即`mongo 分页`
+## `z-index`管理纪录
+共修改了<kbd></kbd>处`z-index`不合理的地方,
+
+1. `[index.vue]`中
+    - `.shadow`如果直接把`z-index`从100删去, 就会出现后方文字上浮的情况 , 此处修改为1
+1. `[header.vue]` 中
+    - `.back-to-index`如果把`z-index`从300删去,则会被同为 block 元素的`.container-wrapper`后来居上盖住,此处修改为1,保留它的层级上下文元素特性
+1. `[_restaunrant.vue]`中 
+    - `.grey-blur`的`z-index:100`因为这个类已没有对应的元素,所以直接删去
+1. `[seller.vue]`中
+    - `.big-img`的`z-index:900`如果删去, 会被后面的`.shadow` 同为 fixed 元素且后来居上而盖住, 此处修改为1
+1.  `[ratings.vue goods.vue]`中
+    - 根节点的 z-index 300或400, 它们和 header 一起处于流式布局中不需要层叠, 故删去
+1. `[detail.vue]`中
+    - `.detail`这个 fixed 元素的`z-index:100`修改为1. 若删去的话会变成 z-index 为0的层级上下文元素而让背景沉到主内容后面
+    - `.detail-main`是`detail`的子元素, 它的`z-index:101`显得没有必要, 此处删去.
+1. 

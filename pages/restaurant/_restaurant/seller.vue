@@ -331,7 +331,7 @@ $147 = rgb(147, 153, 159)
     left 0
     transform translateY(-50%)
     width 100vw
-    z-index 900
+    z-index 1
 
     img{
         width 100vw

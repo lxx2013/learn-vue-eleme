@@ -152,7 +152,6 @@ export default {
   left 0
   top 0
   bottom 48px
-  z-index 400
   width 100%
   background-color #fff
   overflow auto

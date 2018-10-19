@@ -230,7 +230,7 @@ export default {
   left:5px;
   width: 30px;
   height: 30px;
-  z-index: 300;
+  z-index: 1;
   a{
     text-decoration: none;
     color: white;

@@ -128,20 +128,6 @@ export default {
 .global-blur {
   filter: blur(8px);
 }
-.grey-blur {
-  display: block;
-  width: 150vw;
-  height: 150vh;
-  position: fixed;
-  left: -25%;
-  top: -25%;
-  background-color: rgba(7, 17, 27, 0.8);
-  background-size: 150% 150%;
-  background-attachment :fixed;
-  background-position: center center;
-  overflow: hidden;
-  z-index: 101;
-}
 .content{
   min-height: 60vh;
 }

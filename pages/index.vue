@@ -231,7 +231,7 @@ export default {
       height 100%
       top 0
       left 0
-      z-index 100
+      z-index 1
       background-color rgba(0, 0, 0, 0.5)
 
       .dislike {
@@ -376,11 +376,6 @@ export default {
               transform rotate(180deg)
             }
           }
-
-          ul {
-            diplay flex
-          }
-
           li {
             line-height 24px
 
