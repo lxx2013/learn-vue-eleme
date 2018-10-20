@@ -2,8 +2,8 @@
   font-family: 'sell-icon';
   src:  url('fonts/sell-icon.eot?s6c1hl');
   src:  url('fonts/sell-icon.eot?s6c1hl#iefix') format('embedded-opentype'),
-    url('fonts/sell-icon.ttf?s6c1hl') format('truetype'),
     url('fonts/sell-icon.woff?s6c1hl') format('woff'),
+    url('fonts/sell-icon.ttf?s6c1hl') format('truetype'),
     url('fonts/sell-icon.svg?s6c1hl#sell-icon') format('svg');
   font-weight: normal;
   font-style: normal;
