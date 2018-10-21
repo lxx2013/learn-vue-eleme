@@ -149,6 +149,7 @@ export default {
 
 .food-detail {
   position fixed
+  z-index 1
   left 0
   top 0
   bottom 48px
@@ -164,6 +165,7 @@ export default {
     img {
       width 100%
       height 100%
+      cursor zoom-out
     }
 
     .back {

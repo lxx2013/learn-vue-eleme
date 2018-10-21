@@ -284,7 +284,7 @@ $147 = rgb(147, 153, 159)
         .pic-item{
             display inline-block
             margin-right 7px
-            
+            cursor zoom-in
         }
     }
 }
@@ -332,7 +332,7 @@ $147 = rgb(147, 153, 159)
     transform translateY(-50%)
     width 100vw
     z-index 1
-
+    cursor zoom-out
     img{
         width 100vw
     }

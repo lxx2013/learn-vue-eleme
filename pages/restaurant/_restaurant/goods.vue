@@ -237,7 +237,9 @@ export default {
 </script>
 <style lang="stylus" scoped>
 @import '~assets/mixin'
-
+.goods{
+  cursor default
+}
 ul {
   list-style none
 }
@@ -358,6 +360,7 @@ ul {
       .icon {
         flex 0 0 95px
         padding-right 10px
+        cursor zoom-in
       }
 
       .content {
