@@ -73,7 +73,7 @@ export default {
   filters: {
     getUrl(url) {
       if (!(typeof url == "string")) {
-        console.log("getUrl : not String", url);
+        console.log("[goods.vue] getUrl : not String", url);
         return false;
       }
       if (!url || !url.length) {

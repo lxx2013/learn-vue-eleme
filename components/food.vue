@@ -1,6 +1,6 @@
 <template>
 <transition name="fade">
-    <div v-show="showFlag" class='food-detail'>
+    <div v-if="showFlag" class='food-detail'>
         <div class="food-content">
           <div class="image-header" @click="showFlag=false">
             <img :src="food.image_path | getUrl" alt="food.image">
@@ -121,7 +121,7 @@ export default {
     },
     getUrl(url) {
       if (!(typeof url == 'string')) {
-        console.log("getUrl : not String", url);
+        console.log("[food.vue] getUrl : not String", url);
         return false;
       }
       if (!url || !url.length) {

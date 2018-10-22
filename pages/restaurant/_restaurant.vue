@@ -33,7 +33,7 @@ export default {
     blueLine(){
       /\/.*\/.*\/(.*)/.test(this.$route.fullPath)
       var name = RegExp.$1;
-      console.log(name)
+      console.log(`[_restaurant.vue] server render tab is ${name}\n`)
       if(name === "seller"){
         return 'blue-right'
       }
