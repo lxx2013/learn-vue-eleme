@@ -327,11 +327,6 @@ ul {
     padding-left 10px
     overflow-y auto
 
-    &::-webkit-scrollbar {
-      width 20px
-      height 20px
-    }
-
     .title {
       font-size 12px
       padding-left 14px
