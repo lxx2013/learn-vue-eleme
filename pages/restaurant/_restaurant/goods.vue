@@ -376,7 +376,6 @@ ul {
           margin 6px 0
           overflow hidden
           max-height 36px
-          white-space nowrap
         }
 
         .extra {
