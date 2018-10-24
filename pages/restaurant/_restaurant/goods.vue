@@ -302,28 +302,7 @@ ul {
         background-size 12px 12px
         background-position center center
         vertical-align middle
-
-        &.decrease {
-          bg-image('decrease_3')
-        }
-
-        &.discount {
-          bg-image('discount_3')
-        }
-
-        &.special {
-          bg-image('special_3')
-        }
-
-        &.invoice {
-          bg-image('invoice_3')
-        }
-
-        &.guarantee {
-          bg-image('guarantee_3')
-        }
       }
-
       .text {
         font-size 12px
         font-weight 400
@@ -354,7 +333,7 @@ ul {
     .food-item {
       display flex
       position relative
-      padding 10px 0
+      padding 10px 5px 10px 0
       margin-bottom 1px
       border-1px(rgba(7, 17, 27, 0.1))
 
@@ -380,6 +359,11 @@ ul {
           height 17px
           line-height 17px
           font-size 14px
+          @media only screen and (max-width: 320px) {
+            font-size 12px
+            max-height 17px
+            overflow:hidden
+          }
           color rgba(7, 17, 27, 0.9)
         }
 
@@ -390,12 +374,19 @@ ul {
           margin 6px 0
           overflow hidden
           max-height 36px
+          @media only screen and (max-width: 320px) {
+            max-height 24px
+          }
         }
 
         .extra {
           span:first-child {
             margin-right 12px
+            @media only screen and (max-width: 320px) {
+              display:none
+            }
           }
+          
         }
 
         .price {

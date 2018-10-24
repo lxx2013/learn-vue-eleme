@@ -20,8 +20,7 @@
         </div>
       </div>
       <div v-if= "seller.activities" class="support-count" @click= "$store.commit('toggle_globalBlur');$store.commit('toggle_detailShow'); ">
-        <span class="count">{{seller.activities.length}}个</span>
-        <i class="icon-keyboard_arrow_right"></i>
+        <span class="count">{{seller.activities.length}}个</span><i class="icon-keyboard_arrow_right"></i>
       </div>
     </div>
     <div class="bulletin-wrapper">
