@@ -80,6 +80,7 @@ export default {
     z-index: -1;
     top: 0;
     filter: blur(10px);
+    transform:scale(1.2);
     img {
       width: 100vw;
       height: 33vw;

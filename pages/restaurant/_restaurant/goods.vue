@@ -51,6 +51,7 @@ import BScroll from "better-scroll";
 import ShopCart from "~/components/shopcart.vue";
 import CartControl from "~/components/cartcontrol.vue";
 import Food from "~/components/food.vue";
+import { setTimeout } from 'timers';
 export default {
   transition: "content",
   components: {
@@ -73,7 +74,7 @@ export default {
   filters: {
     getUrl(url) {
       if (!(typeof url == "string")) {
-        console.log("getUrl : not String", url);
+        console.log("[goods.vue] getUrl : not String", url);
         return false;
       }
       if (!url || !url.length) {
@@ -208,16 +209,29 @@ export default {
         ? `https://eleme.setsuna.wang/api/goods/${params.restaurant}`
         : `http://localhost:8101/api/goods/${params.restaurant}`;
       console.log(`[goods.vue] axios.get(url): ${url}`);
-      let { data } = await axios.get(url);
+      var { data } = await axios.get(url);
       store.commit("update", {
         name1: params.restaurant,
         name2: "goods",
         o: data
       });
-      return {
+      var output = {
         goods: data,
         restaurant: params.restaurant
       };
+      //预取 ratings 数据
+      url = process.client
+        ? `https://eleme.setsuna.wang/api/ratings/${params.restaurant}`
+        : `http://localhost:8101/api/ratings/${params.restaurant}`;
+      console.log(`[ratings.vue] axios.get(url): ${url}`);
+      data = (await axios.get(url)).data;
+      store.commit("update", {
+        name1: params.restaurant,
+        name2: "ratings",
+        o: data
+      });
+      return output;
+
     } catch (err) {
       console.log("[goods.vue 2.]", err);
     }
@@ -237,7 +251,9 @@ export default {
 </script>
 <style lang="stylus" scoped>
 @import '~assets/mixin'
-
+.goods{
+  cursor default
+}
 ul {
   list-style none
 }
@@ -325,11 +341,6 @@ ul {
     padding-left 10px
     overflow-y auto
 
-    &::-webkit-scrollbar {
-      width 20px
-      height 20px
-    }
-
     .title {
       font-size 12px
       padding-left 14px
@@ -358,6 +369,7 @@ ul {
       .icon {
         flex 0 0 95px
         padding-right 10px
+        cursor zoom-in
       }
 
       .content {
@@ -378,7 +390,6 @@ ul {
           margin 6px 0
           overflow hidden
           max-height 36px
-          white-space nowrap
         }
 
         .extra {

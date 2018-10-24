@@ -81,7 +81,7 @@ export function calculateDistance(lat1, lng1, lat2, lng2) { //latitude //langitu
 ```
 
 ## 后续可以补充的更新
-- [x] `z-index`管理  #2
+- [x] `z-index`管理  [#2](https://github.com/lxx2013/learn-vue-eleme/pull/2)
 - 随着 nuxt 版本而更新 
     - [ ] `2.2.0`
         - `keep-alive`支持
