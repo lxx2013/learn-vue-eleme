@@ -51,6 +51,7 @@ import BScroll from "better-scroll";
 import ShopCart from "~/components/shopcart.vue";
 import CartControl from "~/components/cartcontrol.vue";
 import Food from "~/components/food.vue";
+import { setTimeout } from 'timers';
 export default {
   transition: "content",
   components: {
@@ -208,16 +209,29 @@ export default {
         ? `https://eleme.setsuna.wang/api/goods/${params.restaurant}`
         : `http://localhost:8101/api/goods/${params.restaurant}`;
       console.log(`[goods.vue] axios.get(url): ${url}`);
-      let { data } = await axios.get(url);
+      var { data } = await axios.get(url);
       store.commit("update", {
         name1: params.restaurant,
         name2: "goods",
         o: data
       });
-      return {
+      var output = {
         goods: data,
         restaurant: params.restaurant
       };
+      //预取 ratings 数据
+      url = process.client
+        ? `https://eleme.setsuna.wang/api/ratings/${params.restaurant}`
+        : `http://localhost:8101/api/ratings/${params.restaurant}`;
+      console.log(`[ratings.vue] axios.get(url): ${url}`);
+      data = (await axios.get(url)).data;
+      store.commit("update", {
+        name1: params.restaurant,
+        name2: "ratings",
+        o: data
+      });
+      return output;
+
     } catch (err) {
       console.log("[goods.vue 2.]", err);
     }
