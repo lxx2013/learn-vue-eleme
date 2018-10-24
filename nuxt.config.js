@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   /*
    ** Headers of the page
    */
@@ -49,7 +49,5 @@ module.exports = {
     //     })
     //   }
     // }
-    vendor: ['axios']
   },
-  
 }

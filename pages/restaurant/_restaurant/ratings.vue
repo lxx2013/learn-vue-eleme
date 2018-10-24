@@ -285,7 +285,7 @@ export default {
                     line-height 18px
                     font-weight 500
                     vertical-align middle
-                    margin-left 12px
+                    margin-left 0px
                 }
             }
         }
