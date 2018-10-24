@@ -83,8 +83,8 @@ export function calculateDistance(lat1, lng1, lat2, lng2) { //latitude //langitu
 ## 后续可以补充的更新
 - [x] `z-index`管理  [#2](https://github.com/lxx2013/learn-vue-eleme/pull/2)
 - 随着 nuxt 版本而更新 
-    - [ ] `2.2.0`
-        - `keep-alive`支持
-        - `nuxt.config.js`使用 esm 语法
+    - [x] `2.2.0`
+        - `keep-alive`支持 , 实测仍未解决 data 重新读取初始值的问题
+        - [x] `nuxt.config.js`使用 esm 语法
 - 把店铺数据存入`mongo`
 - 上拉加载新数据,即`mongo 分页`
