@@ -129,6 +129,6 @@ export default {
   filter: blur(8px);
 }
 .content{
-  min-height: 60vh;
+  min-height: calc(100vh - 178px);
 }
 </style>
