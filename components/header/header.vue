@@ -111,7 +111,7 @@ export default {
   .content {
     display: inline-block;
     vertical-align: top;
-    margin-left: 16px;
+    margin-left: 6px;
 
     .title {
       margin: 2px 0 8px 0;
@@ -165,7 +165,7 @@ export default {
         color: white;
         font-weight: 200;
         line-height: 12px;
-        margin-left: 4px;
+        margin-left: 0px;
         vertical-align: bottom;
         overflow hidden
         width 50vw
