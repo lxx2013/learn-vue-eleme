@@ -168,7 +168,6 @@ export default {
 @import '~assets/mixin'
 
 .list-item {
-  transition all 0.6s cubic-bezier(0.13, 1.33, 0.97, 1.09)
   display inline-block
 }
 
