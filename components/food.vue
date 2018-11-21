@@ -53,7 +53,7 @@
 import cartcontrol from "~/components/cartcontrol.vue";
 import split from "~/components/split.vue";
 import ratingselect from "~/components/ratingselect.vue";
-import { formatDate } from "~/assets/common.js"
+import { formatDate } from "~/assets/common.js";
 const POSITIVE = 0;
 const NEGATIVE = 1;
 const ALL = 2;
@@ -76,9 +76,9 @@ export default {
       desc: {
         all: "全部",
         positive: "推荐",
-        negative: "吐槽",
+        negative: "吐槽"
       },
-      onlyContent:true,
+      onlyContent: true
     };
   },
   methods: {
@@ -87,40 +87,39 @@ export default {
       this.selectType = ALL;
       this.onlyContent = true;
     },
-    needShow(type,text){
-      if(this.onlyContent && !text){
+    needShow(type, text) {
+      if (this.onlyContent && !text) {
         return false;
       }
-      if(this.selectType === ALL){
+      if (this.selectType === ALL) {
         return true;
-      }else {
-        return type === this.selectType
+      } else {
+        return type === this.selectType;
       }
     },
-    getPrice(food){
-      if(food.specfoods)
-        return food.specfoods[0].price
-      else{
-        console.log(food)
+    getPrice(food) {
+      if (food.specfoods) {
+        return food.specfoods[0].price.toFixed(2);
+      } else {
+        console.log(food);
       }
     }
   },
-  filters:{
-    formatDate(time){
-      let date = new Date(time)
-      return formatDate(date,'yyyy-MM-dd hh:mm');
-    //console.log(formatDate)
+  filters: {
+    formatDate(time) {
+      let date = new Date(time);
+      return formatDate(date, "yyyy-MM-dd hh:mm");
+      //console.log(formatDate)
     },
-    randomImage(url){
-        if(url == "https://picsum.photos/50/50/?image="){
-            return url+parseInt(1+900*Math.random())
-        }
-        else{
-            return url;
-        }
+    randomImage(url) {
+      if (url == "https://picsum.photos/50/50/?image=") {
+        return url + parseInt(1 + 900 * Math.random());
+      } else {
+        return url;
+      }
     },
     getUrl(url) {
-      if (!(typeof url == 'string')) {
+      if (!(typeof url == "string")) {
         console.log("[food.vue] getUrl : not String", url);
         return false;
       }
@@ -131,13 +130,7 @@ export default {
       //c/e2/577a8a922a46ea93d363865d146a5jpeg.jpeg?imageMogr/format/webp/thumbnail/150x/
       if (/.*(jpeg|png|jpg|bmp|gif).*/.test(url)) {
         ourl +=
-          url[0] +
-          "/" +
-          url[1] +
-          url[2] +
-          "/" +
-          url.slice(3) +
-          `.${RegExp.$1}`;
+          url[0] + "/" + url[1] + url[2] + "/" + url.slice(3) + `.${RegExp.$1}`;
       }
       return ourl;
     }
@@ -270,31 +263,37 @@ export default {
             font-size 10px
             color rgb(147, 153, 159)
           }
+
           .avatar {
             border-radius 50%
             margin-left 3px
           }
         }
-        .time{
+
+        .time {
           line-height 12px
           font-size 10px
           color rgb(147, 153, 159)
           margin-bottom 6px
         }
-        .text{
+
+        .text {
           line-height 16px
           font-size 12px
-          color rgb(7,17,27)
-          .icon-thumb_up,.icon-thumb_down{
+          color rgb(7, 17, 27)
+
+          .icon-thumb_up, .icon-thumb_down {
             margin-right 4px
             line-height 16px
             font-size 12px
           }
-          .icon-thumb_up{
-              color rgb(0,160,220)
+
+          .icon-thumb_up {
+            color rgb(0, 160, 220)
           }
-          .icon-thumb_down{
-              color rgb(140,153,159)
+
+          .icon-thumb_down {
+            color rgb(140, 153, 159)
           }
         }
       }
